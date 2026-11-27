@@ -1,783 +1,926 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>CEPLAC 70 Anos – Do Legado à Transformação</title>
-<style> :root{--verde:#1E4D2B;--verde2:#2F6B3C;--verde3:#5E9A5A;--folha:#8DBF6A;--cacau:#6B3A22;--cacau2:#9A5B34;--ouro:#C9A227;--ouro2:#E6C76A;--bege:#F6F0E1;--bege2:#EDE3CB;--papel:#FFFDF7;--tinta:#26302A;--cinza:#6A7268;--r:16px;--sombra:0 6px 24px rgba(30,77,43,.10)}*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;color:var(--tinta);background:var(--bege);line-height:1.6;font-size:16px}h1,h2,h3,.serif{font-family:Georgia,"Times New Roman",serif}a{color:inherit}button{font:inherit;cursor:pointer}.wrap{max-width:1180px;margin:0 auto;padding:0 20px}nav{position:sticky;top:0;z-index:50;background:rgba(30,77,43,.97);backdrop-filter:blur(6px)}nav .wrap{display:flex;align-items:center;gap:14px;height:56px}nav .logo{display:flex;align-items:center;gap:8px;color:#fff;font-weight:700;letter-spacing:.5px;text-decoration:none;white-space:nowrap}nav .logo b{color:var(--ouro2)}nav ul{display:flex;gap:4px;list-style:none;margin-left:auto;overflow-x:auto;scrollbar-width:none}nav ul::-webkit-scrollbar{display:none}nav ul a{display:block;padding:6px 12px;border-radius:20px;color:#E8F0E2;text-decoration:none;font-size:14px;white-space:nowrap}nav ul a:hover,nav ul a.on{background:var(--ouro);color:var(--verde)}.hero{position:relative;overflow:hidden;background:radial-gradient(1200px 500px at 85% 20%,#2F6B3C 0%,#1E4D2B 55%,#14361E 100%);color:#fff;padding:64px 0 90px}.hero .wrap{display:grid;grid-template-columns:1.25fr 1fr;gap:30px;align-items:center}.selo{display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(230,199,106,.6);color:var(--ouro2);padding:5px 14px;border-radius:30px;font-size:13px;letter-spacing:1.5px;text-transform:uppercase}.hero h1{font-size:clamp(42px,7vw,84px);line-height:1;margin:18px 0 8px;letter-spacing:-1px}.hero h1 span{color:var(--ouro2)}.hero .sub{font-size:clamp(18px,2.4vw,24px);color:var(--ouro2);font-family:Georgia,serif;font-style:italic}.hero p.lead{margin-top:14px;font-size:18px;color:#DDE8D6;max-width:560px}.hero .tag{margin-top:22px;background:rgba(255,255,255,.08);border-left:4px solid var(--ouro);padding:12px 16px;border-radius:8px;font-size:14px;letter-spacing:.5px;text-transform:uppercase;font-weight:600}.hero .datas{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}.chip{display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.18);color:#fff;padding:7px 12px;border-radius:30px;font-size:13.5px;transition:.2s}.chip:hover{background:var(--ouro);color:var(--verde);border-color:var(--ouro)}.hero-art{display:flex;justify-content:center}.hero-art svg{width:100%;max-width:420px;height:auto;filter:drop-shadow(0 20px 40px rgba(0,0,0,.35))}.onda{position:absolute;bottom:-1px;left:0;width:100%;height:70px}.stats{margin-top:-46px;position:relative;z-index:2}.stats .grid{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}.stat{background:var(--papel);border-radius:var(--r);padding:16px 12px;text-align:center;box-shadow:var(--sombra);border:1px solid var(--bege2);transition:.2s}.stat:hover{transform:translateY(-3px);border-color:var(--ouro)}.stat b{display:block;font-family:Georgia,serif;font-size:34px;color:var(--verde);line-height:1.1}.stat span{font-size:13px;color:var(--cinza)}section{padding:64px 0}.kicker{color:var(--cacau2);font-weight:700;letter-spacing:2px;text-transform:uppercase;font-size:13px}h2{font-size:clamp(28px,4vw,40px);color:var(--verde);margin:6px 0 16px;line-height:1.15}.intro{max-width:820px;color:#3F4A42;font-size:17px}.two{display:grid;grid-template-columns:1.2fr 1fr;gap:36px;align-items:start}.texto p{margin-bottom:14px;text-align:justify;hyphens:auto}.destaque{background:var(--verde);color:#fff;border-radius:var(--r);padding:26px;position:relative;overflow:hidden}.destaque h3{color:var(--ouro2);font-size:22px;margin-bottom:10px}.destaque ul{list-style:none}.destaque li{padding:8px 0;border-bottom:1px solid rgba(255,255,255,.12);display:flex;gap:10px}.destaque li:last-child{border:0}.destaque li i{color:var(--ouro2);font-style:normal;font-weight:700}.linha{position:relative;display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:30px}.linha:before{content:"";position:absolute;top:34px;left:6%;right:6%;height:4px;background:linear-gradient(90deg,var(--cacau),var(--ouro),var(--verde3));border-radius:4px}.marco{position:relative;text-align:center;background:none;border:0;padding:0;color:inherit}.marco .bola{width:72px;height:72px;margin:0 auto 10px;border-radius:50%;background:var(--papel);border:4px solid var(--ouro);display:flex;align-items:center;justify-content:center;font-family:Georgia,serif;font-weight:700;color:var(--verde);font-size:17px;position:relative;z-index:1;transition:.2s;box-shadow:var(--sombra)}.marco:hover .bola{background:var(--ouro);transform:scale(1.07)}.marco.atual .bola{background:var(--verde);color:var(--ouro2);border-color:var(--verde)}.marco h4{font-size:15px;color:var(--verde)}.marco p{font-size:13px;color:var(--cinza);padding:0 6px}.eixos{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:28px}.eixo{background:var(--papel);border:1px solid var(--bege2);border-radius:var(--r);padding:22px;text-align:left;box-shadow:var(--sombra);transition:.25s;display:flex;flex-direction:column;gap:10px;position:relative;overflow:hidden;color:inherit}.eixo:after{content:"";position:absolute;right:-40px;top:-40px;width:120px;height:120px;border-radius:50%;background:var(--c);opacity:.08;transition:.3s}.eixo:hover{transform:translateY(-4px);border-color:var(--c)}.eixo:hover:after{transform:scale(1.6)}.eixo .top{display:flex;align-items:center;gap:12px}.eixo .ic{width:54px;height:54px;border-radius:14px;background:var(--c);display:flex;align-items:center;justify-content:center;flex-shrink:0}.eixo .ic svg{width:32px;height:32px}.eixo .num{font-family:Georgia,serif;font-size:13px;color:var(--c);font-weight:700;letter-spacing:1.5px}.eixo h3{font-size:18px;line-height:1.25;color:var(--tinta)}.eixo p{font-size:14px;color:var(--cinza)}.eixo .rod{margin-top:auto;display:flex;justify-content:space-between;align-items:center;font-size:13px;padding-top:10px;border-top:1px dashed var(--bege2)}.eixo .rod b{color:var(--c)}.barra{height:8px;border-radius:6px;background:var(--bege2);overflow:hidden}.barra i{display:block;height:100%;background:var(--c);border-radius:6px}.emb{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:26px}.card-emb{background:linear-gradient(160deg,var(--verde) 0%,#173C22 100%);color:#fff;border-radius:var(--r);padding:20px;text-align:left;border:0;min-height:170px;display:flex;flex-direction:column;gap:8px;transition:.25s;position:relative;overflow:hidden}.card-emb:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(0,0,0,.25)}.card-emb .n{font-family:Georgia,serif;font-size:36px;color:var(--ouro2);line-height:1}.card-emb h4{font-size:15.5px;line-height:1.3}.card-emb .ex{margin-top:auto;font-size:12px;color:#BFD4B6;display:flex;justify-content:space-between}.card-emb svg.fundo{position:absolute;right:-18px;bottom:-18px;width:90px;opacity:.12}.cats{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:26px}.cat{display:flex;flex-direction:column;justify-content:flex-start;border-radius:var(--r);padding:24px;background:var(--papel);border-top:6px solid var(--c);box-shadow:var(--sombra);text-align:left;border-left:0;border-right:0;border-bottom:0;color:inherit;transition:.2s}.cat:hover{transform:translateY(-3px)}.cat .letra{width:52px;height:52px;border-radius:50%;background:var(--c);color:#fff;font-family:Georgia,serif;font-size:26px;font-weight:700;display:flex;align-items:center;justify-content:center;margin-bottom:12px}.cat h3{font-size:19px;color:var(--tinta);margin-bottom:6px}.cat p{font-size:14.5px;color:#4A544C}.cat .mat{margin-top:14px;font-size:12px;color:var(--cinza)}.cat .mat .barra{margin-top:5px}.crit{display:grid;grid-template-columns:repeat(7,1fr);gap:10px;margin-top:24px}.crit button{background:var(--papel);border:1px solid var(--bege2);border-radius:12px;padding:14px 10px;text-align:center;font-size:13px;color:var(--tinta);transition:.2s}.crit button:hover{border-color:var(--verde3);background:#fff}.crit button b{display:block;width:34px;height:34px;margin:0 auto 8px;border-radius:50%;background:var(--bege2);color:var(--verde);line-height:34px;font-family:Georgia,serif}.tabela{overflow-x:auto;margin-top:22px;border-radius:var(--r);box-shadow:var(--sombra);background:var(--papel);-webkit-overflow-scrolling:touch}table{width:100%;border-collapse:collapse;min-width:760px;font-size:14px}th{background:var(--verde);color:#fff;text-align:left;padding:12px 14px;font-weight:600;white-space:nowrap}td{padding:11px 14px;border-bottom:1px solid var(--bege2);vertical-align:top}tbody tr{cursor:pointer;transition:.15s}tbody tr:hover{background:#FBF6E8}tbody tr:nth-child(even){background:#FCFAF3}tbody tr:nth-child(even):hover{background:#FBF6E8}.sei{font-family:Consolas,"Courier New",monospace;font-size:13px;background:var(--bege);border:1px solid var(--bege2);padding:2px 8px;border-radius:6px;white-space:nowrap;color:var(--cacau)}button.sei{cursor:pointer}button.sei:hover{background:var(--ouro2)}.pill{display:inline-block;padding:2px 10px;border-radius:20px;font-size:12px;font-weight:600;background:var(--bege2);color:var(--cinza);white-space:nowrap}.pill.eixo-pill{color:#fff;background:var(--c)}.agenda{display:grid;grid-template-columns:1fr 1.2fr;gap:30px;align-items:center}.mapa svg{width:100%;height:auto}.mapa .pin{cursor:pointer}.mapa .pin:hover circle.p{fill:var(--ouro)}.ag-list{display:grid;grid-template-columns:1fr 1fr;gap:10px}.ag-item{display:flex;gap:10px;align-items:flex-start;background:var(--papel);border:1px solid var(--bege2);border-radius:12px;padding:12px;text-align:left;font-size:14px;color:inherit;transition:.2s}.ag-item:hover{border-color:var(--ouro)}.ag-item .ico{width:34px;height:34px;flex-shrink:0;border-radius:10px;background:var(--bege);display:flex;align-items:center;justify-content:center}.ag-item .ico svg{width:20px;height:20px}.resultado{background:linear-gradient(135deg,var(--cacau) 0%,#4B2716 100%);color:#fff;border-radius:24px;padding:44px;display:grid;grid-template-columns:1.4fr 1fr;gap:30px;align-items:center;position:relative;overflow:hidden}.resultado h2{color:var(--ouro2)}.resultado p{color:#F1E4D6;margin-bottom:12px}.pilares{display:grid;grid-template-columns:1fr 1fr;gap:10px}.pilares button{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);color:#fff;border-radius:12px;padding:14px;text-align:left;font-size:14px;transition:.2s}.pilares button:hover{background:var(--ouro);color:var(--cacau)}.pilares b{display:block;font-family:Georgia,serif;font-size:16px;margin-bottom:2px}footer{background:var(--verde);color:#CFE0C6;text-align:center;padding:44px 20px;margin-top:60px}footer h3{color:var(--ouro2);font-size:28px;letter-spacing:1px}footer p{font-size:15px;margin-top:6px}footer small{display:block;margin-top:18px;opacity:.7;font-size:12px}.modal{position:fixed;inset:0;background:rgba(20,30,22,.6);display:none;align-items:flex-start;justify-content:center;z-index:100;padding:16px;overflow:auto}.modal.on{display:flex}.caixa{background:var(--papel);border-radius:20px;max-width:720px;width:100%;max-height:calc(100vh - 32px);margin-top:0;overflow:auto;box-shadow:0 30px 80px rgba(0,0,0,.4);animation:sobe .25s ease}@keyframes sobe{from{transform:translateY(20px);opacity:0}to{transform:none;opacity:1}}.caixa header{position:sticky;top:0;background:var(--c,var(--verde));color:#fff;padding:20px 24px;display:flex;gap:14px;align-items:flex-start}.caixa header h3{font-size:21px;line-height:1.25}.caixa header small{display:block;opacity:.85;font-size:12.5px;letter-spacing:1px;text-transform:uppercase}.caixa header .x{margin-left:auto;background:rgba(255,255,255,.18);border:0;color:#fff;width:36px;height:36px;border-radius:50%;font-size:20px;flex-shrink:0}.caixa .corpo{padding:22px 24px}.caixa ol{padding-left:0;list-style:none;counter-reset:n}.caixa ol li{counter-increment:n;padding:12px 0 12px 44px;border-bottom:1px solid var(--bege2);position:relative;font-size:15px}.caixa ol li:before{content:counter(n);position:absolute;left:0;top:11px;width:30px;height:30px;border-radius:50%;background:var(--bege);color:var(--verde);font-weight:700;display:flex;align-items:center;justify-content:center;font-size:13px}.caixa ol li .sei{margin-top:6px;display:inline-block}.caixa .meta{display:grid;grid-template-columns:150px 1fr;gap:8px 14px;font-size:14.5px}.caixa .meta dt{color:var(--cinza);font-weight:600}.btn{display:inline-flex;align-items:center;gap:6px;background:var(--verde);color:#fff;border:0;padding:9px 16px;border-radius:30px;font-size:14px;margin-top:16px}.btn:hover{background:var(--ouro);color:var(--verde)}.nota{font-size:12.5px;color:var(--cinza);margin-top:14px;font-style:italic}.topo{position:fixed;right:16px;bottom:16px;width:46px;height:46px;border-radius:50%;background:var(--ouro);color:var(--verde);border:0;font-size:22px;box-shadow:var(--sombra);z-index:40;display:none}.topo.on{display:block}@media (max-width:1024px){.stats .grid{grid-template-columns:repeat(3,1fr)}.eixos{grid-template-columns:repeat(2,1fr)}.emb{grid-template-columns:repeat(2,1fr)}.crit{grid-template-columns:repeat(4,1fr)}}@media (max-width:760px){body{font-size:15px}nav .logo span.t{display:none}.hero{padding:40px 0 80px}.hero .wrap,.two,.agenda,.resultado{grid-template-columns:1fr}.hero-art{order:-1}.hero-art svg{max-width:230px}.stats .grid{grid-template-columns:repeat(2,1fr)}.eixos,.cats{grid-template-columns:1fr}.emb{grid-template-columns:1fr 1fr}.crit{grid-template-columns:repeat(2,1fr)}.linha{grid-template-columns:1fr 1fr;row-gap:24px}.linha:before{display:none}.ag-list{grid-template-columns:1fr}.resultado{padding:28px}.pilares{grid-template-columns:1fr}section{padding:46px 0}.caixa .meta{grid-template-columns:1fr}.texto p{text-align:left}}@media (max-width:420px){.emb{grid-template-columns:1fr}}@media print{@page{size:A4;margin:14mm}nav,.topo,.modal,.onda{display:none!important}body{background:#fff;font-size:11pt}.hero{padding:30px 0;-webkit-print-color-adjust:exact;print-color-adjust:exact}section{padding:22px 0;break-inside:avoid-page}.stats{margin-top:12px}*{-webkit-print-color-adjust:exact;print-color-adjust:exact;box-shadow:none!important}.eixo,.card-emb,.cat{break-inside:avoid}.print-only{display:block!important}}.print-only{display:none}.print-only ul{margin:6px 0 0 18px;font-size:10pt}:focus-visible{outline:3px solid var(--ouro);outline-offset:2px}.progresso{position:absolute;left:0;bottom:0;height:3px;background:var(--ouro);width:0;transition:width .1s}.burger{display:none;margin-left:auto;background:rgba(255,255,255,.12);border:0;color:#fff;width:42px;height:42px;border-radius:10px;font-size:22px}.dica{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--cacau2);background:#FBF3DA;border:1px dashed var(--ouro);padding:5px 12px;border-radius:20px;margin-top:8px}.dica:before{content:"👆"}.explorador{margin-top:34px;background:var(--bege);border:1px solid var(--bege2);border-radius:var(--r);padding:20px}.explorador h3{color:var(--verde);font-size:21px;margin-bottom:12px}.busca{display:flex;gap:10px;flex-wrap:wrap;align-items:center}.busca input{flex:1 1 260px;padding:12px 16px 12px 42px;border-radius:30px;border:1px solid var(--bege2);font-size:15px;background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' fill='none' stroke='%236A7268' stroke-width='2'%3E%3Ccircle cx='8' cy='8' r='6'/%3E%3Cpath d='m13 13 4 4'/%3E%3C/svg%3E") no-repeat 16px center}.busca input:focus{outline:none;border-color:var(--verde3);box-shadow:0 0 0 3px rgba(94,154,90,.2)}.tog{display:inline-flex;align-items:center;gap:8px;font-size:14px;cursor:pointer;user-select:none}.tog input{width:18px;height:18px;accent-color:var(--verde)}.filtros{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.filtros button{border:1px solid var(--bege2);background:#fff;padding:6px 14px;border-radius:20px;font-size:13.5px;color:var(--tinta);transition:.15s}.filtros button.on{background:var(--c,var(--verde));border-color:var(--c,var(--verde));color:#fff}.contagem{font-size:13.5px;color:var(--cinza);margin:12px 2px 8px}.resultados{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;max-height:460px;overflow:auto;padding-right:4px}.res{display:flex;gap:10px;align-items:flex-start;text-align:left;background:#fff;border:1px solid var(--bege2);border-left:5px solid var(--c);border-radius:10px;padding:10px 12px;font-size:14px;color:inherit;transition:.15s}.res:hover{transform:translateX(3px);border-color:var(--c)}.res .pill{flex-shrink:0}.res mark{background:var(--ouro2);border-radius:3px;padding:0 2px}.vazio{grid-column:1/-1;text-align:center;padding:24px;color:var(--cinza)}.caixa footer{position:sticky;bottom:0;background:var(--papel);border-top:1px solid var(--bege2);padding:12px 24px;display:flex;justify-content:space-between;align-items:center;gap:10px}.caixa footer button{background:var(--bege);border:1px solid var(--bege2);padding:8px 14px;border-radius:20px;font-size:13.5px;color:var(--verde)}.caixa footer button:hover:not(:disabled){background:var(--ouro2)}.caixa footer button:disabled{opacity:.35;cursor:default}.caixa footer span{font-size:12.5px;color:var(--cinza)}.resumo{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:22px}.resumo button{border:0;border-radius:12px;padding:12px;color:#fff;text-align:left;background:var(--c);font-size:13px;transition:.2s}.resumo button.on{box-shadow:0 0 0 3px var(--papel),0 0 0 6px var(--c)}.resumo b{display:block;font-family:Georgia,serif;font-size:28px;line-height:1.1}.barraCat{display:flex;height:12px;border-radius:8px;overflow:hidden;margin-top:12px;background:var(--bege2)}.barraCat i{display:block;height:100%;transition:width .4s}.acoes{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}.acoes .btn{margin-top:0}.btn.sec{background:var(--papel);color:var(--verde);border:1px solid var(--bege2)}.cart input,.cart select{width:100%;min-width:110px;padding:7px 9px;border:1px solid var(--bege2);border-radius:8px;font:inherit;font-size:13.5px;background:#fff}.cart input:focus,.cart select:focus{outline:none;border-color:var(--verde3)}.cart select.A{background:#E3F0DD;border-color:#2F6B3C}.cart select.B{background:#FBF1D2;border-color:#C9A227}.cart select.C{background:#F3E1D5;border-color:#9A5B34}.cart tbody tr{cursor:default}.cart .lk{background:none;border:0;color:var(--verde);text-align:left;font-weight:600;text-decoration:underline dotted;padding:0}.salvo{font-size:12.5px;color:var(--verde3);opacity:0;transition:.3s}.salvo.on{opacity:1}.rv{opacity:0;transform:translateY(18px);transition:opacity .6s,transform .6s}.rv.vis{opacity:1;transform:none}@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none}*{transition:none!important;animation:none!important}}@media (max-width:760px){.burger{display:block}nav ul{position:absolute;top:56px;left:0;right:0;flex-direction:column;background:var(--verde);padding:10px;gap:2px;display:none;box-shadow:0 12px 24px rgba(0,0,0,.25)}nav ul.abre{display:flex}nav ul a{padding:12px 14px;border-radius:10px;font-size:15px}.resultados{grid-template-columns:1fr}.resumo{grid-template-columns:1fr 1fr}.tabela{background:none;box-shadow:none;overflow:visible}.tabela table{min-width:0}.tabela thead{display:none}.tabela tr{display:block;background:var(--papel)!important;border:1px solid var(--bege2);border-radius:14px;margin-bottom:12px;padding:8px 4px;box-shadow:var(--sombra)}.tabela td{display:grid;grid-template-columns:110px 1fr;gap:10px;align-items:center;border:0;padding:7px 12px}.tabela td:before{content:attr(data-l);font-size:12px;font-weight:700;color:var(--cinza);text-transform:uppercase;letter-spacing:.5px}.caixa{max-height:92vh}.caixa footer{padding:10px 14px}}@media print{.explorador,.acoes,.burger,.dica,.progresso{display:none!important}.rv{opacity:1;transform:none}}.tog{white-space:nowrap}.cart td:nth-child(2){min-width:230px}.cart select{min-width:170px}@media (max-width:760px){.tabela td .pill{justify-self:start}.tog{white-space:normal}.cart td:nth-child(2){min-width:0}.cart select{min-width:0}}.logo-chip{background:#fff;border-radius:8px;padding:3px 6px;display:inline-flex;align-items:center}.logo-chip svg{height:26px;width:48px;display:block}.logo-rodape{display:inline-block;background:#fff;border-radius:14px;padding:10px 18px;margin-bottom:18px}.logo-rodape svg{height:56px;width:209px;display:block;max-width:100%}@media (max-width:760px){.logo-rodape svg{height:44px;width:164px}}#intro{position:fixed;inset:0;z-index:200;background:radial-gradient(900px 600px at 50% 40%,#2F6B3C 0%,#1E4D2B 50%,#0F2A17 100%);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1.6vh;color:#fff;overflow:hidden;text-align:center;padding:16px}#intro.sai{animation:introSai .9s cubic-bezier(.7,0,.3,1) forwards}@keyframes introSai{to{transform:translateY(-100%);opacity:.6}}#intro .i-logo{background:#fff;border-radius:14px;padding:8px 16px;opacity:0;animation:iFade .8s .2s ease forwards;box-shadow:0 10px 30px rgba(0,0,0,.35)}#intro .i-logo svg{height:min(7vh,56px);width:calc(min(7vh,56px)*3.74);display:block}#intro svg.i-arv{width:min(44vh,78vw);height:auto;overflow:visible}.i-anel{opacity:0;transform-origin:200px 200px;animation:iFade .8s .4s forwards,iGira 30s linear infinite}.i-trace{stroke-dasharray:420;stroke-dashoffset:420;animation:iDraw 1.2s .6s ease-out forwards}.i-galho{stroke-dasharray:160;stroke-dashoffset:160;animation:iDraw .7s ease-out forwards}.i-folha{transform-box:fill-box;transform-origin:center;transform:scale(0);animation:iPop .55s cubic-bezier(.3,1.6,.5,1) forwards}.i-fruto{transform-box:fill-box;transform-origin:50% 0;transform:scale(0);animation:iPop .6s cubic-bezier(.3,1.6,.5,1) forwards}.i-selo{transform-box:fill-box;transform-origin:center;transform:scale(0) rotate(-180deg);animation:iSelo .9s 3.1s cubic-bezier(.3,1.4,.5,1) forwards}.i-brilho{opacity:0;transform-box:fill-box;transform-origin:center;animation:iBrilho 2.2s 3.6s ease-out forwards}.i-semente{position:absolute;bottom:-20px;width:10px;height:16px;border-radius:50%;background:#C9A227;opacity:.0;animation:iSobe 6s linear infinite}#intro .i-anos{font-size:13px;letter-spacing:4px;color:#E6C76A;opacity:0;animation:iFade .6s 3.3s forwards}#intro h1{font-family:Georgia,serif;font-size:clamp(30px,6vh,64px);line-height:1;letter-spacing:-.5px}#intro h1 span{display:inline-block;opacity:0;transform:translateY(24px);animation:iSobeTxt .6s forwards}#intro h1 span.o{color:#E6C76A}#intro .i-sub{font-family:Georgia,serif;font-style:italic;color:#E6C76A;font-size:clamp(16px,2.6vh,24px);opacity:0;animation:iFade .8s 4.1s forwards}#intro .i-pular{position:absolute;right:16px;top:16px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.3);color:#fff;padding:8px 16px;border-radius:30px;font-size:13.5px}#intro .i-pular:hover{background:#C9A227;color:#1E4D2B}#intro .i-barra{position:absolute;left:0;bottom:0;height:4px;background:#C9A227;width:0;animation:iBarra 6.6s linear forwards}@keyframes iFade{to{opacity:1}}@keyframes iDraw{to{stroke-dashoffset:0}}@keyframes iPop{to{transform:scale(1)}}@keyframes iSelo{to{transform:scale(1) rotate(0)}}@keyframes iGira{to{transform:rotate(360deg)}}@keyframes iSobeTxt{to{opacity:1;transform:none}}@keyframes iBarra{to{width:100%}}@keyframes iBrilho{0%{opacity:0;transform:scale(.6)}30%{opacity:.9}100%{opacity:0;transform:scale(1.5)}}@keyframes iSobe{0%{transform:translateY(0) rotate(0);opacity:0}10%{opacity:.5}100%{transform:translateY(-110vh) rotate(360deg);opacity:0}}.rever{background:none;border:1px solid rgba(230,199,106,.5);color:#E6C76A;padding:7px 16px;border-radius:30px;font-size:13px;margin-top:16px}.rever:hover{background:#C9A227;color:#1E4D2B}@media (prefers-reduced-motion:reduce){#intro{display:none!important}}@media print{#intro,.rever{display:none!important}}.visao-hero{display:block;width:100%;text-align:left;margin-top:16px;background:linear-gradient(90deg,rgba(201,162,39,.22),rgba(201,162,39,.05));border:1px solid rgba(230,199,106,.55);border-radius:12px;padding:12px 16px;color:#fff;transition:.2s}
-.visao-hero:hover{background:rgba(201,162,39,.32)}
-.visao-hero small{display:block;color:var(--ouro2);font-size:12px;letter-spacing:1.5px;text-transform:uppercase;font-weight:700}
-.visao-hero b{display:block;font-family:Georgia,serif;font-size:clamp(17px,2.1vw,21px);line-height:1.3;margin-top:2px}
-.visao-hero span{display:block;font-size:13px;color:#DDE8D6;margin-top:4px}
-#visao{background:var(--verde);color:#fff;position:relative;overflow:hidden}
-#visao .kicker{color:var(--ouro2)}
-#visao h2{color:#fff;max-width:900px}
-#visao h2 em{color:var(--ouro2);font-style:normal}
-#visao .intro{color:#DDE8D6}
-.trilha{display:grid;grid-template-columns:1fr auto 1.4fr auto 1fr;gap:14px;align-items:center;margin-top:30px}
-.trilha .no{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.18);border-radius:16px;padding:18px;text-align:center;color:#fff;transition:.2s}
-.trilha .no:hover{background:rgba(255,255,255,.14);border-color:var(--ouro)}
-.trilha .no b{display:block;font-family:Georgia,serif;font-size:30px;color:var(--ouro2);line-height:1.1}
-.trilha .no span{font-size:13.5px;color:#DDE8D6}
-.trilha .no.meio{background:var(--ouro);border-color:var(--ouro);color:var(--verde)}
-.trilha .no.meio b{color:var(--verde);font-size:clamp(17px,2vw,21px);line-height:1.3}
-.trilha .no.meio span{color:var(--verde)}
-.trilha .seta{font-size:28px;color:var(--ouro2);pointer-events:none;line-height:1}
-.pil3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:22px}
-.pil3 button{display:flex;flex-direction:column;justify-content:flex-start;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.16);border-left:5px solid var(--c);border-radius:14px;padding:16px;text-align:left;color:#fff;transition:.2s}
-.pil3 button:hover{background:rgba(255,255,255,.13)}
-.pil3 b{display:block;font-family:Georgia,serif;font-size:19px;color:var(--ouro2)}
-.pil3 span{font-size:14px;color:#DDE8D6}
-.pil3 i{display:block;font-style:normal;font-size:12.5px;margin-top:8px;color:#fff;opacity:.8}
-.lema{margin-top:26px;text-align:center;font-family:Georgia,serif;font-style:italic;color:var(--ouro2);font-size:clamp(16px,2vw,20px)}
-.lema b{font-style:normal;color:#fff}
-.visao-res{margin-top:14px;background:rgba(255,255,255,.1);border-left:4px solid var(--ouro);border-radius:8px;padding:12px 14px;font-size:15px}
-.visao-res b{color:var(--ouro2)}
-#intro .i-visao{font-size:clamp(13px,2vh,17px);color:#DDE8D6;max-width:620px;opacity:0;animation:iFade .8s 4.8s forwards}
-#intro .i-visao b{color:#fff}
-@media (max-width:760px){.trilha{grid-template-columns:1fr}.trilha .seta{transform:rotate(90deg);text-align:center}.pil3{grid-template-columns:1fr}}
-.neg{display:inline-block;margin-left:8px;background:var(--ouro);color:var(--verde);padding:2px 10px;border-radius:20px;font-size:11px;letter-spacing:1px;vertical-align:middle}.sint{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:24px}
-.grp{background:var(--papel);border:1px solid var(--bege2);border-top:6px solid var(--c);border-radius:var(--r);padding:20px;text-align:left;color:inherit;box-shadow:var(--sombra);display:flex;flex-direction:column;gap:8px;transition:.2s}
-.grp:hover{transform:translateY(-3px);border-color:var(--c)}
-.grp .gn{font-family:Georgia,serif;color:var(--c);font-weight:700;font-size:13px;letter-spacing:1.5px}
-.grp h3{font-size:18px;line-height:1.25}
-.grp ul{list-style:none;font-size:14px;color:#3F4A42}
-.grp li{padding:6px 0;border-bottom:1px dashed var(--bege2)}
-.grp li:last-child{border:0}
-.grp .rod{margin-top:auto;font-size:12.5px;color:var(--c);font-weight:700}
-.pend{display:inline-block;background:#FBE3D3;color:#8A3B12;border-radius:20px;padding:1px 9px;font-size:11.5px;font-weight:700;margin-left:4px;white-space:nowrap}
-.conf{display:inline-block;background:#FBF1D2;color:#7A5B00;border-radius:20px;padding:1px 9px;font-size:11.5px;font-weight:700;margin-left:4px;white-space:nowrap}
-.aviso90{margin-top:18px;display:flex;gap:12px;align-items:center;background:#FBF3DA;border:1px solid var(--ouro2);border-radius:12px;padding:12px 16px;font-size:15px}
-.aviso90 b{font-family:Georgia,serif;font-size:26px;color:var(--cacau);white-space:nowrap;flex-shrink:0}
-.cal{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:26px;position:relative}
-.dia{background:var(--papel);border:1px solid var(--bege2);border-radius:var(--r);padding:0;text-align:left;color:inherit;box-shadow:var(--sombra);overflow:hidden;display:flex;flex-direction:column;transition:.2s}
-.dia:hover{transform:translateY(-3px);border-color:var(--ouro)}
-.dia .topo-d{background:var(--c);color:#fff;padding:14px 16px}
-.dia .topo-d b{display:block;font-family:Georgia,serif;font-size:30px;line-height:1}
-.dia .topo-d span{font-size:12.5px;letter-spacing:1px;text-transform:uppercase;opacity:.9}
-.dia .corpo-d{padding:14px 16px;display:flex;flex-direction:column;gap:6px;flex:1}
-.dia h4{font-size:15.5px;color:var(--verde);line-height:1.3}
-.dia p{font-size:13.5px;color:#4A544C}
-.dia .rod{margin-top:auto;font-size:12.5px;color:var(--cinza);display:flex;justify-content:space-between;padding-top:8px;border-top:1px dashed var(--bege2)}
-.dia.principal{border:2px solid var(--ouro)}
-.dia.principal .topo-d{background:linear-gradient(135deg,var(--cacau),#4B2716)}
-.dia .estrela{background:var(--ouro);color:var(--verde);font-size:11px;font-weight:700;padding:2px 8px;border-radius:20px;margin-left:6px;vertical-align:middle;letter-spacing:.5px}
-.pautas{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}
-.pauta{background:var(--verde);color:#fff;border:0;border-radius:var(--r);padding:18px;text-align:left;transition:.2s}
-.pauta:hover{transform:translateY(-3px)}
-.pauta small{color:var(--ouro2);letter-spacing:1.5px;text-transform:uppercase;font-weight:700;font-size:12px}
-.pauta h4{font-family:Georgia,serif;font-size:19px;margin:4px 0}
-.pauta p{font-size:13.5px;color:#DDE8D6}
-.legenda{font-size:13px;color:var(--cinza);margin-top:14px}
-.manch{list-style:none;counter-reset:none}
-.manch li{padding:11px 0 11px 30px!important;position:relative;border-bottom:1px solid var(--bege2);font-family:Georgia,serif;font-size:16px!important}
-.manch li:before{content:"📰"!important;position:absolute;left:0!important;top:10px!important;background:none!important;width:auto!important;height:auto!important;font-size:16px}
-.nota-c{margin-top:14px;background:var(--bege);border-left:4px solid var(--ouro);padding:10px 14px;border-radius:8px;font-size:14px}
-@media (max-width:1024px){.cal{grid-template-columns:1fr 1fr}.sint{grid-template-columns:1fr}}
-@media (max-width:760px){.cal,.pautas{grid-template-columns:1fr}}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painel de Monitoramento - CEPLAC</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <style>
+    :root { --bg-main:#f8f6f0; --card-bg:#fff; --primary:#1b4d3e; --primary-light:#2d6a4f; --text-dark:#2b2b2b; --text-muted:#6c757d; --border-color:#e5e0d8; --tag-cobes:#2d6a4f; --tag-copam:#1d3557; --tag-corom:#9a031e; }
+    * { box-sizing:border-box; margin:0; padding:0; font-family:'Inter',sans-serif; }
+    body { background-color:var(--bg-main); color:var(--text-dark); padding:24px; overflow-x:hidden; }
+    .dashboard-container { max-width:1300px; margin:0 auto; display:flex; flex-direction:column; gap:20px; overflow-x:hidden; }
+    .filter-bar { background-color:var(--card-bg); border:1px solid var(--border-color); border-radius:8px; padding:16px 20px; display:flex; flex-wrap:wrap; align-items:center; gap:16px; box-shadow:0 2px 4px rgba(0,0,0,0.02); }
+    .filter-group { display:flex; flex-direction:column; gap:4px; flex:1; min-width:150px; }
+    .filter-group label { font-size:11px; font-weight:700; text-transform:uppercase; color:var(--text-muted); letter-spacing:0.5px; }
+    .filter-group select { padding:8px 12px; border:1px solid var(--border-color); border-radius:6px; background-color:#fff; font-size:13px; outline:none; cursor:pointer; }
+    .btn-reset { padding:8px 16px; background-color:transparent; border:1px solid var(--border-color); border-radius:6px; font-size:13px; cursor:pointer; align-self:flex-end; color:var(--text-muted); }
+    .btn-reset:hover { background-color:#f0ece1; }
+    .kpi-row { display:grid; grid-template-columns:repeat(2,1fr); gap:12px; }
+    @media (max-width:600px) { .kpi-row { grid-template-columns:1fr; } }
+
+    /* ===== Card Consolidado ===== */
+    .consolidado-card { background-color:var(--card-bg); border:1px solid var(--border-color); border-radius:8px; padding:18px; box-shadow:0 2px 4px rgba(0,0,0,0.02); margin-top:14px; }
+    .consolidado-card .consolidado-titulo { font-size:14px; font-weight:700; color:var(--primary); margin-bottom:2px; display:flex; align-items:center; gap:6px; }
+    .consolidado-card .consolidado-sub { font-size:11px; color:var(--text-muted); margin-bottom:12px; }
+    .consolidado-bloco-titulo { font-size:11px; font-weight:700; text-transform:uppercase; color:var(--text-muted); margin:14px 0 6px; padding-bottom:4px; border-bottom:1px solid var(--border-color); }
+    .consolidado-bloco-titulo:first-of-type { margin-top:0; }
+    table.tabela-consolidado-card { width:100%; min-width:480px; border-collapse:collapse; font-size:12px; }
+    .tabela-consolidado-scroll { overflow-x:auto; }
+    table.tabela-consolidado-card thead th { background:#12332a; color:#fff; font-size:9.5px; text-transform:uppercase; padding:7px 8px; text-align:center; }
+    table.tabela-consolidado-card thead th:first-child { text-align:left; }
+    table.tabela-consolidado-card tbody td { padding:7px 8px; border-bottom:1px solid var(--border-color); text-align:center; }
+    table.tabela-consolidado-card tbody td:first-child { text-align:left; font-weight:600; }
+    table.tabela-consolidado-card tbody tr.total-row-card { background:#f0ece1; font-weight:700; }
+    .status-badge-ok { color:#1e7d32; font-weight:600; font-size:11px; }
+    .status-badge-vazio { color:var(--text-muted); font-weight:600; font-size:11px; }
+    .mapa-destaque { background:#fff; border:1px solid #e5e0d8; border-radius:8px; padding:14px; }
+    .mapa-destaque #mapa-painel { height:300px; width:100%; max-width:100%; border-radius:6px; overflow:hidden; }
+    #mapa-painel { overflow:hidden; max-width:100%; }
+    .kpi-card { background-color:var(--card-bg); border:1px solid var(--border-color); border-left:4px solid var(--primary); border-radius:8px; padding:16px; box-shadow:0 2px 4px rgba(0,0,0,0.02); position:relative; }
+    .kpi-icon { position:absolute; top:14px; right:14px; font-size:18px; opacity:.55; }
+    .kpi-progresso { margin-top:8px; }
+    .kpi-progresso .barra-fundo-mini { background:#e5e0d8; height:6px; border-radius:3px; overflow:hidden; }
+    .kpi-progresso .barra-preenchida-mini { background: var(--primary); height:100%; border-radius:3px; }
+    .kpi-progresso .barra-preenchida-mini.acima { background:#d97706; }
+    .kpi-progresso .pct-mini { font-size:10px; font-weight:700; color: var(--text-muted); margin-top:3px; }
+    .kpi-progresso .pct-mini b { color: var(--primary); }
+    .kpi-c1 { border-left-color:#1b4d3e; } .kpi-c2 { border-left-color:#2d6a4f; } .kpi-c3 { border-left-color:#1565c0; }
+    .kpi-c4 { border-left-color:#0d47a1; } .kpi-c5 { border-left-color:#e09f3e; } .kpi-c6 { border-left-color:#9a031e; }
+    .kpi-value { font-size:26px; font-weight:700; color:var(--text-dark); line-height:1.2; }
+    .kpi-label { font-size:11px; font-weight:600; text-transform:uppercase; color:var(--text-muted); margin-top:4px; }
+    .program-tabs { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin-top:10px; }
+    @media (max-width:700px) { .program-tabs { grid-template-columns:1fr; } }
+    .tab-btn {
+      background-color:var(--card-bg); border:1px solid var(--border-color); border-top:4px solid var(--border-color);
+      padding:16px; font-weight:700; font-size:15px; color:var(--text-dark); cursor:pointer; border-radius:8px;
+      transition:all 0.2s; box-shadow:0 2px 4px rgba(0,0,0,0.02); text-align:left; display:flex; flex-direction:column; gap:6px;
+    }
+    .tab-btn:hover { box-shadow:0 4px 10px rgba(0,0,0,0.06); transform:translateY(-1px); }
+    .tab-btn.active { border-top-color:var(--primary); background-color:#f6faf7; }
+    .tab-btn .tab-card-sub { font-size:11px; font-weight:400; color:var(--text-muted); }
+    .tab-badge { font-size:10px; background-color:var(--primary); color:#fff; padding:3px 9px; border-radius:10px; align-self:flex-start; font-weight:700; }
+    .program-section { display:none; }
+    .program-section.active { display:block; }
+    .section-title { font-size:18px; font-weight:700; color:var(--text-dark); margin-bottom:4px; }
+    .section-subtitle { font-size:12px; color:var(--text-muted); margin-bottom:16px; }
+    .regionals-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:16px; margin-bottom:20px; }
+    .regional-card { background-color:var(--card-bg); border:1px solid var(--border-color); border-radius:8px; padding:16px; box-shadow:0 2px 4px rgba(0,0,0,0.02); position:relative; }
+    .regional-card.cobes { border-top:4px solid var(--tag-cobes); }
+    .regional-card.copam { border-top:4px solid var(--tag-copam); }
+    .regional-card.corom { border-top:4px solid var(--tag-corom); }
+    .regional-header { display:flex; justify-content:space-between; align-items:center; margin-bottom:4px; }
+    .regional-name { font-size:16px; font-weight:700; }
+    .bioma-tag { font-size:10px; font-weight:700; padding:3px 8px; border-radius:12px; text-transform:uppercase; }
+    .tag-mata { background-color:#e8f5e9; color:#2e7d32; }
+    .tag-amazonia { background-color:#e3f2fd; color:#1565c0; }
+    .tag-misto { background-color:#ffebee; color:#c62828; }
+    .regional-location { font-size:12px; color:var(--text-muted); margin-bottom:16px; }
+    .metrics-row { display:flex; gap:12px; margin-bottom:12px; }
+    .metric-box { flex:1; background-color:#fbf9f5; border:1px solid var(--border-color); border-radius:6px; padding:12px; text-align:center; }
+    .metric-box .val { font-size:20px; font-weight:700; }
+    .metric-box .lbl { font-size:10px; font-weight:700; text-transform:uppercase; color:var(--text-muted); margin-top:2px; }
+    .progress-bar-container { background-color:#e5e0d8; height:6px; border-radius:3px; overflow:hidden; margin-top:8px; }
+    .progress-bar-fill { background-color:var(--primary); height:100%; width:0%; transition:width 0.3s ease; }
+    .regional-footer { display:flex; justify-content:space-between; font-size:11px; color:var(--text-muted); margin-top:6px; }
+    .charts-row { display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:16px; }
+    @media (max-width:700px) { .charts-row { grid-template-columns:1fr; } }
+    .panel-box { background-color:var(--card-bg); border:1px solid var(--border-color); border-radius:8px; padding:20px; box-shadow:0 2px 4px rgba(0,0,0,0.02); }
+    .panel-box-title { font-size:14px; font-weight:700; margin-bottom:16px; }
+    .chart-container { position:relative; height:240px; width:100%; }
+    .collapsible-container { background-color:var(--card-bg); border:1px solid var(--border-color); border-radius:8px; overflow:hidden; box-shadow:0 2px 4px rgba(0,0,0,0.02); }
+    .collapsible-header { padding:16px 20px; background-color:var(--card-bg); cursor:pointer; display:flex; justify-content:space-between; align-items:center; user-select:none; transition:background-color 0.2s; }
+    .collapsible-header:hover { background-color:#f8f6f0; }
+    .collapsible-title { font-size:14px; font-weight:700; color:var(--text-dark); text-transform:uppercase; letter-spacing:0.5px; display:flex; align-items:center; gap:8px; }
+    .toggle-icon { font-size:14px; transition:transform 0.3s ease; font-weight:bold; color:var(--primary); }
+    .collapsible-content { max-height:0; overflow:hidden; transition:max-height 0.4s ease-out; border-top:1px solid transparent; }
+    .collapsible-container.active .collapsible-content { max-height:600px; border-top-color:var(--border-color); }
+    .collapsible-container.active .toggle-icon { transform:rotate(180deg); }
+    .table-responsive { width:100%; overflow-x:auto; padding:0; }
+    .custom-table { width:100%; border-collapse:collapse; font-size:13px; text-align:left; }
+    .custom-table thead tr { background-color:#1b4d3e; color:#ffffff; }
+    .custom-table th { padding:12px 16px; font-weight:600; font-size:11px; text-transform:uppercase; letter-spacing:0.5px; }
+    .custom-table td { padding:14px 16px; border-bottom:1px solid var(--border-color); color:var(--text-dark); }
+    .custom-table tbody tr:hover { background-color:#fcfbfa; }
+    .custom-table tr.total-row { background-color:#f0ece1; font-weight:700; }
+    .badge-uf { background-color:#e2ded0; color:#2b2b2b; padding:3px 8px; border-radius:4px; font-weight:600; font-size:11px; }
+  </style>
 </head>
 <body>
-<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><g id="lgAll"><defs><g><g id="lg-g0-0"><path d="M 51.1 0 L 57.8 0 L 54.5 -51.2 L 45.9 -51.2 L 36.6 -26.3 C 34.2 -20 32.5 -14.3 31.1 -9.1 L 30.9 -9.1 C 29.5 -14.5 27.7 -20.1 25.6 -26.3 L 16.7 -51.2 L 8.1 -51.2 L 4.5 0 L 10.8 0 L 12.2 -21.9 C 12.8 -29.6 13.1 -38.1 13.3 -44.5 L 13.5 -44.5 C 15 -38.4 17 -31.9 19.4 -24.7 L 28 -0.3 L 33.1 -0.3 L 42.3 -25.1 C 44.9 -32.1 47 -38.6 48.8 -44.5 L 49 -44.5 C 49 -38.2 49.5 -29.5 49.9 -22.4 Z M 51.1 0 "/></g><g id="lg-g0-1"><path d="M 5.8 -51.2 L 5.8 0 L 12.6 0 L 12.6 -51.2 Z M 5.8 -51.2 "/></g><g id="lg-g0-2"><path d="M 12.2 0 L 12.2 -21.9 C 12.2 -30.3 12.1 -36.4 11.7 -43 L 11.9 -43 C 14.5 -37.5 18 -31.7 21.6 -25.9 L 38.2 0 L 45.1 0 L 45.1 -51.2 L 38.7 -51.2 L 38.7 -29.7 C 38.7 -21.8 38.8 -15.5 39.4 -8.7 L 39.3 -8.6 C 36.8 -13.9 33.8 -19.3 30 -25.3 L 13.2 -51.2 L 5.8 -51.2 L 5.8 0 Z M 12.2 0 "/></g><g id="lg-g0-3"><path d="M 3.2 -2.5 C 6 -0.7 11.5 0.8 16.5 0.8 C 28.9 0.8 34.8 -6.1 34.8 -13.9 C 34.8 -21.4 30.4 -25.6 21.5 -29 C 14.2 -31.7 11.1 -34.1 11.1 -38.8 C 11.1 -42.3 13.8 -46.5 21 -46.5 C 25.6 -46.5 29.2 -45 30.8 -44 L 32.7 -49.4 C 30.4 -50.7 26.5 -51.9 21.2 -51.9 C 11 -51.9 4.3 -46 4.3 -38 C 4.3 -30.9 9.5 -26.5 18 -23.5 C 25.1 -21 28 -18.1 28 -13.4 C 28 -8.2 23.9 -4.7 17 -4.7 C 12.4 -4.7 8 -6.1 5 -8 Z M 3.2 -2.5 "/></g><g id="lg-g0-4"><path d="M 15.8 0 L 22.5 0 L 22.5 -45.5 L 38.6 -45.5 L 38.6 -51.2 L -0.1 -51.2 L -0.1 -45.5 L 15.8 -45.5 Z M 15.8 0 "/></g><g id="lg-g0-5"><path d="M 23.3 -62.7 L 16.2 -53.9 L 21.7 -53.9 L 31.6 -62.7 Z M 32.8 -29.5 L 12.6 -29.5 L 12.6 -45.6 L 34.1 -45.6 L 34.1 -51.2 L 5.8 -51.2 L 5.8 0 L 35.2 0 L 35.2 -5.5 L 12.6 -5.5 L 12.6 -23.9 L 32.8 -23.9 Z M 32.8 -29.5 "/></g><g id="lg-g0-6"><path d="M 12.5 -45.8 C 13.7 -46.1 16 -46.4 19.2 -46.4 C 26.3 -46.4 31.2 -43.5 31.2 -36.8 C 31.2 -31 26.7 -27.1 19.4 -27.1 L 12.5 -27.1 Z M 5.8 -50.4 L 5.8 0 L 12.5 0 L 12.5 -22.2 L 19 -22.2 C 25 -21.9 27.9 -19.2 29.4 -12.2 C 30.8 -5.8 32.1 -1.4 32.8 0 L 39.8 0 C 38.8 -2 37.6 -6.8 35.9 -14 C 34.5 -19.3 32.2 -23 28.2 -24.4 L 28.2 -24.5 C 33.6 -26.4 38 -30.9 38 -37.6 C 38 -41.6 36.5 -45.1 33.9 -47.3 C 30.7 -50.2 26 -51.5 18.8 -51.5 C 14.2 -51.5 9.2 -51.1 5.8 -50.4 Z M 5.8 -50.4 "/></g><g id="lg-g0-7"><path d="M 27 -52 C 13 -52 2.8 -41.3 2.8 -25.1 C 2.8 -9.6 12.4 0.8 26.3 0.8 C 39.6 0.8 50.5 -8.5 50.5 -26 C 50.5 -41.3 41.2 -52 27 -52 Z M 26.7 -46.6 C 38 -46.6 43.4 -36 43.4 -25.7 C 43.4 -14.1 37.3 -4.5 26.7 -4.5 C 16 -4.5 9.9 -14.3 9.9 -25.3 C 9.9 -36.4 15.5 -46.6 26.7 -46.6 Z M 26.7 -46.6 "/></g><g id="lg-g0-8"></g><g id="lg-g0-9"><path d="M 5.8 -0.1 C 9.2 0.3 13.2 0.5 18.1 0.5 C 28.2 0.5 36.2 -2.1 41.2 -6.9 C 46 -11.6 48.7 -18.4 48.7 -26.8 C 48.7 -35 46 -41 41.3 -45.1 C 36.8 -49.3 29.8 -51.5 20.1 -51.5 C 14.9 -51.5 10 -51.1 5.8 -50.4 Z M 12.6 -45.5 C 14.4 -45.9 17 -46.2 20.5 -46.2 C 34.7 -46.2 41.7 -38.6 41.6 -26.6 C 41.6 -12.7 33.9 -4.8 19.4 -4.9 C 16.8 -4.9 14.3 -4.9 12.6 -5.2 Z M 12.6 -45.5 "/></g><g id="lg-g0-10"><path d="M 32.8 -16 L 38.4 0 L 45.6 0 L 27.8 -51.2 L 19.7 -51.2 L 1.9 0 L 8.9 0 L 14.3 -16 Z M 15.7 -21.2 L 20.8 -36.1 C 21.8 -39.2 22.6 -42.3 23.4 -45.2 L 23.5 -45.2 C 24.3 -42.4 25.2 -39.2 26.3 -35.9 L 31.5 -21.2 Z M 15.7 -21.2 "/></g><g id="lg-g0-11"><path d="M 45.6 -26.8 L 28.4 -26.8 L 28.4 -21.6 L 39 -21.6 L 39 -6.3 C 37.4 -5.5 34.5 -4.9 30.1 -4.9 C 17.8 -4.9 9.9 -12.6 9.9 -25.6 C 9.9 -38.3 18.2 -46.1 30.8 -46.1 C 36.1 -46.1 39.6 -45.2 42.4 -43.9 L 44.1 -49.3 C 41.8 -50.3 37 -51.6 31 -51.6 C 13.5 -51.6 2.8 -40.5 2.8 -25.2 C 2.8 -17.2 5.6 -10.5 10.1 -6.2 C 15.1 -1.4 21.7 0.5 29.6 0.5 C 36.6 0.5 42.6 -1.1 45.6 -2.3 Z M 45.6 -26.8 "/></g><g id="lg-g0-12"><path d="M 41 -6.9 C 38.2 -5.6 34.1 -4.8 29.9 -4.8 C 17.3 -4.8 9.9 -12.8 9.9 -25.3 C 9.9 -38.7 18 -46.4 30.3 -46.4 C 34.6 -46.4 38.3 -45.5 40.8 -44.2 L 42.5 -49.6 C 40.7 -50.5 36.5 -51.9 30.1 -51.9 C 13.9 -51.9 2.8 -41.1 2.8 -25 C 2.8 -8.3 13.8 0.8 28.5 0.8 C 34.9 0.8 39.9 -0.4 42.3 -1.6 Z M 41 -6.9 "/></g><g id="lg-g0-13"><path d="M 5.8 -51.2 L 5.8 -21 C 5.8 -5.1 13.9 0.8 24.5 0.8 C 35.8 0.8 44.2 -5.5 44.2 -21.2 L 44.2 -51.2 L 37.5 -51.2 L 37.5 -20.8 C 37.5 -9.6 32.5 -4.5 24.8 -4.5 C 17.7 -4.5 12.5 -9.4 12.5 -20.8 L 12.5 -51.2 Z M 5.8 -51.2 "/></g><g id="lg-g0-14"><path d="M 5.8 -51.2 L 5.8 0 L 34.9 0 L 34.9 -5.5 L 12.6 -5.5 L 12.6 -51.2 Z M 5.8 -51.2 "/></g><g id="lg-g0-15"><path d="M 32.8 -29.5 L 12.6 -29.5 L 12.6 -45.6 L 34.1 -45.6 L 34.1 -51.2 L 5.8 -51.2 L 5.8 0 L 35.2 0 L 35.2 -5.5 L 12.6 -5.5 L 12.6 -23.9 L 32.8 -23.9 Z M 32.8 -29.5 "/></g><g id="lg-g0-16"><path d="M 5.8 0 L 12.5 0 L 12.5 -20.5 C 14.1 -20.1 16 -20 18 -20 C 24.6 -20 30.4 -21.9 34 -25.6 C 36.6 -28.2 38 -32 38 -36.6 C 38 -41.1 36.2 -44.8 33.5 -47.3 C 30.3 -50 25.4 -51.5 18.8 -51.5 C 13.3 -51.5 9.1 -51.1 5.8 -50.5 Z M 12.5 -45.8 C 13.8 -46 16 -46.3 19 -46.3 C 26.3 -46.3 31.3 -43 31.3 -36.2 C 31.3 -29.2 26.3 -25.3 18.1 -25.3 C 16 -25.3 14.1 -25.4 12.5 -25.9 Z M 12.5 -45.8 "/></g><g id="lg-g0-17"><path d="M 32.8 -16 L 38.4 0 L 45.6 0 L 27.8 -51.2 L 19.7 -51.2 L 1.9 0 L 8.9 0 L 14.3 -16 Z M 26.9 -62.7 L 19.8 -53.9 L 25.2 -53.9 L 35.2 -62.7 Z M 15.7 -21.2 L 20.8 -36.1 C 21.8 -39.2 22.6 -42.3 23.4 -45.2 L 23.5 -45.2 C 24.3 -42.4 25.2 -39.2 26.3 -35.9 L 31.5 -21.2 Z M 15.7 -21.2 "/></g></g><clipPath id="lg-c0"><path clip-rule="nonzero" d="M 1.1 0 L 1998.9 0 L 1998.9 773.3 L 1.1 773.3 Z M 1.1 0 "/></clipPath></defs><g clip-path="url(#lg-c0)"><path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 1.1 0 L 1998.9 0 L 1998.9 773.3 L 1.1 773.3 Z M 1.1 0 "/></g><g fill="rgb(10.8%, 10.3%, 10.2%)" fill-opacity="1"><use xlink:href="#lg-g0-0" x="1149.5" y="313.6"/><use xlink:href="#lg-g0-1" x="1227.2" y="313.6"/><use xlink:href="#lg-g0-2" x="1261.3" y="313.6"/><use xlink:href="#lg-g0-1" x="1327.7" y="313.6"/><use xlink:href="#lg-g0-3" x="1361.7" y="313.6"/><use xlink:href="#lg-g0-4" x="1415.4" y="313.6"/><use xlink:href="#lg-g0-5" x="1469.4" y="313.6"/><use xlink:href="#lg-g0-6" x="1523" y="313.6"/><use xlink:href="#lg-g0-1" x="1580.2" y="313.6"/><use xlink:href="#lg-g0-7" x="1614.2" y="313.6"/><use xlink:href="#lg-g0-8" x="1683.1" y="313.6"/><use xlink:href="#lg-g0-9" x="1715" y="313.6"/></g><g fill="rgb(10.8%, 10.3%, 10.2%)" fill-opacity="1"><use xlink:href="#lg-g0-10" x="1781" y="313.6"/></g><g fill="rgb(10.8%, 10.3%, 10.2%)" fill-opacity="1"><use xlink:href="#lg-g0-10" x="1128.5" y="420.1"/></g><g fill="rgb(10.8%, 10.3%, 10.2%)" fill-opacity="1"><use xlink:href="#lg-g0-11" x="1190.3" y="420.1"/><use xlink:href="#lg-g0-6" x="1255.8" y="420.1"/><use xlink:href="#lg-g0-1" x="1313" y="420.1"/><use xlink:href="#lg-g0-12" x="1347" y="420.1"/><use xlink:href="#lg-g0-13" x="1407.5" y="420.1"/><use xlink:href="#lg-g0-14" x="1473.1" y="420.1"/></g><g fill="rgb(10.8%, 10.3%, 10.2%)" fill-opacity="1"><use xlink:href="#lg-g0-4" x="1518.3" y="420.1"/><use xlink:href="#lg-g0-13" x="1572.3" y="420.1"/><use xlink:href="#lg-g0-6" x="1637.9" y="420.1"/></g><g fill="rgb(10.8%, 10.3%, 10.2%)" fill-opacity="1"><use xlink:href="#lg-g0-10" x="1695.5" y="420.1"/><use xlink:href="#lg-g0-8" x="1758.4" y="420.1"/><use xlink:href="#lg-g0-15" x="1790.3" y="420.1"/></g><g fill="rgb(10.8%, 10.3%, 10.2%)" fill-opacity="1"><use xlink:href="#lg-g0-16" x="1393.2" y="527.8"/><use xlink:href="#lg-g0-15" x="1449.9" y="527.8"/><use xlink:href="#lg-g0-12" x="1503.5" y="527.8"/><use xlink:href="#lg-g0-13" x="1564" y="527.8"/></g><g fill="rgb(10.8%, 10.3%, 10.2%)" fill-opacity="1"><use xlink:href="#lg-g0-17" x="1626.9" y="527.8"/><use xlink:href="#lg-g0-6" x="1689.8" y="527.8"/><use xlink:href="#lg-g0-1" x="1747" y="527.8"/><use xlink:href="#lg-g0-10" x="1781" y="527.8"/></g><path fill-rule="evenodd" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 934.1 360 C 944.5 351.7 954.9 343.1 965.2 333.9 C 843.5 224.3 722 176.9 564.5 172.3 C 414.5 174.2 286.6 218.4 162.7 326.7 C 281.5 436.4 406.3 486.2 561.9 490.8 C 661 489.5 746.2 470.7 826.4 430 C 823.4 441.2 821.5 452.8 820.8 464.8 C 822.7 517.4 846.1 561.1 898.8 601.4 C 951.4 562 975.2 518.3 978 466 C 976.6 427 962.9 391.9 934.1 360 "/><path fill-rule="evenodd" fill="rgb(18.3%, 62.9%, 27.4%)" fill-opacity="1" d="M 238.8 324.3 L 313.4 324.9 C 315.8 311 321.5 300.9 333.4 292.3 C 342.4 286.3 351.9 283.4 362.8 283.3 C 379.6 283.6 391 290.3 402.1 302 L 382.1 324.6 L 378.5 318.9 C 375.8 315.1 372.2 312.8 367.5 312.4 C 359.7 312.4 354.3 318.2 352.5 325.2 L 409.8 325.6 L 410.1 286.2 L 477 286.7 L 460.9 313.4 L 443.5 313.3 L 443.5 317.5 L 466.7 317.7 L 468.7 326.1 L 482.9 326.2 L 483.2 287 L 527.4 287.3 C 540.8 287.9 549.8 292.9 555.9 304.8 C 558.8 311.9 559.6 319.3 557.9 326.8 L 564.9 326.8 L 565.3 287.2 L 599.4 287.4 L 599.1 327.1 L 646.8 327.5 L 662.4 287.7 L 698.2 288 L 713.1 328 L 735.6 328.2 C 736.4 315.6 745.5 302.9 755.6 295.6 C 764.6 289.6 774.1 286.7 785.1 286.6 C 801.4 286.8 813.4 293.7 824.2 305.2 L 804.3 327.9 L 800.7 322.2 C 798 318.4 794.3 316 789.6 315.7 C 781.9 315.7 776.5 321.5 774.7 328.5 L 880.4 329.3 C 788.2 249.8 649.2 212.5 528 219.7 C 417.8 225.4 317.1 260.3 238.8 324.3 M 774.2 335.6 C 775.2 344.9 783.5 353.8 793.7 350.1 C 798.4 348.1 800.8 344.3 803.7 340.5 L 822.1 363.9 C 811.4 373.8 800.9 379.4 785.6 380 C 774.2 380.1 764.3 376.9 755 370.5 C 743.4 361.8 736.1 349.7 735.4 335.3 L 715.7 335.2 L 731.3 377.1 L 693.1 376.8 L 688.9 363.3 L 669.2 363.1 L 664.5 376.6 L 627.8 376.3 L 644.1 334.6 L 599.1 334.3 L 599 348.1 L 629.4 348.4 L 619.2 376.3 L 564.5 375.8 L 564.9 334 L 555.3 333.9 C 549.3 345 539.3 349.8 526.9 350.1 L 514.7 350.1 L 514.5 376 L 482.5 375.8 L 482.8 333.4 L 470.2 333.3 L 472.7 343.8 L 443.3 343.6 L 443.2 347.8 L 465.1 348 L 475 375.7 L 409.4 375.2 L 409.7 332.8 L 352 332.4 C 352.5 336.9 354.5 341.2 358.1 344.2 C 362 347.3 366.6 348.5 371.5 346.8 C 376.2 344.9 378.5 341 381.4 337.2 L 400 360.7 C 389.1 370.6 378.7 376.1 363.3 376.7 C 352 376.8 342.1 373.6 332.8 367.2 C 321.1 358.5 313.9 346.4 313.3 332.1 L 238.9 331.5 L 242.4 334.4 C 324.3 405.4 442.5 442.3 551.3 444.1 C 677.4 444.9 789.1 412.1 881.8 336.5 Z M 774.2 335.6 "/><path fill-rule="evenodd" fill="rgb(9.5%, 9%, 8.7%)" fill-opacity="1" d="M 927.1 317.4 C 933.5 322.7 940 328.2 946.4 333.8 C 939.5 339.7 932.6 345.5 925.7 351.1 C 919.8 345.2 913.4 339.5 906.5 333.8 C 906.6 333.8 906.7 333.8 906.9 333.7 C 906.9 333.7 920 323.1 927.1 317.4 M 181.6 326.8 C 293.2 231.4 419.3 188 564.4 184.8 C 699.1 189.9 813.5 227.8 917.3 309.5 C 910.8 314.9 903.6 320.5 897 325.7 C 794.9 244.5 692.2 209.3 560.5 205.7 C 430.8 207.2 320.2 241.9 213.3 327.4 C 316.1 414.3 423.8 453.7 558.4 457.5 C 674.3 456.1 768.1 429.4 859.2 368.7 C 847.5 382.6 838.6 397.2 832.4 412.5 C 750.5 455.7 661.8 476.1 562 478.3 C 415.8 472.7 290.8 426.1 181.6 326.8 M 238.8 324.3 C 249.5 315.5 260.8 307.2 272.6 299.5 C 280 308.5 287.9 317.1 296.3 324.8 Z M 474.9 375.3 C 477.4 373.1 479.9 370.9 482.5 368.8 L 482.6 360 C 479.2 363 475.9 365.9 472.6 368.9 Z M 676.9 338.4 L 682.5 338.4 L 679.9 330.2 Z M 623.4 364.7 C 627.4 361.6 631.9 358.4 636 355.5 L 640.5 343.9 C 636.3 346.4 632 349 628.1 351.7 Z M 735.6 328.2 L 713.2 328 L 715.7 335.2 L 735.5 335.4 C 735.2 332.8 735.3 330.6 735.6 328.2 M 795.4 317.5 C 797.1 319.2 799.6 321.6 801.6 323.5 C 800.1 321.1 797.9 318.8 795.4 317.5 M 564.9 326.8 L 557.9 326.8 C 557.3 329.4 556.4 331.8 555.4 334 L 564.8 334.1 Z M 646.7 327.5 L 599.2 327.1 L 599.1 334.3 L 644 334.7 Z M 409.8 325.6 L 352.5 325.2 C 352.1 327.6 352 330 352 332.4 L 372.7 332.6 C 366.7 336.8 361.4 340.4 357.1 343.3 C 359.3 345.4 361.5 346.7 364.2 347.3 C 372.9 341.3 381 336.1 387.6 332.7 L 409.7 332.9 Z M 468.5 326.1 L 470 333.3 L 482.9 333.4 L 483 326.2 Z M 401.2 302.8 L 396 308.7 C 400.1 312.6 404.8 316.6 409.8 321 L 409.9 310.9 C 407.3 308.5 404.2 305.7 401.2 302.8 M 506.9 287.1 L 517.8 287.2 C 500.1 267.9 482.5 247.7 469.8 225.8 C 508.9 219.7 551.2 217.9 591.1 220.2 C 606.1 256 623.6 288.8 650.5 318.2 L 653.3 311.2 C 629.6 285.2 607 242.7 597 220.7 C 650.7 224.6 703.7 236.1 753.1 255.1 C 760.3 269.1 765.8 279.4 771.5 288.2 C 774.2 287.6 777 287.1 779.8 286.8 C 773.8 277.9 768.3 268.7 763.4 259.2 C 806.1 276.8 845.8 300.1 880.4 329.3 L 817.6 328.8 C 814.9 326.5 812.3 324.1 809.8 321.7 L 805 327.1 L 806.7 328.7 L 774.6 328.5 C 773.9 331.6 773.8 334.7 774.4 337.7 C 774.6 338.8 775.1 340 775.5 341 C 777.9 339 780.4 337.2 782.5 335.8 L 881.8 336.5 C 833.3 376.8 775.3 405.7 713.2 423.3 C 720.9 404.7 735.5 383.9 750.3 366.8 C 748.6 365.3 747.1 363.7 745.6 361.9 C 729.7 380.2 717.2 398.9 703.9 425.9 C 656.1 438.4 606 444.4 556.1 443.8 C 567.7 421.6 587 397.1 609.8 376.3 L 598.4 376.2 C 578.9 395.2 563.2 417.3 547.9 443.7 C 508 442.7 468.3 437.3 430 427.7 C 443.9 406.3 458.5 390.1 474.3 375.8 L 465.3 375.7 C 448.2 392.3 432.9 409.8 422.6 426 C 386.4 416.3 351.4 403 318.9 385.8 C 323.5 380.7 329.5 375.1 336 369.4 C 333.7 368 331.6 366.6 329.8 364.9 C 324.9 369.4 319.4 374.9 312.2 382.2 C 285.9 367.8 261.5 350.9 239 331.5 L 313.3 332.1 C 313.1 329.6 313.1 327.3 313.4 324.9 L 307.2 324.8 C 297.2 316 287.7 306.1 278.7 295.5 C 302.5 280.2 328.3 267.2 355.1 256.5 C 362.6 268.3 368.6 277.1 374.1 284.5 C 380 285.9 385.1 288.1 390 291.3 C 380.1 280.7 370.3 268.4 362 253.8 C 394 241.7 427.7 232.7 462.1 227 C 475.2 249.4 490.5 268.9 506.9 287.1 M 937.5 519 C 934 526.7 929.6 534.2 924.3 541.3 L 922.9 541.3 L 918.2 529.9 L 923 518.9 Z M 946.1 494.4 C 944.3 502.1 941.8 509.5 938.7 516.7 L 923.1 516.6 L 918.4 505.2 L 923.2 494.2 Z M 949.9 469.7 C 949.4 477.4 948.2 484.8 946.7 492.1 L 923.3 491.9 L 918.6 480.5 L 923.4 469.5 Z M 947.8 445.2 C 949 452.2 949.8 459.5 950 466.9 L 950 467.4 L 923.5 467.2 L 918.8 455.9 L 923.6 445 Z M 940.9 420.4 C 943.7 427.5 945.9 435 947.3 442.7 L 923.7 442.5 L 919 431.2 L 923.8 420.3 Z M 928 395.5 C 932.8 402.7 936.8 410.2 940 417.9 L 923.9 417.8 L 919.2 406.5 L 924 395.5 Z M 921.2 386.2 C 923 388.6 924.7 390.8 926.4 393.1 L 924.1 393.1 Z M 883.5 380.4 C 888.6 374.6 894.2 369.2 900.2 364 C 906.3 369.4 911.8 375 916.6 380.6 Z M 873.6 392.7 C 875.8 389.7 878.2 386.6 880.6 383.7 L 876.6 392.7 Z M 859.8 417.3 C 863.2 409.4 867.3 402.1 872 395.1 L 876.7 395.1 L 881.3 406.2 L 876.4 417.4 Z M 852.1 442 C 853.8 434.1 856.1 426.7 858.9 419.8 L 876.5 419.9 L 881.1 430.9 L 876.2 442.2 Z M 848.8 466.6 C 848.8 466.4 848.8 466.4 848.8 466.2 C 849.2 458.5 850.1 451.3 851.6 444.4 L 876.4 444.6 L 880.9 455.6 L 876 466.8 Z M 851.7 491.4 C 850.1 484.3 849.3 476.8 848.9 469 L 876.2 469.2 L 880.7 480.2 L 875.8 491.6 Z M 859.7 516.1 C 856.6 509.1 854.2 501.6 852.2 493.7 L 876 493.9 L 880.5 504.9 L 875.6 516.2 Z M 873.9 540.9 C 869 533.8 864.5 526.4 860.8 518.4 L 875.8 518.6 L 880.3 529.6 L 875.4 540.9 Z M 883.8 405.2 L 879.2 393.9 L 884 382.8 L 916.8 383.1 L 921.5 394.2 L 916.7 405.4 Z M 883.6 429.7 L 879 418.6 L 883.8 407.6 L 916.6 407.8 L 921.3 419 L 916.5 430 Z M 883.4 454.4 L 878.8 443.2 L 883.6 432.2 L 916.4 432.4 L 921.1 443.6 L 916.3 454.7 Z M 883.2 479 L 878.6 467.9 L 883.4 456.8 L 916.2 457 L 920.9 468.2 L 916.1 479.3 Z M 883 503.7 L 878.4 492.5 L 883.2 481.5 L 916 481.7 L 920.7 492.8 L 915.9 503.9 Z M 882.8 528.3 L 878.2 517.1 L 883 506.1 L 915.8 506.3 L 920.5 517.4 L 915.7 528.6 Z M 882.4 530.7 L 916.1 531 L 920.9 542.3 L 917.4 549.9 C 916.6 551.1 915.5 552.1 914.6 553.2 L 883.5 552.9 C 883.2 552.7 880.8 550 880.5 549.7 L 877.5 542 Z M 912.4 555.6 C 908 560.4 903.4 564.6 898.6 568.6 C 894.1 564.4 889.8 559.9 885.7 555.4 Z M 844.2 466.1 C 845.6 512.6 867.1 545.9 898.5 574.6 C 935.7 543.7 952.6 508.4 954.6 467 C 953.2 425.1 937.2 390.3 900.3 358.1 C 867.8 384.9 846.9 419.5 844.2 466.1 M 901.2 345.1 C 945.2 380.6 965.2 420.5 966.7 466.4 C 964.4 513.1 943.9 552 898.8 587.1 C 853.7 551.2 833.8 512.1 832 465.4 C 834.5 419.1 855.8 379.5 901.2 345.1 M 934.1 360 C 944.5 351.7 954.9 343.1 965.2 333.9 C 843.6 224.3 722 176.9 564.5 172.3 C 414.5 174.2 286.6 218.4 162.7 326.7 C 281.5 436.4 406.3 486.2 561.9 490.8 C 661 489.5 746.2 470.7 826.4 430 C 823.4 441.2 821.5 452.8 820.8 464.8 C 822.7 517.4 846.1 561.1 898.8 601.4 C 951.4 562 975.2 518.3 978 466 C 976.6 427 962.9 391.9 934.1 360 M 516.3 316 L 516.2 322.5 L 518.3 322.5 C 522.2 322.6 522.3 316 518.3 316 Z M 516.3 316 "/><path fill-rule="evenodd" fill="rgb(96.5%, 94.3%, 10.8%)" fill-opacity="1" d="M 844.2 466.1 C 846.9 419.5 867.8 384.9 900.3 358.1 C 937.2 390.3 953.2 425.1 954.6 467 C 952.6 508.4 935.7 543.7 898.5 574.6 C 867.1 545.9 845.6 512.6 844.2 466.1 M 901.2 345.1 C 855.8 379.5 834.5 419.1 832 465.4 C 833.8 512.1 853.7 551.2 898.8 587.1 C 943.9 552 964.4 513.1 966.7 466.4 C 965.2 420.5 945.2 380.6 901.2 345.1 "/><path fill-rule="evenodd" fill="rgb(9.4%, 8.6%, 8.6%)" fill-opacity="1" d="M 785.1 290.7 C 760.2 290.5 739.7 309.4 739.5 332.9 C 739.3 356.4 759.5 375.8 784.4 376 C 796.9 376.1 808.3 371.3 816.5 363.5 L 803.8 347.2 C 800.1 352.1 794.8 355.1 788.9 355 C 778.4 354.9 769.8 345.1 769.9 333.2 C 770 321.1 778.7 311.6 789.2 311.6 C 795.7 311.7 801.4 315.3 804.8 320.9 L 818.7 305.2 C 810.4 296.3 798.4 290.8 785.1 290.7 M 633.9 372.3 L 665.2 291.9 L 695.2 292.1 L 725.3 373 L 696.1 372.8 L 692.1 359.1 L 666.3 358.9 L 661.5 372.5 Z M 672.4 341.6 L 686.8 341.7 L 680 319.9 Z M 569.4 291.3 L 568.7 371.8 L 616.2 372.2 L 623.4 352.3 L 594.7 352.1 L 595.2 291.6 Z M 487.4 291.1 L 527.2 291.4 C 564.2 291.7 563.8 346.3 526.8 346 L 510.5 345.9 L 510.3 371.9 L 486.7 371.7 Z M 511.2 309.3 L 511.1 328.9 L 517.3 329 C 529.2 329.1 529.5 309.4 517.5 309.3 Z M 414.2 290.4 L 413.6 371.1 L 468.9 371.5 L 462.1 352.1 L 438.8 351.9 L 438.9 339.4 L 467.4 339.7 L 463.4 321.9 L 439.1 321.7 L 439.2 309.2 L 458.5 309.4 L 469.6 290.8 Z M 362.8 287.4 C 337.9 287.2 317.5 306.1 317.3 329.7 C 317.1 353.1 337.2 372.5 362.1 372.7 C 374.7 372.8 386 368 394.3 360.2 L 381.5 344 C 378 348.8 372.6 351.8 366.7 351.7 C 356.1 351.7 347.6 341.8 347.7 329.9 C 347.8 317.8 356.5 308.3 367.1 308.4 C 373.5 308.4 379.2 312 382.6 317.6 L 396.5 302 C 388.2 293.1 376.3 287.5 362.8 287.4 "/></g></defs></svg>
+  <div class="dashboard-container">
+    <div class="filter-bar">
+      <div class="filter-group">
+        <label for="f-ano">ANO:</label>
+        <select id="f-ano" onchange="aplicarFiltros()">
+          <option value="2026" selected>2026</option>
+          <option value="2025">2025</option>
+          <option value="todos">Todos os Anos</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label for="f-bioma">BIOMA:</label>
+        <select id="f-bioma" onchange="aplicarFiltros()">
+          <option value="todos" selected>Todos os Biomas</option>
+          <option value="Mata Atlântica">Mata Atlântica</option>
+          <option value="Floresta Amazônica">Floresta Amazônica</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label for="f-programa">PROGRAMA:</label>
+        <select id="f-programa" onchange="alterarProgramaPeloFiltro()">
+          <option value="1144">Programa 1144 (ATER)</option>
+          <option value="2303">Programa 2303 (Pesquisa)</option>
+          <option value="todos" selected>Consolidado / Ambos</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label for="f-uf">UF (preenche a Unidade sozinho):</label>
+        <select id="f-uf" onchange="aoSelecionarUFRapidaPainel()">
+          <option value="todos" selected>Todas</option>
+          <option value="BA">BA</option>
+          <option value="ES">ES</option>
+          <option value="PA">PA</option>
+          <option value="AM">AM</option>
+          <option value="RO">RO</option>
+          <option value="MT">MT</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label for="f-regional">UNIDADE / REGIONAL:</label>
+        <select id="f-regional" onchange="aplicarFiltros()">
+          <option value="todos" selected>Todas as Unidades</option>
+          <option value="COBES">COBES (BA/ES)</option>
+          <option value="COPAM">COPAM (PA/AM)</option>
+          <option value="COROM">COROM (RO/MT)</option>
+        </select>
+      </div>
+      <button class="btn-reset" onclick="limparFiltros()">Limpar Filtros</button>
+    </div>
 
-<div id="intro" role="dialog" aria-label="Abertura CEPLAC 70 anos">
-<button class="i-pular" id="iPular">Pular abertura ⏭</button>
-<div class="i-sementes" id="iSementes" aria-hidden="true"></div>
-<div class="i-logo"><svg class="lg" viewBox="150 160 1700 455" role="img" aria-label="CEPLAC – Ministério da Agricultura e Pecuária"><use href="#lgAll"/></svg></div>
-<svg class="i-arv" viewBox="0 0 400 400" aria-hidden="true">
-<circle class="i-brilho" cx="200" cy="200" r="150" fill="none" stroke="#E6C76A" stroke-width="3"/>
-<circle class="i-anel" cx="200" cy="200" r="168" fill="none" stroke="#C9A227" stroke-width="2" stroke-dasharray="4 8"/>
-<path class="i-trace" d="M188 395 C190 320 182 250 196 180 C200 160 206 140 204 110" stroke="#5A3220" stroke-width="22" fill="none" stroke-linecap="round"/>
-<path class="i-galho" style="animation-delay:1.3s" d="M196 230 C230 210 260 200 300 196" stroke="#5A3220" stroke-width="10" fill="none" stroke-linecap="round"/>
-<path class="i-galho" style="animation-delay:1.45s" d="M194 170 C160 150 130 146 100 150" stroke="#5A3220" stroke-width="9" fill="none" stroke-linecap="round"/>
-<g fill="url(#folha)"><g class="i-folha" style="animation-delay:1.70s"><ellipse cx="120" cy="110" rx="52" ry="20" transform="rotate(-30 120 110)"/></g><g class="i-folha" style="animation-delay:1.85s"><ellipse cx="170" cy="70" rx="56" ry="21" transform="rotate(-70 170 70)"/></g><g class="i-folha" style="animation-delay:2.00s"><ellipse cx="240" cy="72" rx="56" ry="21" transform="rotate(60 240 72)"/></g><g class="i-folha" style="animation-delay:2.15s"><ellipse cx="300" cy="140" rx="54" ry="20" transform="rotate(20 300 140)"/></g><g class="i-folha" style="animation-delay:2.30s"><ellipse cx="80" cy="170" rx="46" ry="18" transform="rotate(10 80 170)"/></g><g class="i-folha" style="animation-delay:2.45s"><ellipse cx="320" cy="210" rx="44" ry="17" transform="rotate(-15 320 210)"/></g><g class="i-folha" style="animation-delay:2.60s"><ellipse cx="205" cy="45" rx="40" ry="16" transform="rotate(95 205 45)"/></g></g>
-<g>
-<g class="i-fruto" style="animation-delay:2.7s"><ellipse cx="160" cy="275" rx="26" ry="50" fill="url(#fruto)" transform="rotate(12 160 275)"/><g stroke="#9A4B1E" stroke-width="2" fill="none" opacity=".7" transform="rotate(12 160 275)"><path d="M150 228 C146 260 146 290 152 322"/><path d="M160 225 C160 260 160 290 160 325"/><path d="M170 228 C174 260 174 290 168 322"/></g></g>
-<g class="i-fruto" style="animation-delay:2.9s"><ellipse cx="236" cy="300" rx="28" ry="54" fill="url(#fruto2)" transform="rotate(-14 236 300)"/><g stroke="#5A2E18" stroke-width="2" fill="none" opacity=".6" transform="rotate(-14 236 300)"><path d="M226 250 C222 285 222 315 228 350"/><path d="M236 246 C236 285 236 315 236 354"/><path d="M246 250 C250 285 250 315 244 350"/></g></g>
-<g class="i-fruto" style="animation-delay:3.05s"><ellipse cx="282" cy="236" rx="18" ry="34" fill="url(#fruto)" transform="rotate(-25 282 236)"/></g>
-</g>
-<g class="i-selo"><circle cx="318" cy="318" r="46" fill="#C9A227"/><circle cx="318" cy="318" r="40" fill="none" stroke="#1E4D2B" stroke-width="2"/><text x="318" y="330" text-anchor="middle" font-family="Georgia,serif" font-weight="700" font-size="34" fill="#1E4D2B">70</text><text x="318" y="347" text-anchor="middle" font-family="Arial" font-weight="700" font-size="9" letter-spacing="2" fill="#1E4D2B">ANOS</text></g>
-</svg>
-<div class="i-anos">★ 1957 – 2027 ★</div>
-<h1><span style="animation-delay:3.5s">CEPLAC</span> <span class="o" style="animation-delay:3.7s">70</span> <span style="animation-delay:3.9s">ANOS</span></h1>
-<div class="i-sub">Do legado à transformação</div>
-<div class="i-visao">Proposta em negociação: tornar-se o <b>Centro de Excelência em Pesquisa e Liderança da Agrofloresta e do Cacau</b></div>
-<div class="i-barra"></div>
-</div>
-<nav>
-<div class="wrap">
-<a class="logo" href="#inicio">
-<span class="logo-chip"><svg class="lg" viewBox="155 160 835 455" role="img" aria-label="CEPLAC"><use href="#lgAll"/></svg></span>
-<span>CEPLAC <b>70</b></span><span class="t" style="font-weight:400;opacity:.8;font-size:13px">| Do legado à transformação</span>
-</a>
-<button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false">☰</button>
-<ul id="menu">
-<li><a href="#sintese">Síntese</a></li>
-<li><a href="#visao">Futuro</a></li>
-<li><a href="#eixos">Eixos</a></li>
-<li><a href="#emblematicas">Anúncios</a></li>
-<li><a href="#calendario">Calendário</a></li>
-<li><a href="#implementacao">Carteira</a></li>
-<li><a href="#processos">SEI</a></li>
-<li><a href="#resultado">Resultado</a></li>
-</ul>
-</div>
-<div class="progresso" id="progresso"></div>
-</nav>
+    <div id="data-status" style="font-size:11px; color:var(--text-muted); padding:0 4px;">Carregando dados da planilha...</div>
 
-<!-- HERO -->
-<header class="hero" id="inicio">
-<div class="wrap">
-<div>
-<span class="selo">★ 1957 – 2027 ★</span>
-<h1 class="serif">CEPLAC <span>70</span> ANOS</h1>
-<div class="sub">Do legado à transformação</div>
-<p class="lead">Uma nova agenda para o futuro do cacau brasileiro.</p>
-<div class="tag">Proposta de entregas institucionais, investimentos e anúncios ministeriais</div>
-<button class="visao-hero" data-go="#visao"><small>Proposta em negociação</small><b>Centro de Excelência em Pesquisa e Liderança da Agrofloresta e do Cacau</b><span>Proposta de transformação institucional, ainda não formalizada · ver detalhes →</span></button>
-<div class="datas">
-<button class="chip" data-marco="2">📅 20/02/2027 · Aniversário de 70 anos</button>
-<button class="chip" data-go="#calendario">🌱 26/03/2027 · Dia Nacional do Cacau – principais anúncios</button>
-</div>
-</div>
-<div class="hero-art" aria-hidden="true">
-<!-- Ilustração: cacaueiro com frutos -->
-<svg viewBox="0 0 400 400">
-<defs>
-<radialGradient id="g1" cx="50%" cy="45%" r="55%"><stop offset="0" stop-color="#2F6B3C"/><stop offset="1" stop-color="#1E4D2B" stop-opacity="0"/></radialGradient>
-<linearGradient id="fruto" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F0C64A"/><stop offset=".55" stop-color="#D98A2B"/><stop offset="1" stop-color="#9A4B1E"/></linearGradient>
-<linearGradient id="fruto2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#D8A13A"/><stop offset=".6" stop-color="#A9542A"/><stop offset="1" stop-color="#6B3A22"/></linearGradient>
-<linearGradient id="folha" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8DBF6A"/><stop offset="1" stop-color="#3E7D3F"/></linearGradient>
-</defs>
-<circle cx="200" cy="200" r="185" fill="url(#g1)"/>
-<circle cx="200" cy="200" r="168" fill="none" stroke="#C9A227" stroke-width="2" stroke-dasharray="4 8" opacity=".7"/>
-<!-- tronco -->
-<path d="M188 395 C190 320 182 250 196 180 C200 160 206 140 204 110" stroke="#5A3220" stroke-width="22" fill="none" stroke-linecap="round"/>
-<path d="M196 230 C230 210 260 200 300 196" stroke="#5A3220" stroke-width="10" fill="none" stroke-linecap="round"/>
-<path d="M194 170 C160 150 130 146 100 150" stroke="#5A3220" stroke-width="9" fill="none" stroke-linecap="round"/>
-<!-- folhas -->
-<g fill="url(#folha)">
-<ellipse cx="120" cy="110" rx="52" ry="20" transform="rotate(-30 120 110)"/>
-<ellipse cx="170" cy="70" rx="56" ry="21" transform="rotate(-70 170 70)"/>
-<ellipse cx="240" cy="72" rx="56" ry="21" transform="rotate(60 240 72)"/>
-<ellipse cx="300" cy="140" rx="54" ry="20" transform="rotate(20 300 140)"/>
-<ellipse cx="80" cy="170" rx="46" ry="18" transform="rotate(10 80 170)"/>
-<ellipse cx="320" cy="210" rx="44" ry="17" transform="rotate(-15 320 210)"/>
-<ellipse cx="205" cy="45" rx="40" ry="16" transform="rotate(95 205 45)"/>
-</g>
-<g stroke="#2E5E2F" stroke-width="2" opacity=".6">
-<line x1="78" y1="132" x2="162" y2="88"/><line x1="152" y1="120" x2="188" y2="22"/>
-<line x1="212" y1="24" x2="268" y2="120"/><line x1="250" y1="122" x2="350" y2="158"/>
-</g>
-<!-- frutos no tronco (caulifloria) -->
-<g>
-<ellipse cx="160" cy="275" rx="26" ry="50" fill="url(#fruto)" transform="rotate(12 160 275)"/>
-<g stroke="#9A4B1E" stroke-width="2" fill="none" opacity=".7" transform="rotate(12 160 275)">
-<path d="M150 228 C146 260 146 290 152 322"/><path d="M160 225 C160 260 160 290 160 325"/><path d="M170 228 C174 260 174 290 168 322"/>
-</g>
-<ellipse cx="236" cy="300" rx="28" ry="54" fill="url(#fruto2)" transform="rotate(-14 236 300)"/>
-<g stroke="#5A2E18" stroke-width="2" fill="none" opacity=".6" transform="rotate(-14 236 300)">
-<path d="M226 250 C222 285 222 315 228 350"/><path d="M236 246 C236 285 236 315 236 354"/><path d="M246 250 C250 285 250 315 244 350"/>
-</g>
-<ellipse cx="282" cy="236" rx="18" ry="34" fill="url(#fruto)" transform="rotate(-25 282 236)"/>
-<path d="M196 230 L176 232" stroke="#5A3220" stroke-width="5"/>
-<path d="M200 252 L222 254" stroke="#5A3220" stroke-width="5"/>
-</g>
-<!-- 70 -->
-<g>
-<circle cx="318" cy="318" r="46" fill="#C9A227"/>
-<circle cx="318" cy="318" r="40" fill="none" stroke="#1E4D2B" stroke-width="2"/>
-<text x="318" y="330" text-anchor="middle" font-family="Georgia,serif" font-weight="700" font-size="34" fill="#1E4D2B">70</text>
-<text x="318" y="347" text-anchor="middle" font-family="Arial" font-weight="700" font-size="9" letter-spacing="2" fill="#1E4D2B">ANOS</text>
-</g>
-</svg>
-</div>
-</div>
-<svg class="onda" viewBox="0 0 1440 70" preserveAspectRatio="none"><path d="M0 40 C240 80 480 0 720 30 C960 60 1200 10 1440 40 L1440 70 L0 70Z" fill="#F6F0E1"/></svg>
-</header>
+    <div class="kpi-row">
+      <div class="kpi-card kpi-c1"><div class="kpi-icon">📅</div><div class="kpi-value" id="kpi-evt-top">0</div><div class="kpi-label">Eventos Realizados (Presencial)</div><div class="kpi-progresso" id="kpi-evt-progresso"></div></div>
+      <div class="kpi-card kpi-c2"><div class="kpi-icon">👥</div><div class="kpi-value" id="kpi-prod-top">0</div><div class="kpi-label">Produtores Atendidos (Presencial)</div><div class="kpi-progresso" id="kpi-prod-progresso"></div></div>
+      <div class="kpi-card kpi-c3"><div class="kpi-icon">🔬</div><div class="kpi-value" id="kpi-tech-cobes-top">0</div><div class="kpi-label">Tecnologias Realizadas (COBES)</div><div class="kpi-progresso" id="kpi-tech-cobes-progresso"></div></div>
+      <div class="kpi-card kpi-c4"><div class="kpi-icon">🧪</div><div class="kpi-value" id="kpi-tech-copam-top">0</div><div class="kpi-label">Tecnologias Desenvolvidas (COPAM)</div><div class="kpi-progresso" id="kpi-tech-copam-progresso"></div></div>
+      <div class="kpi-card kpi-c5"><div class="kpi-icon">🌎</div><div class="kpi-value" id="kpi-biomas-top">3</div><div class="kpi-label">Biomas Cobertos</div></div>
+      <div class="kpi-card kpi-c6"><div class="kpi-icon">📍</div><div class="kpi-value" id="kpi-estados-top">6</div><div class="kpi-label">Estados Atendidos</div></div>
+    </div>
 
-<!-- STATS -->
-<div class="stats">
-<div class="wrap grid">
-<button class="stat" data-go="#contexto"><b>70</b><span>anos de ciência e desenvolvimento</span></button>
-<button class="stat" data-go="#eixos"><b>6</b><span>eixos estratégicos</span></button>
-<button class="stat" id="st-entregas" data-abrir="todas"><b>44</b><span>entregas potenciais</span></button>
-<button class="stat" data-go="#emblematicas"><b>8</b><span>entregas emblemáticas</span></button>
-<button class="stat" data-go="#processos"><b>7</b><span>processos SEI vinculados</span></button>
-<button class="stat" data-go="#agenda"><b>3</b><span>cerimônias: BA, PA e DF</span></button>
-</div>
-</div>
+    <div class="consolidado-card">
+      <div class="consolidado-titulo">📊 Consolidado — Programas 1144 e 2303 por Regional</div>
+      <div class="consolidado-sub">Dados realizados (fonte: PAINEL_DADOS, conferido célula a célula) — período <span id="consolidado-periodo">2026-1</span></div>
 
-<!-- 1 CONTEXTO -->
-<section id="contexto">
-<div class="wrap">
-<div class="kicker">1 · Contextualização</div>
-<h2>Sete décadas de história. Um novo ciclo institucional.</h2>
-<div class="two">
-<div class="texto">
-<p>Em <strong>20 de fevereiro de 2027</strong>, a Comissão Executiva do Plano da Lavoura Cacaueira – CEPLAC completará 70 anos de criação. Trata-se de um marco histórico de grande relevância para a agricultura brasileira, para a ciência agropecuária e para o desenvolvimento econômico, social e ambiental das regiões produtoras de cacau.</p>
-<p>Ao longo de sete décadas, a CEPLAC desempenhou papel fundamental na transformação da cacauicultura brasileira, por meio da pesquisa científica, do desenvolvimento tecnológico, da assistência técnica, da extensão rural e da formação de conhecimento especializado.</p>
-<p>A celebração dos 70 anos representa uma oportunidade estratégica para projetar o futuro da instituição, recuperar sua capacidade operacional, fortalecer sua estrutura científica e ampliar sua contribuição para o desenvolvimento sustentável da cacauicultura nacional.</p>
-<p>Propõe-se, portanto, que a comemoração seja associada a uma <strong>agenda de entregas concretas do Governo Federal</strong>, sob liderança do Ministério da Agricultura e Pecuária, articulando investimentos, políticas públicas, inovação, sustentabilidade e valorização da produção nacional.</p>
-</div>
-<div class="destaque">
-<h3 class="serif">O marco deverá representar</h3>
-<p style="color:#DDE8D6;font-size:14.5px;margin-bottom:8px">não apenas o reconhecimento da trajetória, mas o início de um novo ciclo: uma CEPLAC</p>
-<ul>
-<li><i>01</i> Moderna</li>
-<li><i>02</i> Conectada</li>
-<li><i>03</i> Inovadora</li>
-<li><i>04</i> Preparada para liderar os desafios da cacauicultura brasileira até o seu centenário</li>
-</ul>
-<p style="margin-top:12px;font-size:14px;color:var(--ouro2)">Proposta em negociação: tornar-se o <b>Centro de Excelência em Pesquisa e Liderança da Agrofloresta e do Cacau</b>.</p>
-</div>
-</div>
+      <div class="consolidado-bloco-titulo">Programa 1144 — ATER/Difusão</div>
+      <div class="tabela-consolidado-scroll"><table class="tabela-consolidado-card">
+        <thead><tr><th>Regional</th><th>UF</th><th>Bioma</th><th>Eventos Real.</th><th>Produtores Real.</th><th>Status</th></tr></thead>
+        <tbody id="consolidado-corpo-1144"></tbody>
+      </table></div>
 
-<div class="linha" id="linha">
-<button class="marco" data-marco="0"><div class="bola">1957</div><h4>Criação da CEPLAC</h4><p>20 de fevereiro</p></button>
-<button class="marco" data-marco="1"><div class="bola">70</div><h4>Sete décadas</h4><p>Pesquisa, tecnologia, ATER e conhecimento</p></button>
-<button class="marco atual" data-marco="2"><div class="bola">2027</div><h4>Aniversário de 70 anos</h4><p>20/02 aniversário · cerimônias 03/03, 26/03 e 31/03</p></button>
-<button class="marco" data-marco="3"><div class="bola">2057</div><h4>CEPLAC 100</h4><p>Centenário · Planejamento Estratégico CEPLAC 70–100</p></button>
-</div>
-</div>
-</section>
+      <div class="consolidado-bloco-titulo">Programa 2303 — Pesquisa e Inovação</div>
+      <div class="tabela-consolidado-scroll"><table class="tabela-consolidado-card">
+        <thead><tr><th>Regional</th><th>UF</th><th>Bioma</th><th>Tec. Trabalhadas</th><th>Tec. Desenvolvidas</th><th>Status</th></tr></thead>
+        <tbody id="consolidado-corpo-2303"></tbody>
+      </table></div>
+    </div>
 
-<!-- SÍNTESE (proposta atualizada) -->
-<section id="sintese">
-<div class="wrap">
-<div class="kicker">Proposta atualizada · Data: 26 de março – Dia Nacional do Cacau</div>
-<h2>Potenciais entregas institucionais para o marco dos 70 anos</h2>
-<p class="intro">Considerando a proximidade da data comemorativa, apresenta-se uma proposta estratégica das possíveis entregas institucionais associadas à celebração, de modo que os 70 anos representem não apenas o reconhecimento da trajetória, mas também o anúncio de novos compromissos, investimentos e perspectivas para o futuro da instituição.</p>
-<div class="aviso90"><b>&lt; 90</b><span>dias até a data comemorativa: agenda que articula fortalecimento institucional, pesquisa e inovação, assistência técnica, mobilização de recursos e projeção nacional e internacional.</span></div>
-<div class="sint" id="gradeSint"></div>
-<p class="legenda"><span class="pend">pendente</span> ponto a definir ou verificar indicado na própria proposta.</p>
-</div>
-</section>
+    <div class="program-tabs">
+      <button class="tab-btn active" id="btn-tab-1144" onclick="selecionarAba('1144')">
+        Programa 1144
+        <span class="tab-badge">ATER/Difusão</span>
+        <span class="tab-card-sub">Eventos e produtores atendidos</span>
+      </button>
+      <button class="tab-btn" id="btn-tab-2303" onclick="selecionarAba('2303')">
+        Programa 2303
+        <span class="tab-badge" style="background:#555;">Pesquisa</span>
+        <span class="tab-card-sub">Tecnologias trabalhadas e desenvolvidas</span>
+      </button>
+      <button class="tab-btn" id="btn-tab-todos" onclick="selecionarAba('todos')">
+        Consolidado / Ambos
+        <span class="tab-badge" style="background:#e09f3e;">Visão geral</span>
+        <span class="tab-card-sub">1144 + 2303 juntos</span>
+      </button>
+    </div>
 
-<!-- CALENDÁRIO 2027 -->
-<section id="calendario" style="background:var(--papel)">
-<div class="wrap">
-<div class="kicker">Calendário 2027 e pautas de divulgação</div>
-<h2>De 20 de fevereiro ao Dia Nacional do Cacau</h2>
-<p class="intro">A cobertura começa em 20 de fevereiro de 2027, com uma matéria sobre a trajetória da Ceplac e a divulgação da programação prevista para março. O Dia Nacional do Cacau, em 26 de março, reúne na Bahia os principais anúncios da agenda comemorativa.</p>
-<span class="dica">Toque em uma data para ver as manchetes sugeridas</span>
-<div class="cal" id="gradeCal"></div>
-<div class="pautas" id="gradePautas"></div>
-<p class="legenda"><span class="conf">a confirmar</span> manchetes para divulgação após a confirmação formal das entregas. A programação das cerimônias também depende de confirmação.</p>
-</div>
-</section>
+    <div id="banner-aba-ativa" style="display:none; background:#eef4f0; border:1px solid #cfe0d5; color:#1b4d3e; font-size:12px; font-weight:600; padding:8px 12px; border-radius:6px; margin-bottom:12px;"></div>
 
-<!-- VISÃO -->
-<section id="visao">
-<div class="wrap">
-<div class="kicker">Proposta de futuro <span class="neg">Em negociação</span></div>
-<h2 class="serif">Proposta: transformar a CEPLAC no <em>Centro de Excelência em Pesquisa e Liderança da Agrofloresta e do Cacau</em></h2>
-<p class="intro">A transformação está em discussão e negociação e ainda não foi formalizada. Se aprovada, os 70 anos serão o ponto de partida desse novo modelo, na trajetória do centenário CEPLAC 100.</p>
-<div class="trilha">
-<button class="no" data-marco="2"><b>CEPLAC 70</b><span>2027 · início do novo ciclo</span></button>
-<div class="seta" aria-hidden="true">→</div>
-<button class="no meio" data-visao="1"><b>Centro de Excelência em Pesquisa e Liderança da Agrofloresta e do Cacau</b><span>Proposta em negociação · toque para ver os eixos relacionados</span></button>
-<div class="seta" aria-hidden="true">→</div>
-<button class="no" data-marco="3"><b>CEPLAC 100</b><span>2057 · centenário</span></button>
-</div>
-<div class="pil3">
-<button style="--c:#2E6E8E" data-eixo="1"><b>Pesquisa</b><span>Ciência, tecnologia e inovação: Cacau 5.0</span><i>Eixo II →</i></button>
-<button style="--c:#8DBF6A" data-eixo="3"><b>Agrofloresta</b><span>Sustentabilidade, bioeconomia e mudanças climáticas</span><i>Eixo IV →</i></button>
-<button style="--c:#C9A227" data-eixo="5"><b>Liderança</b><span>Governança, cooperação e projeção institucional</span><i>Eixo VI →</i></button>
-</div>
-<p class="lema"><b>CEPLAC 70</b> na trajetória do centenário <b>CEPLAC 100</b><br>Ciência, Tecnologia e Inovação para o Futuro</p>
-</div>
-</section>
+    <div id="sec-1144" class="program-section active">
+      <div class="section-title">Programa 1144 — ATER / Difusão de Tecnologia</div>
+      <div class="section-subtitle">Programa 1144 · Entrega 0348 · Indicador 12637 · Biomas: Mata Atlântica e Floresta Amazônica</div>
+      <div class="regionals-grid">
+        <div class="regional-card cobes" id="card-cobes-1144">
+          <div class="regional-header"><span class="regional-name">COBES 🔍</span><span class="bioma-tag tag-mata">Mata Atlântica</span></div>
+          <div class="regional-location">Bahia · Espírito Santo</div>
+          <div class="metrics-row">
+            <div class="metric-box"><div class="val" id="val-evt-cobes">—</div><div class="lbl">Eventos</div></div>
+            <div class="metric-box"><div class="val" id="val-prod-cobes">0</div><div class="lbl">Produtores</div></div>
+          </div>
+          <div style="font-size:10px; color:var(--text-muted); margin-top:8px;">% da referência 2025</div>
+          <div class="progress-bar-container"><div class="progress-bar-fill" id="prog-cobes" style="width: 0%;"></div></div>
+          <div class="regional-footer"><span>Ref. 2025: <span id="ref-cobes-2025">—</span></span><span id="pct-cobes">—</span></div>
+        </div>
+        <div class="regional-card copam" id="card-copam-1144">
+          <div class="regional-header"><span class="regional-name">COPAM 🔍</span><span class="bioma-tag tag-amazonia">Floresta Amazônica</span></div>
+          <div class="regional-location">Pará · Amazonas</div>
+          <div class="metrics-row">
+            <div class="metric-box"><div class="val" id="val-evt-copam">0</div><div class="lbl">Eventos</div></div>
+            <div class="metric-box"><div class="val" id="val-prod-copam">0</div><div class="lbl">Produtores</div></div>
+          </div>
+          <div style="font-size:10px; color:var(--text-muted); margin-top:8px;">% da meta PPA 2024/27</div>
+          <div class="progress-bar-container"><div class="progress-bar-fill" id="prog-copam" style="width: 0%;"></div></div>
+          <div class="regional-footer"><span>Meta PPA 2024/27: <span id="meta-copam">—</span></span><span id="pct-copam">—</span></div>
+        </div>
+        <div class="regional-card corom" id="card-corom-1144">
+          <div class="regional-header"><span class="regional-name">COROM 🔍</span><span class="bioma-tag tag-misto">F.Amaz/Cerrado</span></div>
+          <div class="regional-location">Rondônia · Mato Grosso</div>
+          <div class="metrics-row">
+            <div class="metric-box"><div class="val" id="val-evt-corom">0</div><div class="lbl">Eventos</div></div>
+            <div class="metric-box"><div class="val" id="val-prod-corom">0</div><div class="lbl">Produtores</div></div>
+          </div>
+          <div class="progress-bar-container"><div class="progress-bar-fill" id="prog-corom" style="width: 0%;"></div></div>
+          <div class="regional-footer"><span>1º semestre 2026</span><span>sem. 1</span></div>
+        </div>
+      </div>
+    </div>
 
-<!-- 2 EIXOS -->
-<section id="eixos" style="background:var(--papel)">
-<div class="wrap">
-<div class="kicker">2 · Eixos estratégicos e potenciais entregas</div>
-<h2>Seis eixos, 44 entregas potenciais</h2>
-<p class="intro">Cada eixo reúne as entregas potenciais e os processos SEI vinculados.</p><span class="dica">Toque em um eixo para abrir as entregas</span>
-<div class="eixos" id="gradeEixos"></div>
-<div class="explorador rv" id="explorador">
-<h3 class="serif">🔎 Explorar as 44 entregas</h3>
-<div class="busca">
-<input type="search" id="q" placeholder="Buscar por palavra: genético, ATER, rastreabilidade, ITAL…" aria-label="Buscar entregas">
-<label class="tog"><input type="checkbox" id="soSei"> Somente com processo SEI</label>
-</div>
-<div class="filtros" id="filtros"></div>
-<div class="contagem" id="contagem"></div>
-<div class="resultados" id="resultados"></div>
-</div>
-</div>
-</section>
+    <div id="sec-2303" class="program-section">
+      <div class="section-title">Programa 2303 — Pesquisa e Desenvolvimento Agrícola</div>
+      <div class="section-subtitle">Programa 2303 · Tecnologias e Inovações para a Cacaultura</div>
+      <div class="regionals-grid">
+        <div class="regional-card cobes" id="card-cobes-2303">
+          <div class="regional-header"><span class="regional-name">COBES (Pesquisa)</span><span class="bioma-tag tag-mata">Mata Atlântica</span></div>
+          <div class="regional-location">CEPEC / Centro de Pesquisas</div>
+          <div class="metrics-row"><div class="metric-box"><div class="val" id="val-tech-cobes">0</div><div class="lbl">Tecnologias Realizadas</div></div></div>
+        </div>
+        <div class="regional-card copam" id="card-copam-2303">
+          <div class="regional-header"><span class="regional-name">COPAM (Pesquisa)</span><span class="bioma-tag tag-amazonia">Floresta Amazônica</span></div>
+          <div class="regional-location">CPEC / Centro de Pesquisas</div>
+          <div class="metrics-row"><div class="metric-box"><div class="val" id="val-tech-copam">0</div><div class="lbl">Tecnologias Desenvolvidas</div></div></div>
+        </div>
+        <div class="regional-card corom" id="card-corom-2303">
+          <div class="regional-header"><span class="regional-name">COROM (Pesquisa)</span><span class="bioma-tag tag-misto">F.Amaz/Cerrado</span></div>
+          <div class="regional-location">Rondônia · Mato Grosso</div>
+          <div class="metrics-row"><div class="metric-box"><div class="val" id="val-tech-corom">—</div><div class="lbl">Tecnologias Desenvolvidas</div></div></div>
+        </div>
+      </div>
+    </div>
 
-<!-- 3 EMBLEMÁTICAS -->
-<section id="emblematicas">
-<div class="wrap">
-<div class="kicker">3 · Entregas emblemáticas para anúncio do Ministro</div>
-<h2>Oito anúncios de maior impacto</h2>
-<p class="intro">Recomenda-se concentrar a participação ministerial em entregas de maior impacto político, institucional e econômico.</p><span class="dica">Toque em um anúncio para ver as entregas que o sustentam</span>
-<div class="emb" id="gradeEmb"></div>
-</div>
-</section>
+    <div class="charts-row">
+      <div class="panel-box">
+        <div class="panel-box-title">Proporção por Programa (Pizza)</div>
+        <div class="chart-container"><canvas id="chartProgramas" role="img" aria-label="Gráfico de pizza com a proporção entre produtores atendidos no Programa 1144 e tecnologias do Programa 2303"></canvas></div>
+      </div>
+      <div class="panel-box">
+        <div class="panel-box-title">Mapa Regional</div>
+        <div id="mapa-painel" style="height:100%; min-height:200px; border-radius:6px;"></div>
+        <div style="display:flex; gap:10px; font-size:9px; color:var(--text-muted); margin-top:8px; flex-wrap:wrap;">
+          <span><span style="width:9px;height:9px;border-radius:3px;display:inline-block;margin-right:4px;background:#a5d6a7;"></span>Fora do filtro</span>
+          <span><span style="width:9px;height:9px;border-radius:3px;display:inline-block;margin-right:4px;background:#f39c12;"></span>UF filtrada</span>
+        </div>
+      </div>
+      <div class="panel-box">
+        <div class="panel-box-title">Produtores: Realizado × Meta PPA 2024/27</div>
+        <div class="chart-container"><canvas id="chartMetaPPA" role="img" aria-label="Gráfico de barras horizontais comparando produtores realizados com a meta do PPA, por regional"></canvas></div>
+      </div>
+      <div class="panel-box">
+        <div class="panel-box-title">2025 × 2026 — Produtores Presenciais</div>
+        <div class="chart-container"><canvas id="chartComparativoAno" role="img" aria-label="Gráfico de barras comparando produtores presenciais atendidos em 2025 e no parcial de 2026, por regional"></canvas></div>
+      </div>
+    </div>
 
-<!-- 4 AGENDA -->
-<section id="agenda" style="background:var(--papel)">
-<div class="wrap">
-<div class="kicker">4 · Agenda comemorativa e projeção institucional</div>
-<h2>Celebração em três polos e projeção ao longo de 2027</h2>
-<p class="intro">Brasília (03/03), Bahia (26/03) e Pará (31/03). <button class="lk" style="background:none;border:0;color:var(--verde);font-weight:700;text-decoration:underline dotted;padding:0;font-size:inherit" data-go="#calendario">Ver calendário e pautas →</button></p>
-<div class="agenda">
-<div class="mapa">
-<!-- Ilustração esquemática (não em escala) -->
-<svg viewBox="0 0 420 420" aria-label="Mapa esquemático do Brasil com Bahia, Pará e Brasília">
-<path d="M120 40 L200 30 L262 52 L300 92 L360 110 L398 150 L384 196 L352 236 L330 290 L292 330 L250 368 L214 404 L188 380 L196 340 L166 300 L120 284 L90 250 L52 232 L28 186 L44 140 L70 102 L96 70 Z" fill="#EDE3CB" stroke="#C9B98F" stroke-width="2"/>
-<!-- PA -->
-<path d="M150 62 L232 50 L262 66 L272 120 L246 158 L196 162 L170 140 L146 112 Z" fill="#CFE2C3" stroke="#5E9A5A" stroke-width="1.5"/>
-<!-- BA -->
-<path d="M300 186 L352 194 L344 240 L318 286 L284 292 L268 252 L276 214 Z" fill="#CFE2C3" stroke="#5E9A5A" stroke-width="1.5"/>
-<!-- DF -->
-<rect x="236" y="234" width="16" height="12" fill="#C9A227" stroke="#6B3A22"/>
-<g class="pin" data-pin="pa"><circle class="p" cx="208" cy="108" r="13" fill="#1E4D2B" stroke="#fff" stroke-width="3"/><text x="208" y="140" text-anchor="middle" font-size="14" font-weight="700" fill="#1E4D2B">Pará · 31/03</text></g>
-<g class="pin" data-pin="ba"><circle class="p" cx="312" cy="238" r="13" fill="#1E4D2B" stroke="#fff" stroke-width="3"/><text x="312" y="272" text-anchor="middle" font-size="14" font-weight="700" fill="#1E4D2B">Bahia · 26/03</text></g>
-<g class="pin" data-pin="df"><circle class="p" cx="244" cy="240" r="13" fill="#6B3A22" stroke="#fff" stroke-width="3"/><text x="226" y="216" text-anchor="middle" font-size="14" font-weight="700" fill="#6B3A22">Brasília · 03/03</text></g>
-<path d="M208 108 Q260 170 244 240" stroke="#C9A227" stroke-width="2.5" stroke-dasharray="6 6" fill="none"/>
-<path d="M244 240 Q280 250 312 238" stroke="#C9A227" stroke-width="2.5" stroke-dasharray="6 6" fill="none"/>
-<text x="210" y="412" text-anchor="middle" font-size="11" fill="#6A7268">Mapa esquemático – sem escala</text>
-</svg>
-</div>
-<div class="ag-list" id="listaAgenda"></div>
-</div>
-</div>
-</section>
+    <!-- ===== DETALHAMENTO COMPLETO — todos os lançamentos individuais, linha a linha =====
+         Lê LOG_1144_CSV_URL / LOG_2303_CSV_URL. Tem filtros PRÓPRIOS (Período, Programa,
+         Regional, UF), independentes da barra de filtros do topo, além da busca em tempo
+         real por qualquer coluna. -->
+    <div class="collapsible-container" id="collapsible-detalhe">
+      <div class="collapsible-header" onclick="toggleDetalhe()">
+        <span class="collapsible-title">📋 DETALHAMENTO COMPLETO — TODOS OS LANÇAMENTOS <span id="detalhe-contagem" style="font-weight:400; text-transform:none; color:var(--text-muted); margin-left:6px;"></span></span>
+        <span class="toggle-icon">▼</span>
+      </div>
+      <div class="collapsible-content" style="max-height:1200px;">
+        <div style="padding:12px 16px 0; display:flex; gap:10px; flex-wrap:wrap; align-items:flex-end;">
+          <div>
+            <label style="display:block; font-size:10px; font-weight:700; text-transform:uppercase; color:var(--text-muted); margin-bottom:3px;">Período</label>
+            <select id="detalhe-f-periodo" onchange="renderDetalhado()" style="padding:7px 10px; border:1px solid var(--border-color); border-radius:6px; font-size:12px;">
+              <option value="todos">Todos</option>
+            </select>
+          </div>
+          <div>
+            <label style="display:block; font-size:10px; font-weight:700; text-transform:uppercase; color:var(--text-muted); margin-bottom:3px;">Programa</label>
+            <select id="detalhe-f-programa" onchange="renderDetalhado()" style="padding:7px 10px; border:1px solid var(--border-color); border-radius:6px; font-size:12px;">
+              <option value="todos">Todos</option>
+              <option value="1144">1144 (ATER)</option>
+              <option value="2303">2303 (Pesquisa)</option>
+            </select>
+          </div>
+          <div>
+            <label style="display:block; font-size:10px; font-weight:700; text-transform:uppercase; color:var(--text-muted); margin-bottom:3px;">Regional</label>
+            <select id="detalhe-f-regional" onchange="renderDetalhado()" style="padding:7px 10px; border:1px solid var(--border-color); border-radius:6px; font-size:12px;">
+              <option value="todos">Todas</option>
+              <option value="COBES">COBES</option>
+              <option value="COPAM">COPAM</option>
+              <option value="COROM">COROM</option>
+            </select>
+          </div>
+          <div>
+            <label style="display:block; font-size:10px; font-weight:700; text-transform:uppercase; color:var(--text-muted); margin-bottom:3px;">UF</label>
+            <select id="detalhe-f-uf" onchange="renderDetalhado()" style="padding:7px 10px; border:1px solid var(--border-color); border-radius:6px; font-size:12px;">
+              <option value="todos">Todas</option>
+              <option value="BA">BA</option><option value="ES">ES</option>
+              <option value="PA">PA</option><option value="AM">AM</option>
+              <option value="RO">RO</option><option value="MT">MT</option>
+            </select>
+          </div>
+          <button onclick="limparFiltrosDetalhe()" style="padding:7px 14px; background:transparent; border:1px solid var(--border-color); border-radius:6px; font-size:12px; color:var(--text-muted); cursor:pointer;">Limpar</button>
+        </div>
+        <div style="padding:10px 16px 0;">
+          <input type="search" id="busca-detalhe" placeholder="Buscar por item, responsável, data, UF, observação..." oninput="renderDetalhado()" style="width:100%; padding:8px 10px; border:1px solid var(--border-color); border-radius:6px; font-size:13px;">
+        </div>
+        <div class="table-responsive" style="max-height:65vh; overflow-y:auto; margin-top:8px;">
+          <table class="custom-table">
+            <thead><tr><th>Data</th><th>Programa</th><th>Regional</th><th>UF</th><th>Item</th><th>Tipo</th><th>Qtd</th><th>Responsável / Obs.</th></tr></thead>
+            <tbody id="detalhe-corpo"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
 
-<!-- 5 IMPLEMENTAÇÃO -->
-<section id="implementacao">
-<div class="wrap">
-<div class="kicker">5 · Diretriz de implementação</div>
-<h2>Carteira de entregas: critérios e classificação</h2>
-<p class="intro">Para conferir efetividade à agenda, propõe-se organizar uma carteira de entregas com a identificação dos sete elementos abaixo, e classificar as iniciativas em três categorias.</p>
-<div class="crit" id="criterios"></div>
-<div class="cats" id="categorias"></div>
+  </div>
 
-<h3 class="serif" style="color:var(--verde);font-size:22px;margin-top:40px">Carteira interativa – entregas emblemáticas</h3>
-<p class="intro" style="font-size:15px">Preencha os campos e classifique cada entrega em A, B ou C. O painel de resumo é atualizado na hora e os dados ficam salvos neste navegador. Use “Exportar CSV” para levar a carteira à planilha ou anexar ao processo SEI.</p>
-<div class="resumo" id="resumo"></div>
-<div class="barraCat" id="barraCat"></div>
-<div class="acoes">
-<button class="btn" id="btnCsv">⬇ Exportar CSV</button>
-<button class="btn sec" id="btnCopiar">📋 Copiar para Excel</button>
-<button class="btn sec" id="btnLimpar">↺ Limpar preenchimento</button>
-<span class="salvo" id="salvo">✔ salvo</span>
-</div>
-<div class="tabela cart">
-<table>
-<thead><tr><th>#</th><th>Entrega</th><th>Eixo</th><th>Unidade responsável</th><th>Situação / maturidade</th><th>Recursos</th><th>Cronograma</th><th>Categoria</th></tr></thead>
-<tbody id="tbCarteira"></tbody>
-</table>
-</div>
-</div>
-</section>
+  <script>
+    const GEO_CEPLAC = {"BA": {"type": "Feature", "properties": {"sigla": "BA", "name": "Bahia"}, "geometry": {"type": "Polygon", "coordinates": [[[-39.288197, -8.562901], [-39.233395, -8.705363], [-38.798427, -8.792369], [-38.670581, -8.974455], [-38.551072, -8.822309], [-38.483023, -9.001073], [-38.295991, -9.02249], [-38.202893, -9.418237], [-37.998505, -9.497317], [-37.99726, -9.916292], [-37.831385, -10.0005], [-37.736156, -10.331607], [-37.858716, -10.426042], [-37.813529, -10.690617], [-38.211549, -10.708731], [-38.229144, -10.915496], [-37.81335, -11.513874], [-37.342503, -11.443448], [-38.049109, -12.634461], [-38.347479, -12.950453], [-38.615855, -12.930842], [-38.96459, -13.283183], [-38.888232, -13.642959], [-38.997504, -13.74407], [-38.927587, -13.938912], [-39.065244, -14.705098], [-38.856339, -15.860115], [-39.212599, -17.168154], [-39.135396, -17.687681], [-39.567193, -18.089973], [-39.670192, -18.348743], [-40.222017, -17.979948], [-40.223543, -17.733587], [-40.623079, -17.405503], [-40.490807, -16.884017], [-40.281248, -16.900711], [-40.275115, -16.573557], [-40.159458, -16.579837], [-39.856434, -16.113361], [-40.230469, -15.80329], [-40.561657, -15.802818], [-40.815248, -15.648014], [-41.330809, -15.744212], [-41.356026, -15.499831], [-41.800314, -15.100642], [-42.091227, -15.186151], [-43.175946, -14.650098], [-43.530985, -14.814849], [-43.883097, -14.652781], [-43.782789, -14.338799], [-44.214657, -14.232851], [-46.076651, -15.264229], [-45.965653, -14.965196], [-46.016355, -14.418867], [-45.906861, -14.352935], [-46.265352, -14.097523], [-46.161537, -13.590492], [-46.242457, -13.429489], [-46.041136, -13.280447], [-46.315491, -13.302738], [-46.322236, -13.097851], [-46.113889, -12.917537], [-46.304358, -12.949443], [-46.279515, -12.584471], [-46.153544, -12.482796], [-46.351964, -12.336976], [-46.397437, -12.039917], [-46.170841, -11.900564], [-46.374156, -11.868178], [-46.314531, -11.631832], [-46.082769, -11.635703], [-46.478886, -11.515971], [-46.616668, -11.289032], [-46.210548, -10.649255], [-45.827299, -10.435545], [-45.602765, -10.107574], [-45.247635, -10.821551], [-44.930806, -10.928339], [-44.577371, -10.626353], [-44.335243, -10.548554], [-44.134086, -10.635817], [-43.661876, -10.003925], [-43.849292, -9.547644], [-43.485058, -9.26488], [-43.278369, -9.424166], [-42.971497, -9.407654], [-42.764775, -9.616339], [-42.24334, -9.28851], [-41.837579, -9.241864], [-41.38196, -8.708455], [-41.113256, -8.703597], [-40.667025, -9.158669], [-40.776329, -9.454027], [-40.622789, -9.482496], [-40.334654, -9.353473], [-40.250327, -9.060099], [-39.957648, -9.048202], [-39.894253, -8.831304], [-39.674206, -8.786663], [-39.690755, -8.661922], [-39.288197, -8.562901]], [[-39.581198, -18.082542], [-39.57204, -18.091149], [-39.573559, -18.080663], [-39.581198, -18.082542]]]}}, "ES": {"type": "Feature", "properties": {"sigla": "ES", "name": "Espírito Santo"}, "geometry": {"type": "MultiPolygon", "coordinates": [[[[-40.723829, -20.841778], [-40.957184, -21.302959], [-41.717586, -21.123331], [-41.711998, -20.871073], [-41.878559, -20.760272], [-41.858371, -20.372478], [-41.756348, -20.206372], [-41.381706, -20.188318], [-41.168069, -19.671731], [-40.948926, -19.472666], [-41.017966, -18.973054], [-41.241972, -18.853949], [-40.916547, -18.814972], [-41.158438, -18.308275], [-41.055643, -18.166124], [-40.771099, -18.155441], [-40.902196, -17.986994], [-40.882317, -17.97007], [-40.70415, -18.022872], [-40.52664, -17.891464], [-39.666461, -18.331853], [-39.688553, -19.305828], [-39.807, -19.64766], [-40.139262, -19.948668], [-40.423668, -20.63522], [-40.460722, -20.623091], [-40.627279, -20.840849], [-40.723829, -20.841778]], [[-40.524447, -20.663454], [-40.528092, -20.668621], [-40.504742, -20.670503], [-40.524447, -20.663454]], [[-40.540506, -20.674362], [-40.519806, -20.690528], [-40.516552, -20.685316], [-40.540506, -20.674362]]], [[[-40.46751, -20.659813], [-40.472407, -20.654176], [-40.464705, -20.652118], [-40.46751, -20.659813]]], [[[-40.724437, -20.846641], [-40.723829, -20.841778], [-40.718565, -20.845484], [-40.724437, -20.846641]]]]}}, "PA": {"type": "Feature", "properties": {"sigla": "PA", "name": "Pará"}, "geometry": {"type": "MultiPolygon", "coordinates": [[[[-47.057276, -0.805873], [-46.979561, -0.777007], [-46.955423, -0.86079], [-46.845166, -0.735447], [-46.745884, -0.920073], [-46.72107, -0.826716], [-46.63769, -0.787938], [-46.674917, -0.975897], [-46.426579, -0.857578], [-46.499647, -0.972936], [-46.42833, -1.065057], [-46.390025, -0.986811], [-46.374938, -1.051964], [-46.305111, -1.083947], [-46.189691, -0.894066], [-46.251867, -0.997336], [-46.272384, -1.171592], [-46.17117, -0.992504], [-46.204924, -1.131187], [-46.172298, -1.155121], [-46.072494, -1.018516], [-46.100304, -1.070623], [-46.097751, -1.195725], [-46.162483, -1.277969], [-46.153206, -1.675556], [-46.32356, -1.765203], [-46.20959, -1.833459], [-46.280222, -2.152558], [-46.431918, -2.239473], [-46.415968, -2.529057], [-46.663524, -2.69385], [-46.575388, -2.841041], [-47.037359, -3.562529], [-47.08769, -3.855094], [-47.581044, -4.519572], [-48.754713, -5.348801], [-48.384303, -5.393838], [-48.137715, -5.60232], [-48.294112, -5.756302], [-48.231193, -5.945764], [-48.431498, -6.176918], [-48.382239, -6.379232], [-48.612713, -6.453351], [-48.664412, -6.662383], [-49.20905, -6.92502], [-49.184836, -7.234789], [-49.383604, -7.543108], [-49.150136, -7.80181], [-49.215405, -8.193821], [-49.591958, -8.839096], [-50.03733, -9.289006], [-50.224346, -9.840752], [-56.753757, -9.405974], [-57.192341, -8.929666], [-57.592418, -8.756092], [-57.642751, -8.213293], [-58.477949, -6.699242], [-58.262031, -6.468555], [-56.46509, -2.422775], [-56.098136, -2.026721], [-56.678565, -2.212225], [-56.734026, -2.021675], [-57.036699, -1.911216], [-57.16439, -1.720534], [-57.392176, -1.722738], [-57.959836, -1.40124], [-58.01703, -1.105819], [-58.162129, -1.229325], [-58.429563, -1.026786], [-58.871545, -0.342665], [-58.894945, 1.228228], [-58.495734, 1.26844], [-58.508204, 1.463278], [-58.321878, 1.597452], [-58.003746, 1.503541], [-57.989467, 1.659704], [-57.537135, 1.70097], [-57.304317, 1.999631], [-57.08611, 2.028142], [-56.790787, 1.852932], [-56.450686, 1.956653], [-55.955976, 1.845104], [-55.90252, 2.041604], [-56.13831, 2.266264], [-55.977581, 2.527837], [-55.384796, 2.418866], [-54.953708, 2.584086], [-54.76262, 2.202624], [-54.744288, 1.776109], [-54.308816, 1.74136], [-54.08598, 1.488609], [-53.42604, 1.243034], [-53.411014, 0.92966], [-53.105819, 0.6843], [-53.174834, 0.382038], [-52.933229, -0.139195], [-52.689648, -0.302593], [-52.639535, -0.584576], [-52.522704, -0.588746], [-52.426566, -1.050463], [-52.099932, -1.226163], [-51.703871, -1.067409], [-51.67874, -0.784922], [-51.2159, -0.11829], [-50.667739, 0.185354], [-50.436091, 0.600423], [-50.156987, 0.70543], [-50.0608, 0.338753], [-49.677186, 0.366293], [-49.396517, 0.016074], [-48.930268, -0.225598], [-48.411823, -0.25691], [-48.472118, -0.498754], [-47.989322, -0.705722], [-47.897163, -0.552474], [-47.840546, -0.679886], [-47.70349, -0.534923], [-47.487638, -0.764604], [-47.443907, -0.588893], [-47.160609, -0.667422], [-47.16969, -0.776182], [-47.088272, -0.662312], [-47.057276, -0.805873]]], [[[-46.415942, -0.932222], [-46.411643, -0.970087], [-46.437021, -0.986082], [-46.415942, -0.932222]]], [[[-46.090328, -1.068593], [-46.06053, -1.094368], [-46.066208, -1.104784], [-46.090328, -1.068593]]], [[[-47.033167, -0.70786], [-47.023853, -0.691486], [-47.005058, -0.700323], [-47.033167, -0.70786]]], [[[-46.374138, -0.987214], [-46.374913, -1.011076], [-46.380828, -1.012994], [-46.374138, -0.987214]]], [[[-47.836915, -0.666395], [-47.841213, -0.657675], [-47.83305, -0.653774], [-47.836915, -0.666395]]], [[[-46.435704, -1.009207], [-46.450461, -1.009052], [-46.437249, -1.001111], [-46.435704, -1.009207]]], [[[-46.323167, -0.956256], [-46.322638, -0.944943], [-46.3154, -0.950014], [-46.323167, -0.956256]]], [[[-46.600328, -0.830136], [-46.606069, -0.825219], [-46.600921, -0.826208], [-46.600328, -0.830136]]], [[[-46.600713, -0.858223], [-46.606451, -0.853306], [-46.601308, -0.854295], [-46.600713, -0.858223]]], [[[-47.032222, -0.71799], [-47.042967, -0.72202], [-47.044168, -0.719306], [-47.032222, -0.71799]]], [[[-46.467967, -0.963936], [-46.474997, -0.96422], [-46.468828, -0.957717], [-46.467967, -0.963936]]], [[[-46.20639, -0.940794], [-46.202712, -0.936364], [-46.198958, -0.940309], [-46.20639, -0.940794]]], [[[-46.954245, -0.740374], [-46.951454, -0.73406], [-46.949257, -0.738724], [-46.954245, -0.740374]]], [[[-47.021708, -0.715428], [-47.016829, -0.713164], [-47.018746, -0.717506], [-47.021708, -0.715428]]], [[[-46.270059, -0.933488], [-46.265775, -0.93288], [-46.267082, -0.936436], [-46.270059, -0.933488]]]]}}, "AM": {"type": "Feature", "properties": {"sigla": "AM", "name": "Amazonas"}, "geometry": {"type": "Polygon", "coordinates": [[[-67.406873, 2.246621], [-67.096812, 1.733011], [-67.08759, 1.167322], [-66.856352, 1.230626], [-66.317916, 0.755435], [-65.584982, 1.009292], [-65.539922, 0.64926], [-65.328523, 0.931928], [-65.181275, 0.923526], [-65.102503, 1.157025], [-64.809914, 1.314744], [-64.745882, 1.225626], [-64.396853, 1.527208], [-64.337406, 1.363963], [-64.094647, 1.617491], [-63.995785, 1.979573], [-63.371834, 2.212058], [-63.14098, 2.172756], [-63.023254, 2.014976], [-62.705501, 1.940031], [-62.803914, 1.590666], [-62.445258, 0.977169], [-62.53248, 0.509141], [-62.18784, -0.330494], [-62.290344, -0.64633], [-62.509707, -0.75864], [-62.039147, -1.118076], [-61.896094, -1.395022], [-61.474144, -1.578632], [-61.618591, -1.394467], [-61.584703, -0.93669], [-61.46414, -0.664471], [-61.216365, -0.49975], [-60.920256, -0.555036], [-60.667481, -0.894188], [-60.309142, -0.724475], [-60.399423, -0.509759], [-60.037434, 0.263837], [-58.89489, 0.263852], [-58.871545, -0.342665], [-58.322768, -1.142963], [-58.162129, -1.229325], [-58.01703, -1.105819], [-57.959836, -1.40124], [-57.392176, -1.722738], [-57.16439, -1.720534], [-57.036699, -1.911216], [-56.734026, -2.021675], [-56.678565, -2.212225], [-56.098136, -2.026721], [-56.46509, -2.422775], [-58.262031, -6.468555], [-58.477949, -6.699242], [-58.136365, -7.356093], [-58.382425, -7.838707], [-58.286495, -8.128132], [-58.394898, -8.779819], [-61.582423, -8.79831], [-61.712737, -8.687474], [-61.984687, -8.878228], [-62.844524, -7.986158], [-63.620267, -7.968921], [-63.77299, -8.320355], [-63.943608, -8.330811], [-63.924056, -8.575147], [-64.13036, -8.721781], [-64.148942, -8.958555], [-64.838837, -8.993728], [-65.097373, -9.43213], [-65.246189, -9.257276], [-65.446554, -9.31599], [-65.434254, -9.465947], [-65.596321, -9.413476], [-65.79108, -9.585253], [-65.969866, -9.412766], [-66.408458, -9.406552], [-66.50022, -9.633167], [-66.805966, -9.814127], [-70.368997, -8.141024], [-72.658816, -7.624607], [-73.803699, -7.111057], [-73.644775, -6.761425], [-73.137127, -6.497262], [-73.236244, -6.03117], [-72.96166, -5.653915], [-72.814452, -5.109594], [-71.882947, -4.516117], [-70.942851, -4.385059], [-70.652803, -4.126768], [-70.325613, -4.14608], [-70.198758, -4.365906], [-69.963656, -4.300192], [-69.395245, -1.132138], [-69.625743, -0.749224], [-69.614233, -0.505595], [-70.05706, -0.186323], [-70.042718, 0.559422], [-69.480791, 0.735938], [-69.358015, 0.612602], [-69.114365, 0.650391], [-69.264789, 1.064718], [-69.843846, 1.085633], [-69.841504, 1.720918], [-68.156176, 1.73211], [-68.266269, 1.82776], [-68.207987, 1.962003], [-67.940565, 1.831186], [-67.406873, 2.246621]]]}}, "RO": {"type": "Feature", "properties": {"sigla": "RO", "name": "Rondônia"}, "geometry": {"type": "MultiPolygon", "coordinates": [[[[-66.458886, -9.87524], [-66.805966, -9.814127], [-66.50022, -9.633167], [-66.408458, -9.406552], [-65.969866, -9.412766], [-65.79108, -9.585253], [-65.596321, -9.413476], [-65.434254, -9.465947], [-65.446554, -9.31599], [-65.246189, -9.257276], [-65.097373, -9.43213], [-64.838837, -8.993728], [-64.142924, -8.953151], [-64.142558, -8.742652], [-63.924056, -8.575147], [-63.943608, -8.330811], [-63.77299, -8.320355], [-63.620267, -7.968921], [-62.866087, -7.975496], [-62.525603, -8.382677], [-62.366551, -8.389222], [-62.340551, -8.602451], [-62.187856, -8.590182], [-62.124437, -8.801291], [-61.905349, -8.874129], [-61.712737, -8.687474], [-61.468111, -8.917145], [-61.525876, -9.243674], [-61.632006, -9.266243], [-61.477057, -9.626913], [-61.59965, -10.154439], [-61.461237, -10.41952], [-61.549712, -10.985703], [-60.459516, -10.989463], [-60.347429, -11.108644], [-59.986314, -11.11412], [-59.920097, -11.397613], [-60.114345, -11.591064], [-60.108231, -11.839182], [-59.773813, -12.340553], [-60.068196, -12.615595], [-60.078571, -12.880736], [-60.282449, -13.080147], [-60.387376, -13.454285], [-60.70778, -13.692483], [-61.014275, -13.487077], [-61.840376, -13.54837], [-62.169835, -13.113468], [-62.778397, -13.009093], [-63.15717, -12.613427], [-63.294905, -12.681404], [-63.785671, -12.427493], [-64.290809, -12.500246], [-64.707966, -12.086389], [-64.757142, -12.155758], [-64.837946, -12.010891], [-65.031394, -11.994531], [-65.0851, -11.712257], [-65.260048, -11.706421], [-65.211262, -11.530012], [-65.360678, -11.250879], [-65.250873, -10.986505], [-65.428905, -10.480558], [-65.288236, -10.219427], [-65.374165, -9.698908], [-65.558636, -9.843299], [-65.773854, -9.734197], [-66.458886, -9.87524]]], [[[-66.458886, -9.87524], [-66.454072, -9.877268], [-66.456774, -9.878479], [-66.458886, -9.87524]]]]}}, "MT": {"type": "Feature", "properties": {"sigla": "MT", "name": "Mato Grosso"}, "geometry": {"type": "MultiPolygon", "coordinates": [[[[-60.360833, -13.299324], [-60.085994, -12.8983], [-60.068196, -12.615595], [-59.773813, -12.340553], [-60.108231, -11.839182], [-60.114345, -11.591064], [-59.920097, -11.397613], [-59.976238, -11.121993], [-60.347429, -11.108644], [-60.459516, -10.989463], [-61.549712, -10.985703], [-61.461237, -10.41952], [-61.59965, -10.154439], [-61.477057, -9.626913], [-61.632006, -9.266243], [-61.525876, -9.243674], [-61.468111, -8.917145], [-61.582423, -8.79831], [-58.415355, -8.792461], [-58.286495, -8.128132], [-58.382425, -7.838707], [-58.137919, -7.34866], [-57.642751, -8.213293], [-57.592418, -8.756092], [-57.192341, -8.929666], [-56.760595, -9.404609], [-50.224346, -9.840752], [-50.602989, -10.660528], [-50.738781, -11.43495], [-50.617789, -12.428571], [-50.706022, -12.609279], [-50.501768, -12.88391], [-50.871321, -13.73266], [-50.833177, -14.089412], [-51.085531, -14.917279], [-51.535482, -15.069251], [-51.87912, -15.824951], [-52.252232, -15.892651], [-52.681097, -16.303429], [-52.635262, -16.551188], [-53.010827, -16.85757], [-53.218139, -17.298858], [-53.246376, -17.690234], [-53.071484, -18.039018], [-53.948407, -17.922976], [-53.855399, -17.702269], [-53.705649, -17.661944], [-53.70815, -17.227724], [-54.084184, -17.618589], [-54.335071, -17.661278], [-54.581152, -17.467562], [-55.126737, -17.652278], [-56.112591, -17.166756], [-56.442799, -17.330273], [-56.733322, -17.309422], [-57.04438, -17.729882], [-57.451931, -17.902203], [-57.727517, -17.529311], [-58.042741, -17.492183], [-58.394895, -17.183657], [-58.469858, -16.703149], [-58.320661, -16.264235], [-60.171006, -16.265216], [-60.237945, -15.473381], [-60.564259, -15.108196], [-60.243662, -15.0963], [-60.271537, -14.619837], [-60.48944, -14.188363], [-60.381385, -13.986968], [-60.466579, -13.795243], [-60.716263, -13.68181], [-60.387376, -13.454285], [-60.360833, -13.299324]]], [[[-60.362687, -13.296129], [-60.360833, -13.299324], [-60.36443, -13.299534], [-60.362687, -13.296129]]]]}}};
+    const CTR_CEPLAC = {"BA": [-12.477, -41.725, 6], "ES": [-19.586, -40.67, 7], "PA": [-3.98, -53.073, 5], "AM": [-4.173, -64.706, 5], "RO": [-10.908, -62.843, 6], "MT": [-12.948, -55.913, 5]};
+    const UFS_CEPLAC = {"BA": "Bahia", "ES": "Espírito Santo", "PA": "Pará", "AM": "Amazonas", "RO": "Rondônia", "MT": "Mato Grosso"};
 
-<!-- PROCESSOS -->
-<section id="processos" style="background:var(--papel)">
-<div class="wrap">
-<div class="kicker">Rastreabilidade</div>
-<h2>Processos SEI vinculados às entregas</h2>
-<p class="intro">Entregas da proposta que já possuem processo administrativo instruído no SEI.</p>
-<div class="tabela">
-<table>
-<thead><tr><th>Processo SEI</th><th>Entrega relacionada</th><th>Eixo</th></tr></thead>
-<tbody id="tbSei"></tbody>
-</table>
-</div>
-</div>
-</section>
+    const SHEET_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRggqUMI4G6hjCR-MxH1sDRfOUmyFz1_tFj2wKvmNST14IIRXGHS5VVx7vztA9xuoWLMP0cBZPXNbNN/pub?gid=1469469620&single=true&output=csv';
 
-<!-- 6 RESULTADO -->
-<section id="resultado">
-<div class="wrap">
-<div class="resultado">
-<div>
-<div class="kicker" style="color:var(--ouro2)">6 · Resultado esperado</div>
-<h2>Mais do que celebrar o passado</h2>
-<p>A celebração dos 70 anos da CEPLAC deverá consolidar um novo posicionamento institucional da Comissão Executiva do Plano da Lavoura Cacaueira, reafirmando seu papel estratégico na pesquisa agropecuária, no desenvolvimento tecnológico, na assistência técnica e na sustentabilidade da cacauicultura brasileira.</p>
-<p>A agenda deverá estabelecer compromissos concretos com o futuro, projetando a CEPLAC como referência nacional e internacional em ciência, inovação, desenvolvimento rural e sistemas produtivos sustentáveis.</p>
-<div class="visao-res">Proposta em negociação: transformar a CEPLAC no <b>Centro de Excelência em Pesquisa e Liderança da Agrofloresta e do Cacau</b>, na trajetória do centenário CEPLAC 100.</div>
-</div>
-<div class="pilares" id="pilares"></div>
-</div>
-</div>
-</section>
+    // ⚠️ TROCAR: publicar as abas LOG_1144 e LOG_2303 na web (Arquivo > Compartilhar >
+    // Publicar na Web > selecionar a aba > CSV) e colar os links reais aqui. Enquanto
+    // estiver com o valor placeholder, a seção de Detalhamento Completo fica vazia
+    // (sem quebrar o resto do painel).
+    const LOG_1144_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRggqUMI4G6hjCR-MxH1sDRfOUmyFz1_tFj2wKvmNST14IIRXGHS5VVx7vztA9xuoWLMP0cBZPXNbNN/pub?gid=706801047&single=true&output=csv';
+    const LOG_2303_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRggqUMI4G6hjCR-MxH1sDRfOUmyFz1_tFj2wKvmNST14IIRXGHS5VVx7vztA9xuoWLMP0cBZPXNbNN/pub?gid=714596000&single=true&output=csv';
+    let LOG_ROWS = []; // linhas combinadas de LOG_1144 + LOG_2303, cada uma com campo _programa
 
-<footer>
-<div class="logo-rodape"><svg class="lg" viewBox="150 160 1700 455" role="img" aria-label="CEPLAC – Ministério da Agricultura e Pecuária"><use href="#lgAll"/></svg></div>
-<h3 class="serif">CEPLAC 70 ANOS</h3>
-<p>Sete décadas transformando a cacauicultura.</p>
-<p>Uma nova geração de ciência, inovação e desenvolvimento para o Brasil.</p>
-<p style="color:#E6C76A;font-family:Georgia,serif;font-style:italic;margin-top:10px">Proposta: Centro de Excelência em Pesquisa e Liderança da Agrofloresta e do Cacau<br>Ciência, Tecnologia e Inovação para o Futuro</p>
-<p style="margin-top:14px;font-size:14px;color:#CFE0C6">CEPLAC/MAPA · <b style="color:#fff">69 anos</b> de ciência, inovação e políticas públicas para a cacauicultura brasileira – <b style="color:#E6C76A">rumo aos 70</b></p>
-<button class="rever" id="rever">▶ Rever abertura animada</button>
-<small>Comissão Executiva do Plano da Lavoura Cacaueira · Secretaria de Desenvolvimento Rural · Ministério da Agricultura e Pecuária</small>
-</footer>
+    let RAW_DATA = {};
+    let usandoFallback = true;
+    let dadosCarregados = false;
+    let FILTERED_DATA = {};
+    let chartPieInstance = null;
+    let chartMetaPPAInstance = null;
+    let chartComparativoAnoInstance = null;
 
-<div class="modal" id="modal" role="dialog" aria-modal="true">
-<div class="caixa" id="caixa">
-<header><div><small id="mSub"></small><h3 id="mTit"></h3></div><button class="x" id="mFechar" aria-label="Fechar">×</button></header>
-<div class="corpo" id="mCorpo"></div>
-<footer id="mNav"><button id="mAnt">← Anterior</button><span id="mPos"></span><button id="mProx">Próximo →</button></footer>
-</div>
-</div>
-<button class="topo" id="topo" aria-label="Voltar ao topo">↑</button>
+    window.addEventListener('DOMContentLoaded', () => {
+      // cada parte isolada: se uma biblioteca externa falhar, o resto do painel continua carregando
+      try { if (window.Chart) inicializarGraficos(); } catch (e) { console.warn('Gráficos indisponíveis:', e); }
+      selecionarAba('todos', false); // aba/seções já nascem no padrão Consolidado/Ambos
+      carregarDadosGoogleSheets();
+      try { if (window.L) initMapaPainel(); } catch (e) { console.warn('Mapa indisponível:', e); }
+      carregarLogsDetalhados();
+    });
 
-<script>const IC = {
-inst:'<svg viewBox="0 0 32 32" fill="none" stroke="#fff" stroke-width="2"><path d="M4 12 16 5l12 7"/><path d="M6 12v12M12 12v12M20 12v12M26 12v12"/><path d="M3 27h26"/></svg>',
-cti:'<svg viewBox="0 0 32 32" fill="none" stroke="#fff" stroke-width="2"><path d="M12 4h8M14 4v8L7 25a2 2 0 0 0 2 3h14a2 2 0 0 0 2-3l-7-13V4"/><path d="M10 20h12"/></svg>',
-prod:'<svg viewBox="0 0 32 32" fill="none" stroke="#fff" stroke-width="2"><circle cx="16" cy="9" r="4"/><path d="M8 28c0-6 4-10 8-10s8 4 8 10"/><path d="M4 18c3-1 5 0 6 2M28 18c-3-1-5 0-6 2"/></svg>',
-sust:'<svg viewBox="0 0 32 32" fill="none" stroke="#fff" stroke-width="2"><path d="M6 26C6 13 15 6 27 5c0 13-7 21-19 21Z"/><path d="M6 26 18 14"/></svg>',
-merc:'<svg viewBox="0 0 32 32" fill="none" stroke="#fff" stroke-width="2"><circle cx="16" cy="16" r="12"/><path d="M4 16h24M16 4c4 4 5 8 5 12s-1 8-5 12c-4-4-5-8-5-12s1-8 5-12Z"/></svg>',
-gov:'<svg viewBox="0 0 32 32" fill="none" stroke="#fff" stroke-width="2"><path d="M4 18l6-6 6 4 6-6 6 4"/><path d="M4 24h24"/><circle cx="10" cy="12" r="1.5" fill="#fff"/><circle cx="22" cy="10" r="1.5" fill="#fff"/></svg>'
-};
-const FRUTO = '<svg class="fundo" viewBox="0 0 64 64"><ellipse cx="32" cy="32" rx="16" ry="28" fill="#E6C76A"/><path d="M24 8c-3 16-3 32 0 48M32 4v56M40 8c3 16 3 32 0 48" stroke="#6B3A22" stroke-width="2" fill="none"/></svg>';
-const EIXOS = [
-{n:'I', cor:'#1E4D2B', ic:'inst', t:'Reconstrução, fortalecimento e modernização institucional', d:'Planejamento estratégico, pessoal, orçamento, autonomia, infraestrutura, conectividade e transformação digital.', itens:[
-{t:'Apresentação do Planejamento Estratégico CEPLAC 70–100, estabelecendo diretrizes para o fortalecimento institucional até o centenário', sei:'21808.000129/2026-40'},
-{t:'Anúncio das perspectivas de realização do concurso público e recomposição da força de trabalho', sei:'21808.000044/2025-81'},
-{t:'Anúncio de reforço e previsibilidade orçamentária para a instituição', sei:'21808.000039/2026-59'},
-{t:'Avanço na proposta de reorganização institucional e autonomia administrativa da CEPLAC, mediante decreto e demais instrumentos legais pertinentes', sei:'21808.000059/2026-20'},
-{t:'Lançamento do Programa de Modernização da Infraestrutura da CEPLAC, contemplando estações experimentais, centros de pesquisa, laboratórios e unidades regionais'},
-{t:'Programa CEPLAC Conectada, com ampliação da infraestrutura de internet e comunicação das unidades descentralizadas', sei:'21000.055516/2024-47'},
-{t:'Programa de modernização da frota, equipamentos e infraestrutura operacional'},
-{t:'Agenda de transformação digital dos processos administrativos, científicos e tecnológicos'}]},
-{n:'II', cor:'#2E6E8E', ic:'cti', t:'Ciência, tecnologia e inovação: Cacau 5.0', d:'Novos clones, Hub de Pesquisa, melhoramento genético, germoplasma, IA, Observatório e Atlas.', itens:[
-{t:'Lançamento de nova geração de clones e materiais genéticos desenvolvidos pela CEPLAC'},
-{t:'Implantação do Hub CEPLAC de Pesquisa e Inovação', sei:'21808.000166/2026-58'},
-{t:'Estruturação do Programa Cacau Genético 2035, voltado ao melhoramento genético, produtividade, qualidade e resistência a doenças'},
-{t:'Modernização da Coleção Brasileira de Germoplasma do Cacaueiro e valorização do patrimônio genético nacional'},
-{t:'Modernização dos laboratórios e estruturas de pesquisa, incluindo iniciativas do Projeto Cabruca – GEF/FAO'},
-{t:'Criação da Rede Nacional de Pesquisa e Inovação da Cacauicultura, integrando universidades, instituições científicas e setor produtivo'},
-{t:'Desenvolvimento de ferramentas de inteligência artificial aplicadas ao diagnóstico fitossanitário e ao monitoramento das lavouras'},
-{t:'Lançamento do Observatório Nacional da Cacauicultura, reunindo informações sobre produção, produtividade, mercado, clima, sanidade e desenvolvimento territorial'},
-{t:'Publicação do Atlas da Cacauicultura Brasileira'}]},
-{n:'III', cor:'#9A5B34', ic:'prod', t:'Produtores, assistência técnica e desenvolvimento rural', d:'Plano Nacional de ATER, CEPLAC na Propriedade, renovação de cacauais, mudas, jovens e mulheres.', itens:[
-{t:'Lançamento do Plano Nacional de Assistência Técnica e Extensão Rural para a Cacauicultura', sei:'21808.000031/2026-92'},
-{t:'Implantação do programa CEPLAC na Propriedade, com acompanhamento técnico e transferência de tecnologias diretamente aos produtores'},
-{t:'Estruturação de programa de recuperação e renovação de cacauais de baixa produtividade'},
-{t:'Ampliação da produção e distribuição de mudas clonais e materiais genéticos de qualidade'},
-{t:'Implantação de unidades demonstrativas de tecnologias nas principais regiões produtoras'},
-{t:'Programa de formação e inclusão produtiva de jovens e mulheres na cacauicultura'},
-{t:'Programa de capacitação em gestão rural, produtividade, qualidade e comercialização'}]},
-{n:'IV', cor:'#4F8A3B', ic:'sust', t:'Sustentabilidade, bioeconomia e mudanças climáticas', d:'Cacau Brasil Agrofloresta (GCF/IICA), Cabruca (GEF/FAO), carbono, biodiversidade e coprodutos.', itens:[
-{t:'Apresentação do primeiro pacote de implementação territorial do Projeto Cacau Brasil Agrofloresta – GCF/IICA'},
-{t:'Apresentação do plano de investimentos e modernização das estruturas vinculadas ao Projeto Cabruca – GEF/FAO'},
-{t:'Estruturação da agenda Cacau Carbono e Biodiversidade, voltada à mensuração e valorização dos serviços ambientais dos sistemas agroflorestais'},
-{t:'Desenvolvimento de tecnologias para aproveitamento integral do fruto do cacau, incluindo polpa, mel, cascas e outros coprodutos'},
-{t:'Programa de recuperação e valorização dos sistemas tradicionais de produção de cacau cabruca'},
-{t:'Ampliação da pesquisa em adaptação climática e resiliência dos sistemas produtivos'},
-{t:'Desenvolvimento de metodologia para rastreabilidade socioambiental e valorização da produção sustentável'}]},
-{n:'V', cor:'#B8891C', ic:'merc', t:'Qualidade, mercado e competitividade internacional', d:'Brasil Origem Cacau, laboratórios de qualidade, pós-colheita, ITAL e promoção internacional.', itens:[
-{t:'Lançamento da estratégia Brasil Origem Cacau, para valorização das identidades territoriais e da qualidade do cacau brasileiro'},
-{t:'Estruturação de uma rede de laboratórios de análise e avaliação da qualidade do cacau'},
-{t:'Programa de excelência em fermentação, secagem e pós-colheita'},
-{t:'Desenvolvimento de tecnologias para agregação de valor e aproveitamento de coprodutos'},
-{t:'Articulação de parcerias com o ITAL e instituições de pesquisa para desenvolvimento de novos produtos'},
-{t:'Promoção internacional do cacau brasileiro e fortalecimento da participação nacional nos mercados de qualidade diferenciada'},
-{t:'Desenvolvimento de instrumentos de rastreabilidade e valorização da origem'}]},
-{n:'VI', cor:'#6B3A22', ic:'gov', t:'Governança, cooperação e projeção institucional', d:'Pacto Nacional pelo Futuro do Cacau, acordos de cooperação, prêmio, congresso e publicação histórica.', itens:[
-{t:'Lançamento do Pacto Nacional pelo Futuro do Cacau, envolvendo Governo Federal, governos estaduais, universidades, instituições científicas, cooperativas e setor privado'},
-{t:'Formalização de acordos de cooperação técnica com instituições estratégicas, incluindo UESC, ITAL, EMBRAPA, universidades e organizações representativas dos produtores'},
-{t:'Fortalecimento da cooperação internacional em pesquisa, inovação e desenvolvimento sustentável'},
-{t:'Instituição do Prêmio Nacional CEPLAC de Ciência, Inovação e Desenvolvimento da Cacauicultura'},
-{t:'Realização do Congresso Internacional CEPLAC 70 anos'},
-{t:'Lançamento de publicação histórica e científica sobre as sete décadas da instituição'}]}
-];
-const EMB = [
-{t:'Programa de Fortalecimento e Modernização da CEPLAC – Rumo ao Centenário', e:0, rel:[0,3]},
-{t:'Anúncio das perspectivas de recomposição do quadro de pessoal da instituição', e:0, rel:[1]},
-{t:'Programa Nacional de Modernização da Infraestrutura Científica e Operacional da CEPLAC', e:0, rel:[4,6]},
-{t:'Lançamento do Observatório Nacional da Cacauicultura', e:1, rel:[7]},
-{t:'Lançamento do Programa Cacau Genético 2035', e:1, rel:[2]},
-{t:'Lançamento do Plano Nacional de ATER para a Cacauicultura', e:2, rel:[0]},
-{t:'Apresentação do primeiro pacote territorial do Projeto Cacau Brasil Agrofloresta', e:3, rel:[0]},
-{t:'Lançamento do Pacto Nacional pelo Futuro do Cacau', e:5, rel:[0]}
-];
-const AGENDA = [
-{t:'Cerimônias comemorativas: Brasília (03/03), Bahia (26/03) e Pará (31/03)', i:'🎉'},
-{t:'Sessão Solene na Câmara dos Deputados', i:'🏛️'},
-{t:'Lançamento da identidade visual e da logomarca CEPLAC 70 anos', i:'🎨'},
-{t:'Lançamento do selo comemorativo dos 70 anos', i:'✉️'},
-{t:'Estande institucional CEPLAC 70 anos nos principais eventos nacionais e internacionais de cacau e chocolate em 2027', i:'🍫'},
-{t:'Congresso Internacional CEPLAC 70 anos', i:'🎓'},
-{t:'Exposição histórica itinerante sobre a contribuição da CEPLAC para o desenvolvimento da agricultura brasileira', i:'🖼️'},
-{t:'Reconhecimento de pesquisadores, extensionistas, servidores, produtores e instituições parceiras', i:'🏅'}
-];
-const CRIT = ['Unidade responsável pela iniciativa','Situação atual e grau de maturidade','Recursos financeiros disponíveis ou necessários','Instrumentos administrativos e jurídicos envolvidos','Cronograma de execução','Resultado esperado e indicadores de acompanhamento','Possibilidade de anúncio, lançamento, assinatura ou inauguração durante a agenda comemorativa'];
-const CRIT_CURTO = ['Unidade responsável','Situação e maturidade','Recursos financeiros','Instrumentos jurídicos','Cronograma','Resultados e indicadores','Momento de anúncio'];
-const CATS = [
-{l:'A', cor:'#2F6B3C', t:'Entregas prontas', d:'Iniciativas com condições técnicas, administrativas e orçamentárias para lançamento, assinatura ou inauguração.', m:100, ml:'Pronta para anúncio'},
-{l:'B', cor:'#C9A227', t:'Entregas em estruturação', d:'Iniciativas em desenvolvimento, que poderão ser anunciadas como compromissos institucionais, acompanhadas de cronograma e responsáveis.', m:60, ml:'Anúncio como compromisso'},
-{l:'C', cor:'#9A5B34', t:'Entregas estratégicas', d:'Propostas que dependem de decisões superiores, autorização governamental, articulação interministerial ou captação de recursos.', m:25, ml:'Depende de decisão superior'}
-];
-const PILARES = [
-{t:'Ciência', d:'Pesquisa agropecuária e desenvolvimento tecnológico', e:1},
-{t:'Inovação', d:'Nova geração de soluções para o cacau', e:1},
-{t:'Desenvolvimento rural', d:'Assistência técnica e extensão rural', e:2},
-{t:'Sustentabilidade', d:'Sistemas produtivos sustentáveis', e:3}
-];
-const MARCOS = [
-{s:'1957', t:'Criação da CEPLAC', d:'<p>A Comissão Executiva do Plano da Lavoura Cacaueira – CEPLAC foi criada em 20 de fevereiro de 1957.</p>'},
-{s:'Trajetória', t:'Sete décadas de contribuição', d:'<p>Ao longo de sete décadas, a CEPLAC desempenhou papel fundamental na transformação da cacauicultura brasileira, por meio de:</p><ol><li>Pesquisa científica</li><li>Desenvolvimento tecnológico</li><li>Assistência técnica</li><li>Extensão rural</li><li>Formação de conhecimento especializado</li></ol>'},
-{s:'2027', t:'Aniversário de 70 anos', d:'<dl class="meta"><dt>Data de referência</dt><dd>20 de fevereiro de 2027</dd><dt>Cerimônias</dt><dd>03/03 – Brasília (sessão solene na Câmara dos Deputados)<br>26/03 – Bahia (Dia Nacional do Cacau)<br>31/03 – Pará</dd><dt>Situação</dt><dd>Programação das cerimônias depende de confirmação</dd></dl><button class="btn" data-go="#calendario">Ver calendário 2027 →</button>'},
-{s:'2057', t:'CEPLAC 100 – Rumo ao centenário', d:'<p><b>CEPLAC 70 na trajetória do centenário CEPLAC 100</b> – Ciência, Tecnologia e Inovação para o Futuro.</p><p style="margin-top:10px">Proposta em negociação: transformar a CEPLAC no Centro de Excelência em Pesquisa e Liderança da Agrofloresta e do Cacau.</p><p style="margin-top:10px">O Planejamento Estratégico CEPLAC 70–100 estabelece diretrizes para o fortalecimento institucional até o centenário.</p><p style="margin-top:10px">Processo SEI: <button class="sei" data-sei="21808.000129/2026-40">21808.000129/2026-40</button></p>'}
-];
-const $ = s=>document.querySelector(s);
-const total = EIXOS.reduce((a,e)=>a+e.itens.length,0);
-const maxItens = Math.max(...EIXOS.map(e=>e.itens.length));
-const seiLista = [];
-EIXOS.forEach((e,ei)=>e.itens.forEach(it=>{ if(it.sei) seiLista.push({sei:it.sei,t:it.t,ei}); }));
-let NAV=null;
-function abrir(sub,tit,html,cor,nav){
-NAV=nav||null; $('#mNav').style.display=NAV?'flex':'none';
-if(NAV){ $('#mAnt').disabled=NAV.i<=0; $('#mProx').disabled=NAV.i>=NAV.n-1; $('#mPos').textContent=(NAV.i+1)+' de '+NAV.n+(matchMedia('(pointer:coarse)').matches?' · deslize':' · use ← →'); }
-$('#caixa').style.setProperty('--c',cor||'#1E4D2B');
-$('#mSub').textContent=sub; $('#mTit').textContent=tit; $('#mCorpo').innerHTML=html;
-$('#modal').classList.add('on'); $('#caixa').scrollTop=0; $('#modal').scrollTop=0; document.body.style.overflow='hidden';
-}
-function fechar(){ $('#modal').classList.remove('on'); document.body.style.overflow=''; }
-$('#mFechar').onclick=fechar;
-$('#modal').addEventListener('click',e=>{ if(e.target.id==='modal') fechar(); });
-document.addEventListener('keydown',e=>{ if(!$('#modal').classList.contains('on')) return; if(e.key==='Escape') fechar(); if(NAV&&e.key==='ArrowRight'&&NAV.i<NAV.n-1) NAV.f(NAV.i+1); if(NAV&&e.key==='ArrowLeft'&&NAV.i>0) NAV.f(NAV.i-1); });
-function listaEixo(ei, destaque){
-const e=EIXOS[ei];
-return '<p style="margin-bottom:10px;color:#4A544C">'+e.d+'</p><ol>'+e.itens.map((it,i)=>
-'<li'+(destaque&&destaque.includes(i)?' style="background:#FBF3DA;border-radius:8px"':'')+'>'+it.t+'.'+(it.sei?'<br><button class="sei" data-sei="'+it.sei+'">SEI '+it.sei+'</button>':'')+'</li>').join('')+'</ol>';
-}
-function abrirEixo(ei,dest){ const e=EIXOS[ei]; abrir('Eixo '+e.n+' · '+e.itens.length+' entregas', e.t, listaEixo(ei,dest), e.cor, {i:ei,n:EIXOS.length,f:abrirEixo}); }
-function abrirSei(num){
-const s=seiLista.find(x=>x.sei===num); const e=EIXOS[s.ei];
-abrir('Processo SEI', num,
-'<dl class="meta"><dt>Número</dt><dd><span class="sei">'+num+'</span></dd><dt>Entrega</dt><dd>'+s.t+'.</dd><dt>Eixo</dt><dd><span class="pill eixo-pill" style="--c:'+e.cor+'">Eixo '+e.n+'</span> '+e.t+'</dd></dl>'+
-'<button class="btn" data-copiar="'+num+'">📋 Copiar número</button> <button class="btn" data-eixo="'+s.ei+'">Ver eixo completo →</button>', e.cor);
-}
-$('#gradeEixos').innerHTML = EIXOS.map((e,i)=>
-'<button class="eixo" style="--c:'+e.cor+'" data-eixo="'+i+'"><div class="top"><div class="ic">'+IC[e.ic]+'</div><div><div class="num">EIXO '+e.n+'</div><h3>'+e.t+'</h3></div></div><p>'+e.d+'</p>'+
-'<div class="barra"><i style="width:'+(e.itens.length/maxItens*100)+'%"></i></div>'+
-'<div class="rod"><span><b>'+e.itens.length+'</b> entregas · '+e.itens.filter(x=>x.sei).length+' com SEI</span><b>Ver →</b></div></button>').join('');
-$('#gradeEmb').innerHTML = EMB.map((m,i)=>{ const e=EIXOS[m.e];
-return '<button class="card-emb" data-emb="'+i+'"><span class="n">'+String(i+1).padStart(2,'0')+'</span><h4>'+m.t+'</h4><span class="ex"><span>Eixo '+e.n+'</span><span>detalhes →</span></span>'+FRUTO+'</button>'; }).join('');
-$('#listaAgenda').innerHTML = AGENDA.map((a,i)=>'<button class="ag-item" data-ag="'+i+'"><span class="ico" style="font-size:18px">'+a.i+'</span><span>'+a.t+'</span></button>').join('');
-$('#criterios').innerHTML = CRIT_CURTO.map((c,i)=>'<button data-crit="'+i+'"><b>'+(i+1)+'</b>'+c+'</button>').join('');
-$('#categorias').innerHTML = CATS.map((c,i)=>'<button class="cat" style="--c:'+c.cor+'" data-cat="'+i+'"><div class="letra">'+c.l+'</div><h3>'+c.t+'</h3><p>'+c.d+'</p><div class="mat">'+c.ml+'<div class="barra"><i style="width:'+c.m+'%"></i></div></div></button>').join('');
-$('#tbSei').innerHTML = seiLista.map(s=>{ const e=EIXOS[s.ei];
-return '<tr data-sei-row="'+s.sei+'"><td data-l="Processo"><span class="sei">'+s.sei+'</span></td><td data-l="Entrega">'+s.t+'</td><td data-l="Eixo"><span class="pill eixo-pill" style="--c:'+e.cor+'">Eixo '+e.n+'</span></td></tr>'; }).join('');
-$('#pilares').innerHTML = PILARES.map(p=>'<button data-eixo="'+p.e+'"><b>'+p.t+'</b>'+p.d+'</button>').join('');
-document.addEventListener('click',ev=>{
-const el=ev.target.closest('[data-eixo],[data-emb],[data-sei],[data-sei-row],[data-ag],[data-crit],[data-cat],[data-marco],[data-go],[data-abrir],[data-copiar],[data-pin]');
-if(!el) return;
-const d=el.dataset;
-if(d.copiar!==undefined){ navigator.clipboard&&navigator.clipboard.writeText(d.copiar); el.textContent='✔ Copiado'; return; }
-if(d.go){ fechar(); document.querySelector(d.go).scrollIntoView({behavior:'smooth'}); return; }
-if(d.sei){ abrirSei(d.sei); return; }
-if(d.seiRow){ abrirSei(d.seiRow); return; }
-if(d.eixo!==undefined){ abrirEixo(+d.eixo); return; }
-if(d.emb!==undefined){ abrirEmb(+d.emb); return; }
-if(d.ag!==undefined){ const a=AGENDA[+d.ag];
-abrir('Agenda comemorativa', a.t, '<p style="font-size:42px">'+a.i+'</p><p>'+a.t+'.</p><dl class="meta" style="margin-top:14px"><dt>Datas previstas</dt><dd>03/03 Brasília · 26/03 Bahia · 31/03 Pará (a confirmar)</dd><dt>Data de referência</dt><dd>20 de fevereiro de 2027</dd></dl>','#6B3A22',{i:+d.ag,n:AGENDA.length,f:i=>document.querySelector('[data-ag="'+i+'"]').click()}); return; }
-if(d.crit!==undefined){ abrir('Critério '+(+d.crit+1)+' de 7 da carteira de entregas', CRIT_CURTO[+d.crit], '<p>'+CRIT[+d.crit]+'.</p><h4 style="margin:18px 0 6px;color:var(--verde)">Todos os critérios</h4><ol>'+CRIT.map((c,i)=>'<li'+(i==+d.crit?' style="background:#FBF3DA;border-radius:8px"':'')+'>'+c+'</li>').join('')+'</ol>','#1E4D2B',{i:+d.crit,n:CRIT.length,f:i=>document.querySelector('#criterios [data-crit="'+i+'"]').click()}); return; }
-if(d.cat!==undefined){ const c=CATS[+d.cat]; abrir('Categoria '+c.l, c.t, '<p>'+c.d+'</p><dl class="meta" style="margin-top:14px"><dt>Forma de anúncio</dt><dd>'+c.ml+'</dd></dl><button class="btn" data-go="#implementacao">Ver modelo de carteira →</button>', c.cor); return; }
-if(d.marco!==undefined){ const m=MARCOS[+d.marco]; abrir(m.s, m.t, m.d,'#1E4D2B',{i:+d.marco,n:MARCOS.length,f:i=>document.querySelector('.marco[data-marco="'+i+'"]').click()}); return; }
-if(d.pin){ const nomes={pa:'Pará',ba:'Bahia',df:'Brasília'};
-abrir('Cerimônia comemorativa', nomes[d.pin], '<p>Cerimônia comemorativa dos 70 anos da CEPLAC em <strong>'+nomes[d.pin]+'</strong>.</p>'+(d.pin==='df'?'<p style="margin-top:8px">Em Brasília está prevista também a Sessão Solene na Câmara dos Deputados.</p>':'')+'<dl class="meta" style="margin-top:14px"><dt>Data prevista</dt><dd>'+({df:'3 de março de 2027 – sessão solene',ba:'26 de março de 2027 – Dia Nacional do Cacau',pa:'31 de março de 2027'})[d.pin]+' (a confirmar)</dd></dl><button class="btn" data-dia="'+({df:1,ba:2,pa:3})[d.pin]+'">Ver pautas do dia →</button>','#1E4D2B'); return; }
-if(d.abrir==='todas'){ abrir('Visão consolidada', total+' entregas potenciais em 6 eixos',
-EIXOS.map((e,i)=>'<h4 style="margin:14px 0 4px;color:'+e.cor+'">Eixo '+e.n+' – '+e.t+' ('+e.itens.length+')</h4><ol>'+e.itens.map(it=>'<li>'+it.t+'.'+(it.sei?'<br><button class="sei" data-sei="'+it.sei+'">SEI '+it.sei+'</button>':'')+'</li>').join('')+'</ol>').join('')); return; }
-});
-const secs=[...document.querySelectorAll('section[id]')];
-window.addEventListener('scroll',()=>{
-$('#topo').classList.toggle('on',scrollY>600);
-let atual=''; secs.forEach(s=>{ if(s.getBoundingClientRect().top<120) atual=s.id; });
-document.querySelectorAll('#menu a').forEach(a=>a.classList.toggle('on',a.getAttribute('href')==='#'+atual));
-},{passive:true});
-$('#topo').onclick=()=>scrollTo({top:0,behavior:'smooth'});
-function abrirEmb(i){ const m=EMB[i], e=EIXOS[m.e];
-abrir('Entrega emblemática', m.t,
-'<dl class="meta"><dt>Eixo relacionado</dt><dd><span class="pill eixo-pill" style="--c:'+e.cor+'">Eixo '+e.n+'</span> '+e.t+'</dd></dl>'+
-'<h4 style="margin:18px 0 6px;color:var(--verde)">Entregas do eixo que sustentam este anúncio</h4><ol>'+m.rel.map(r=>'<li>'+e.itens[r].t+'.'+(e.itens[r].sei?'<br><button class="sei" data-sei="'+e.itens[r].sei+'">SEI '+e.itens[r].sei+'</button>':'')+'</li>').join('')+'</ol>'+
-'<button class="btn" data-eixo="'+m.e+'">Ver todas as entregas do Eixo '+e.n+' →</button> <button class="btn sec" data-ir-cart="'+i+'">Preencher na carteira →</button>', e.cor, {i:i,n:EMB.length,f:abrirEmb});
-}
-$('#mAnt').onclick=()=>{ if(NAV) NAV.f(NAV.i-1); };
-$('#mProx').onclick=()=>{ if(NAV) NAV.f(NAV.i+1); };
-let tx=null;
-$('#caixa').addEventListener('touchstart',e=>{tx=e.touches[0].clientX},{passive:true});
-$('#caixa').addEventListener('touchend',e=>{ if(tx===null||!NAV) return; const dx=e.changedTouches[0].clientX-tx; tx=null;
-if(Math.abs(dx)>70){ if(dx<0&&NAV.i<NAV.n-1) NAV.f(NAV.i+1); else if(dx>0&&NAV.i>0) NAV.f(NAV.i-1); } },{passive:true});
-$('#burger').onclick=()=>{ const u=$('#menu'); const ab=u.classList.toggle('abre'); $('#burger').setAttribute('aria-expanded',ab); $('#burger').textContent=ab?'✕':'☰'; };
-document.querySelectorAll('#menu a').forEach(a=>a.addEventListener('click',()=>{ $('#menu').classList.remove('abre'); $('#burger').textContent='☰'; }));
-window.addEventListener('scroll',()=>{ const h=document.documentElement; $('#progresso').style.width=(h.scrollTop/(h.scrollHeight-h.clientHeight)*100)+'%'; },{passive:true});
-const TODAS=[]; EIXOS.forEach((e,ei)=>e.itens.forEach((it,ii)=>TODAS.push({ei,ii,t:it.t,sei:it.sei})));
-let filtroEixo=-1;
-$('#filtros').innerHTML='<button class="on" data-f="-1">Todos</button>'+EIXOS.map((e,i)=>'<button data-f="'+i+'" style="--c:'+e.cor+'">Eixo '+e.n+'</button>').join('');
-$('#filtros').addEventListener('click',ev=>{ const b=ev.target.closest('[data-f]'); if(!b) return; filtroEixo=+b.dataset.f;
-$('#filtros').querySelectorAll('button').forEach(x=>x.classList.toggle('on',x===b)); render(); });
-const norm=t=>t.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
-function destacar(t,q){ if(!q) return t; const nt=norm(t), i=nt.indexOf(q); if(i<0) return t; return t.slice(0,i)+'<mark>'+t.slice(i,i+q.length)+'</mark>'+t.slice(i+q.length); }
-function render(){
-const q=norm($('#q').value.trim()), so=$('#soSei').checked;
-const r=TODAS.filter(x=>(filtroEixo<0||x.ei===filtroEixo)&&(!so||x.sei)&&(!q||norm(x.t).includes(q)||(x.sei&&x.sei.includes(q))));
-$('#contagem').textContent=r.length+(r.length===1?' entrega encontrada':' entregas encontradas')+' de '+TODAS.length;
-$('#resultados').innerHTML=r.length?r.map(x=>{const e=EIXOS[x.ei];
-return '<button class="res" style="--c:'+e.cor+'" data-res="'+x.ei+'-'+x.ii+'"><span class="pill eixo-pill" style="--c:'+e.cor+'">'+e.n+'</span><span>'+destacar(x.t,q)+(x.sei?'<br><span class="sei" style="font-size:12px">SEI '+x.sei+'</span>':'')+'</span></button>';}).join('')
-:'<div class="vazio">Nenhuma entrega encontrada. Tente outra palavra ou limpe os filtros.</div>';
-}
-$('#q').addEventListener('input',render); $('#soSei').addEventListener('change',render); render();
-document.addEventListener('click',ev=>{ const b=ev.target.closest('[data-res]'); if(!b) return;
-const [ei,ii]=b.dataset.res.split('-').map(Number); abrirEixo(ei,[ii]);
+    const REGIONAL_UF_PAINEL = { COBES: ['BA', 'ES'], COPAM: ['PA', 'AM'], COROM: ['RO', 'MT'] };
+    let mapaPainelLeaflet = null;
+    let camadasMapaPainel = {};
 
-});
-const CHAVE='ceplac70_carteira_v1'; let CART={};
-try{ CART=JSON.parse(localStorage.getItem(CHAVE)||'{}')||{}; }catch(e){ CART={}; }
-const CAMPOS=[['u','Unidade responsável','Ex.: CGCC'],['s','Situação / maturidade','Ex.: TR em elaboração'],['r','Recursos','Ex.: R$ 1.000.000,00'],['c','Cronograma','Ex.: mar/2027']];
-let filtroCat=null;
-function desenharCarteira(){
-$('#tbCarteira').innerHTML=EMB.map((m,i)=>{ const e=EIXOS[m.e], v=CART[i]||{};
-if(filtroCat!==null && (v.k||'')!==filtroCat) return '';
-return '<tr><td data-l="#">'+(i+1)+'</td><td data-l="Entrega"><button class="lk" data-emb="'+i+'">'+m.t+'</button></td><td data-l="Eixo"><span class="pill eixo-pill" style="--c:'+e.cor+'">Eixo '+e.n+'</span></td>'+
-CAMPOS.map(c=>'<td data-l="'+c[1]+'"><input data-i="'+i+'" data-k="'+c[0]+'" value="'+(v[c[0]]||'').replace(/"/g,'&quot;')+'" placeholder="'+c[2]+'" aria-label="'+c[1]+'"></td>').join('')+
-'<td data-l="Categoria"><select data-i="'+i+'" data-k="k" class="'+(v.k||'')+'" aria-label="Categoria"><option value="">— a definir</option><option value="A"'+(v.k==='A'?' selected':'')+'>A – Pronta</option><option value="B"'+(v.k==='B'?' selected':'')+'>B – Em estruturação</option><option value="C"'+(v.k==='C'?' selected':'')+'>C – Estratégica</option></select></td></tr>';
-}).join('') || '<tr><td colspan="8" style="text-align:center;color:var(--cinza)">Nenhuma entrega nesta categoria.</td></tr>';
-resumo();
-}
-function resumo(){
-const cont={A:0,B:0,C:0,'':0}; EMB.forEach((m,i)=>cont[(CART[i]&&CART[i].k)||'']++);
-const defs=[['A','Prontas','#2F6B3C'],['B','Em estruturação','#C9A227'],['C','Estratégicas','#9A5B34'],['','A definir','#8A9188']];
-$('#resumo').innerHTML=defs.map(d=>'<button style="--c:'+d[2]+'" data-fcat="'+d[0]+'" class="'+(filtroCat===d[0]?'on':'')+'"><b>'+cont[d[0]]+'</b>'+(d[0]?'Categoria '+d[0]+' · ':'')+d[1]+'</button>').join('');
-$('#barraCat').innerHTML=defs.map(d=>'<i style="width:'+(cont[d[0]]/EMB.length*100)+'%;background:'+d[2]+'" title="'+d[1]+': '+cont[d[0]]+'"></i>').join('');
-}
-function salvar(){ try{ localStorage.setItem(CHAVE,JSON.stringify(CART)); $('#salvo').classList.add('on'); clearTimeout(salvar.t); salvar.t=setTimeout(()=>$('#salvo').classList.remove('on'),1200);}catch(e){} }
-$('#tbCarteira').addEventListener('input',ev=>{ const el=ev.target; if(!el.dataset.k) return; const i=el.dataset.i;
-CART[i]=CART[i]||{}; CART[i][el.dataset.k]=el.value; salvar();
-if(el.tagName==='SELECT'){ el.className=el.value; resumo(); } });
-$('#resumo').addEventListener('click',ev=>{ const b=ev.target.closest('[data-fcat]'); if(!b) return; const c=b.dataset.fcat; filtroCat=(filtroCat===c)?null:c; desenharCarteira(); });
-$('#btnLimpar').onclick=()=>{ if(!Object.keys(CART).length) return; CART={}; filtroCat=null; salvar(); desenharCarteira(); };
-$('#btnCsv').onclick=()=>{
-const esc=v=>'"'+String(v||'').replace(/"/g,'""')+'"';
-const linhas=[['#','Entrega','Eixo','Unidade responsável','Situação / maturidade','Recursos','Cronograma','Categoria'].map(esc).join(';')];
-EMB.forEach((m,i)=>{ const v=CART[i]||{}; linhas.push([i+1,m.t,'Eixo '+EIXOS[m.e].n,v.u,v.s,v.r,v.c,v.k].map(esc).join(';')); });
-const txt='﻿'+linhas.join('\r\n'), nome='CEPLAC70_carteira_entregas.csv';
-if(DL){ DL.save({filename:nome,data:txt}).catch(()=>{}); return; }
-const blob=new Blob([txt],{type:'text/csv;charset=utf-8'});
-const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download=nome; document.body.appendChild(a); a.click(); a.remove();
-};
-let DL=null;
-try{ if(window.claude&&window.claude.use) window.claude.use('downloads').then(d=>{DL=d;}).catch(()=>{}); }catch(e){}
-document.addEventListener('click',ev=>{ const b=ev.target.closest('[data-ir-cart]'); if(!b) return; fechar(); filtroCat=null; desenharCarteira();
-const inp=document.querySelector('#tbCarteira input[data-i="'+b.dataset.irCart+'"]'); if(inp){ inp.scrollIntoView({behavior:'smooth',block:'center'}); setTimeout(()=>inp.focus({preventScroll:true}),500);} });
-$('#btnCopiar').onclick=async()=>{
-const l=[['#','Entrega','Eixo','Unidade responsável','Situação / maturidade','Recursos','Cronograma','Categoria'].join('\t')];
-EMB.forEach((m,i)=>{ const v=CART[i]||{}; l.push([i+1,m.t,'Eixo '+EIXOS[m.e].n,v.u||'',v.s||'',v.r||'',v.c||'',v.k||''].join('\t')); });
-const b=$('#btnCopiar');
-try{ await navigator.clipboard.writeText(l.join('\n')); b.textContent='✔ Copiado – cole no Excel'; }
-catch(e){ b.textContent='Não foi possível copiar'; }
-setTimeout(()=>b.textContent='📋 Copiar para Excel',2500);
-};
-desenharCarteira();
-document.querySelectorAll('.eixo,.card-emb,.cat,.ag-item,.marco,.explorador,.resultado,.destaque').forEach(el=>el.classList.add('rv'));
-if('IntersectionObserver' in window){
-const io=new IntersectionObserver(es=>es.forEach(x=>{ if(x.isIntersecting){ x.target.classList.add('vis'); io.unobserve(x.target);} }),{threshold:.12});
-document.querySelectorAll('.rv').forEach(el=>io.observe(el));
-const ioN=new IntersectionObserver(es=>es.forEach(x=>{ if(!x.isIntersecting) return; const b=x.target, fim=+b.textContent; let n=0; const st=Math.max(1,Math.ceil(fim/30));
-const t=setInterval(()=>{ n=Math.min(fim,n+st); b.textContent=n; if(n>=fim) clearInterval(t); },25); ioN.unobserve(b); }),{threshold:.5});
-document.querySelectorAll('.stat b').forEach(b=>ioN.observe(b));
-} else document.querySelectorAll('.rv').forEach(el=>el.classList.add('vis'));
-window.addEventListener('beforeprint',()=>document.querySelectorAll('.rv').forEach(el=>el.classList.add('vis')));
-(function(){
-const intro=$('#intro'); if(!intro) return;
-const molde=intro.cloneNode(true);
-const red=matchMedia('(prefers-reduced-motion:reduce)').matches;
-let t=null;
-function preparar(el){
-const sem=el.querySelector('#iSementes'); let h='';
-for(let i=0;i<14;i++) h+='<i class="i-semente" style="left:'+(Math.random()*100)+'%;animation-delay:'+(Math.random()*6).toFixed(2)+'s;animation-duration:'+(5+Math.random()*4).toFixed(1)+'s;transform:scale('+(0.5+Math.random()).toFixed(2)+')"></i>';
-sem.innerHTML=h;
-el.querySelector('#iPular').onclick=()=>sair(el);
-el.addEventListener('click',e=>{ if(e.target===el) sair(el); });
-document.body.style.overflow='hidden';
-clearTimeout(t); t=setTimeout(()=>sair(el),6800);
-}
-function sair(el){ if(el.classList.contains('sai')) return; clearTimeout(t); el.classList.add('sai');
-setTimeout(()=>{ el.remove(); document.body.style.overflow=''; },900); }
-document.addEventListener('keydown',e=>{ const el=$('#intro'); if(el&&(e.key==='Escape'||e.key==='Enter'||e.key===' ')){ e.preventDefault(); sair(el);} });
-let visto=false; try{ visto=sessionStorage.getItem('ceplac70_intro')==='1'; sessionStorage.setItem('ceplac70_intro','1'); }catch(e){}
-if(red||visto||location.hash==='#sem-abertura'){ intro.remove(); } else preparar(intro);
-$('#rever').onclick=()=>{ const v=$('#intro'); if(v) v.remove(); const n=molde.cloneNode(true); n.classList.remove('sai'); document.body.prepend(n); scrollTo(0,0); preparar(n); };
-})();document.addEventListener('click',ev=>{const b=ev.target.closest('[data-visao]');if(!b)return;
-abrir('Proposta em negociação','Centro de Excelência em Pesquisa e Liderança da Agrofloresta e do Cacau','<p style="background:#FBF3DA;border-left:4px solid #C9A227;padding:8px 12px;border-radius:6px;margin-bottom:12px">Proposta de transformação institucional em discussão e negociação, ainda não formalizada.</p><p><b>CEPLAC 70</b> na trajetória do centenário <b>CEPLAC 100</b> – Ciência, Tecnologia e Inovação para o Futuro.</p><h4 style="margin:18px 0 6px;color:var(--verde)">Eixos relacionados à proposta</h4><ol><li><button class="lk" style="background:none;border:0;color:var(--verde);font-weight:600;text-decoration:underline dotted;text-align:left;padding:0" data-eixo="1">Eixo II – '+EIXOS[1].t+'</button></li><li><button class="lk" style="background:none;border:0;color:var(--verde);font-weight:600;text-decoration:underline dotted;text-align:left;padding:0" data-eixo="3">Eixo IV – '+EIXOS[3].t+'</button></li><li><button class="lk" style="background:none;border:0;color:var(--verde);font-weight:600;text-decoration:underline dotted;text-align:left;padding:0" data-eixo="5">Eixo VI – '+EIXOS[5].t+'</button></li></ol>','#1E4D2B');});
+    function initMapaPainel() {
+      mapaPainelLeaflet = L.map('mapa-painel', { zoomControl: false, attributionControl: false }).setView([-9, -50], 4);
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(mapaPainelLeaflet);
+      Object.entries(GEO_CEPLAC).forEach(([sigla, feat]) => {
+        const lyr = L.geoJSON(feat, { style: { fillColor: '#a5d6a7', weight: 1, color: '#fff', fillOpacity: 0.75 } });
+        lyr.bindTooltip('<b>' + (UFS_CEPLAC[sigla] || sigla) + '</b>', { sticky: true });
+        lyr.addTo(mapaPainelLeaflet);
+        camadasMapaPainel[sigla] = lyr;
+      });
+      atualizarMapaPainel();
+      setTimeout(() => { if (mapaPainelLeaflet) mapaPainelLeaflet.invalidateSize(); }, 300);
+    }
 
-/* ===== PROPOSTA ATUALIZADA + CALENDÁRIO ===== */
-const SINT=[
- {n:'I',cor:'#1E4D2B',t:'Fortalecimento e modernização institucional',it:[
-  {t:'Planejamento Estratégico CEPLAC 70 – CEPLAC 100',sei:'21808.000129/2026-40'},
-  {t:'Anúncio do concurso público',sei:'21808.000044/2025-81'},
-  {t:'Reforço do orçamento institucional',sei:'21808.000039/2026-59'},
-  {t:'Decreto da Ceplac como órgão autônomo vinculado ao MAPA',sei:'21808.000059/2026-20'},
-  {t:'Infraestrutura de Tecnologia da Informação e Comunicação – TIC',sei:'21000.055516/2024-47'}]},
- {n:'II',cor:'#2E6E8E',t:'Ciência, inovação e desenvolvimento da cacauicultura',it:[
-  {t:'Lançamento de novos clones de cacau'},
-  {t:'Implantação do Hub CEPLAC de Pesquisa e Inovação',sei:'21808.000166/2026-58'},
-  {t:'Lançamento do Plano de ATER',sei:'21808.000031/2026-92'},
-  {t:'Reforma e modernização de laboratórios da CEPLAC, no âmbito do projeto Cabruca – GEF/FAO'},
-  {t:'Entrega do projeto Cacau Brasil Agrofloresta – GCF/IICA',p:'definir qual será a entrega'}]},
- {n:'III',cor:'#6B3A22',t:'Projeção institucional',it:[
-  {t:'Cerimônias comemorativas: Brasília (03/03), Bahia (26/03), Pará (31/03)'},
-  {t:'Sessão Solene na Câmara dos Deputados'},
-  {t:'Lançamento da logomarca comemorativa 70 anos'},
-  {t:'Estande institucional CEPLAC 70 anos nos principais eventos nacionais e internacionais do cacau e chocolate em 2027'},
-  {t:'Assinaturas de ACTs: UESC, Cooperativa Cacau, ITAL, AC, ES',p:'verificar os possíveis'}]}
-];
-const CAL=[
- {d:'20/02',m:'fevereiro',t:'Aniversário da Ceplac',l:'Brasil',cor:'#1E4D2B',h:[
-  {t:'Ceplac completa 70 anos e apresenta programação comemorativa em Brasília, na Bahia e no Pará'},
-  {t:'Da pesquisa à lavoura, Ceplac chega aos 70 anos com contribuições que transformaram a cacauicultura brasileira'}],
-  n:'Linha fina sugerida para a abertura: programação prevê sessão solene na Câmara dos Deputados em 3 de março, celebração do Dia Nacional do Cacau na Bahia em 26 de março e agenda no Pará em 31 de março.'},
- {d:'03/03',m:'março',t:'Sessão solene em Brasília',l:'Brasília',cor:'#6B3A22',h:[
-  {t:'Câmara dos Deputados homenageia os 70 anos da Ceplac e sua contribuição à cacauicultura brasileira'},
-  {t:'Mapa apresenta prioridades do Plano Inova Cacau 2030 para ampliar a produtividade, a qualidade e a renda no campo'}]},
- {d:'26/03',m:'março',t:'Dia Nacional do Cacau na Bahia',l:'Bahia',cor:'#9A5B34',principal:1,h:[
-  {t:'Mapa lança plano para ampliar a assistência técnica e a extensão rural nas regiões produtoras de cacau',c:1,sei:'21808.000031/2026-92'},
-  {t:'Ceplac lança novos clones de cacau desenvolvidos pela pesquisa pública brasileira',c:1},
-  {t:'Ceplac anuncia acordos de cooperação técnica com a UESC, a UFSB e uma cooperativa de produtores de cacau',c:1},
-  {t:'Projeto do Mapa e da Ceplac com apoio da FAO fortalece a cabruca e a recuperação da Mata Atlântica'},
-  {t:'Lei sancionada pelo presidente Lula define teores mínimos de cacau no chocolate e prevê informação no rótulo'}],
-  n:'Na pauta dos acordos, confirmar a denominação oficial da cooperativa. Se o instrumento com a Universidade Federal do Sul da Bahia for um termo aditivo, usar “Ceplac amplia cooperação com a UFSB”.'},
- {d:'31/03',m:'março',t:'Agenda comemorativa no Pará',l:'Pará',cor:'#2F6B3C',h:[
-  {t:'No Pará, Governo Federal destaca o papel do cacau agroflorestal na geração de renda e na conservação da Amazônia'},
-  {t:'Ceplac e IICA anunciam nova etapa do Cacau Brasil Agrofloresta no Pará',c:1},
-  {t:'Em Marituba, banco de germoplasma da Ceplac conserva a diversidade do cacau para a pesquisa e a produção'}]}
-];
-const PAUTAS=[
- {k:'Imprensa internacional',t:'Pautas para a imprensa internacional',h:[
-  {t:'Da Mata Atlântica à Amazônia, Brasil aposta no cacau agroflorestal para gerar renda e conservar florestas'},
-  {t:'Da lavoura ao chocolate, ciência brasileira ajuda a elevar a qualidade do cacau'}],
-  n:'A primeira pauta pode reunir o projeto Cabruca, com apoio técnico da FAO e financiamento do GEF, e o Cacau Brasil Agrofloresta, desenvolvido com o IICA e apoio do Fundo Verde para o Clima.'},
- {k:'Após confirmação formal',t:'Anúncios de fortalecimento institucional',h:[
-  {t:'Mapa apresenta planejamento estratégico da Ceplac dos 70 anos ao centenário',c:1,sei:'21808.000129/2026-40'},
-  {t:'Governo Federal autoriza concurso público para recompor o quadro de servidores da Ceplac',c:1,sei:'21808.000044/2025-81'},
-  {t:'Governo Federal reforça orçamento da Ceplac para pesquisa e assistência técnica',c:1,sei:'21808.000039/2026-59'},
-  {t:'Mapa lança rede de pesquisa da Ceplac para acelerar a inovação no cacau brasileiro',c:1},
-  {t:'Decreto presidencial dá autonomia à Ceplac e mantém sua vinculação ao Ministério da Agricultura',c:1,sei:'21808.000059/2026-20'},
-  {t:'Projeto Cabruca moderniza laboratórios da Ceplac na Bahia',c:1}]}
-];
-const seiBtn=x=>x?'<br><button class="sei" data-sei="'+x+'">SEI '+x+'</button>':'';
-function manchetes(h){return '<ol class="manch">'+h.map(x=>'<li>'+x.t+(x.c?' <span class="conf">a confirmar</span>':'')+seiBtn(x.sei)+'</li>').join('')+'</ol>';}
-$('#gradeSint').innerHTML=SINT.map((g,i)=>'<button class="grp" style="--c:'+g.cor+'" data-sint="'+i+'"><span class="gn">'+g.n+'</span><h3>'+g.t+'</h3><ul>'+g.it.map(x=>'<li>'+x.t+(x.p?' <span class="pend">pendente</span>':'')+'</li>').join('')+'</ul><span class="rod">'+g.it.length+' entregas · '+g.it.filter(x=>x.sei).length+' com SEI · ver detalhes →</span></button>').join('');
-$('#gradeCal').innerHTML=CAL.map((c,i)=>'<button class="dia'+(c.principal?' principal':'')+'" style="--c:'+c.cor+'" data-dia="'+i+'"><div class="topo-d"><b>'+c.d+'</b><span>'+c.l+(c.principal?' <span class="estrela">PRINCIPAL</span>':'')+'</span></div><div class="corpo-d"><h4>'+c.t+'</h4><p>'+c.h[0].t+'</p><div class="rod"><span>'+c.h.length+' manchetes'+(c.h.some(x=>x.c)?' · '+c.h.filter(x=>x.c).length+' a confirmar':'')+'</span><span>ver →</span></div></div></button>').join('');
-$('#gradePautas').innerHTML=PAUTAS.map((p,i)=>'<button class="pauta" data-pauta="'+i+'"><small>'+p.k+'</small><h4>'+p.t+'</h4><p>'+p.h.length+' manchetes · ver →</p></button>').join('');
-function abrirDia(i){const c=CAL[i];abrir(c.d+'/2027 · '+c.l,c.t,manchetes(c.h)+(c.n?'<div class="nota-c">'+c.n+'</div>':'')+'<p class="nota">Manchetes marcadas “a confirmar” serão divulgadas após a confirmação formal das entregas.</p>',c.cor,{i:i,n:CAL.length,f:abrirDia});}
-function abrirSint(i){const g=SINT[i];abrir('Proposta atualizada · Grupo '+g.n,g.t,'<ol>'+g.it.map(x=>'<li>'+x.t+'.'+(x.p?' <span class="pend">pendente: '+x.p+'</span>':'')+seiBtn(x.sei)+'</li>').join('')+'</ol>',g.cor,{i:i,n:SINT.length,f:abrirSint});}
-document.addEventListener('click',ev=>{
- const a=ev.target.closest('[data-dia]'); if(a){abrirDia(+a.dataset.dia);return;}
- const b=ev.target.closest('[data-sint]'); if(b){abrirSint(+b.dataset.sint);return;}
- const c=ev.target.closest('[data-pauta]'); if(c){const p=PAUTAS[+c.dataset.pauta];abrir(p.k,p.t,manchetes(p.h)+(p.n?'<div class="nota-c">'+p.n+'</div>':''),'#1E4D2B');}
-});
-document.querySelectorAll('.grp,.dia,.pauta').forEach(el=>el.classList.add('rv'));
-if('IntersectionObserver' in window){const io2=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add('vis');io2.unobserve(x.target);}}),{threshold:.1});document.querySelectorAll('.grp,.dia,.pauta').forEach(el=>io2.observe(el));}else document.querySelectorAll('.grp,.dia,.pauta').forEach(el=>el.classList.add('vis'));
-</script>
+    function atualizarMapaPainel() {
+      if (!mapaPainelLeaflet) return;
+      mapaPainelLeaflet.invalidateSize();
+      const regional = document.getElementById('f-regional').value;
+      const ufsAlvo = regional === 'todos' ? Object.keys(UFS_CEPLAC) : (REGIONAL_UF_PAINEL[regional] || []);
+      const grupo = L.featureGroup();
+      Object.entries(camadasMapaPainel).forEach(([sigla, lyr]) => {
+        if (ufsAlvo.indexOf(sigla) !== -1) {
+          lyr.setStyle({ fillColor: '#f39c12', weight: 3, color: '#1f3a29', fillOpacity: 0.75 });
+          lyr.bringToFront();
+          grupo.addLayer(lyr);
+        } else {
+          lyr.setStyle({ fillColor: '#a5d6a7', weight: 1, color: '#fff', fillOpacity: 0.75 });
+        }
+      });
+      try { mapaPainelLeaflet.fitBounds(grupo.getBounds(), { padding: [25, 25] }); } catch (e) {}
+    }
+
+
+    function toggleDetalhe() {
+      const el = document.getElementById('collapsible-detalhe');
+      el.classList.toggle('active');
+    }
+
+    // Busca acento-insensível, mesmo padrão usado no Form1144/Form2303
+    const norm = (s) => (s ?? '').toString().normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
+
+    /** Carrega LOG_1144 e LOG_2303 (colunas cruas, não par chave/valor) e junta em LOG_ROWS */
+    function carregarLogsDetalhados() {
+      const fontes = [
+        { url: LOG_1144_CSV_URL, programa: '1144' },
+        { url: LOG_2303_CSV_URL, programa: '2303' }
+      ].filter(f => f.url && !f.url.startsWith('TROCAR_'));
+
+      if (!fontes.length) {
+        document.getElementById('detalhe-contagem').textContent = '(publique LOG_1144/LOG_2303 como CSV e configure os links no código)';
+        return;
+      }
+
+      Promise.all(fontes.map(f =>
+        fetch(f.url)
+          .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.text(); })
+          .then(text => {
+            const linhas = text.split(/\r?\n/).filter(l => l.trim());
+            if (!linhas.length) return [];
+            const cab = parseLinhaCSV(linhas[0]).map(h => h.trim().toUpperCase());
+            return linhas.slice(1).map(linha => {
+              const cols = parseLinhaCSV(linha);
+              const obj = { _programa: f.programa };
+              cab.forEach((h, i) => obj[h] = (cols[i] || '').trim());
+              return obj;
+            });
+          })
+          .catch(err => { console.warn('Falha ao carregar log ' + f.programa + ':', err); return []; })
+      )).then(resultados => {
+        LOG_ROWS = resultados.flat().filter(l => (l.STATUS || '').toUpperCase() !== 'CANCELADO');
+        popularFiltroPeriodoDetalhe();
+        renderDetalhado();
+      });
+    }
+
+    function popularFiltroPeriodoDetalhe() {
+      const select = document.getElementById('detalhe-f-periodo');
+      const periodos = [...new Set(LOG_ROWS.map(l => l.PERIODO).filter(Boolean))].sort().reverse();
+      select.innerHTML = '<option value="todos">Todos</option>' + periodos.map(p => '<option value="' + esc(p) + '">' + esc(p) + '</option>').join('');
+    }
+
+    function limparFiltrosDetalhe() {
+      document.getElementById('detalhe-f-periodo').value = 'todos';
+      document.getElementById('detalhe-f-programa').value = 'todos';
+      document.getElementById('detalhe-f-regional').value = 'todos';
+      document.getElementById('detalhe-f-uf').value = 'todos';
+      document.getElementById('busca-detalhe').value = '';
+      renderDetalhado();
+    }
+
+    function renderDetalhado() {
+      const corpo = document.getElementById('detalhe-corpo');
+      const contagem = document.getElementById('detalhe-contagem');
+      if (!corpo) return;
+
+      const periodo = document.getElementById('detalhe-f-periodo').value;
+      const programa = document.getElementById('detalhe-f-programa').value;
+      const regional = document.getElementById('detalhe-f-regional').value;
+      const uf = document.getElementById('detalhe-f-uf').value;
+      const termoBusca = norm(document.getElementById('busca-detalhe') ? document.getElementById('busca-detalhe').value : '');
+
+      const filtradas = LOG_ROWS.filter(l => {
+        if (periodo !== 'todos' && l.PERIODO !== periodo) return false;
+        if (programa !== 'todos' && l._programa !== programa) return false;
+        if (regional !== 'todos' && l.REGIONAL !== regional) return false;
+        if (uf !== 'todos' && l.UF !== uf) return false;
+        if (termoBusca) {
+          const alvo = norm([l.ITEM, l.TIPO, l.UF, l.DATA, l.RESPONSAVEL, l.OBSERVACOES, l.REGIONAL].join(' '));
+          if (!alvo.includes(termoBusca)) return false;
+        }
+        return true;
+      });
+
+      contagem.textContent = '(' + filtradas.length + ' lançamento(s))';
+
+      const linhas = filtradas
+        .slice()
+        .sort((a, b) => (a.DATA < b.DATA ? 1 : -1))
+        .map(l => '<tr>' +
+          '<td>' + esc(l.DATA || '—') + '</td>' +
+          '<td>' + esc(l._programa) + '</td>' +
+          '<td>' + esc(l.REGIONAL || '—') + '</td>' +
+          '<td>' + esc(l.UF || '—') + '</td>' +
+          '<td style="text-align:left;">' + esc(l.ITEM || '—') + '</td>' +
+          '<td>' + esc(l.TIPO || 'Registro') + '</td>' +
+          '<td style="font-weight:700;">' + esc(l.QUANTIDADE || '0') + '</td>' +
+          '<td style="text-align:left;">' + esc(l.RESPONSAVEL || '') + (l.OBSERVACOES ? ' — ' + esc(l.OBSERVACOES) : '') + '</td>' +
+          '</tr>').join('');
+
+      corpo.innerHTML = linhas || '<tr><td colspan="8" style="padding:14px; text-align:center; color:var(--text-muted);">' +
+        (LOG_ROWS.length ? 'Nenhum lançamento encontrado para esse filtro/busca.' : 'Nenhum dado carregado ainda (confira os links de LOG_1144/LOG_2303).') + '</td></tr>';
+    }
+
+    // escapa texto vindo da planilha antes de montar HTML
+    const esc = v => String(v == null ? '' : v).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+
+    function parseLinhaCSV(linha) {
+      const result = [];
+      let cur = '';
+      let inQuotes = false;
+      for (let i = 0; i < linha.length; i++) {
+        const c = linha[i];
+        if (c === '"') { inQuotes = !inQuotes; }
+        else if (c === ',' && !inQuotes) { result.push(cur); cur = ''; }
+        else { cur += c; }
+      }
+      result.push(cur);
+      return result;
+    }
+
+    function parseNumeroBR(raw) {
+      if (raw === undefined || raw === null) return NaN;
+      let s = String(raw).trim().replace(/[R$\s"]/g, '');
+      if (!s) return NaN;
+      if (/,\d{1,2}$/.test(s)) { s = s.replace(/\./g, '').replace(',', '.'); }
+      else { s = s.replace(/,/g, ''); }
+      // só é número se o texto INTEIRO for numérico — senão "2026-1" virava 2026 e "03/10/2026 18:07" virava 3
+      if (!/^-?\d+(\.\d+)?$/.test(s)) return NaN;
+      return parseFloat(s);
+    }
+
+    function atualizarStatusDados(status, detalhe) {
+      const el = document.getElementById('data-status');
+      if (!el) return;
+      const agora = new Date().toLocaleString('pt-BR', { hour: '2-digit', minute: '2-digit', day: '2-digit', month: '2-digit', year: 'numeric' });
+      if (status === 'ok') {
+        const ultimaAtualizacaoPlanilha = RAW_DATA['meta_ultima_atualizacao'] || RAW_DATA['meta_periodo'] || '';
+        el.innerHTML = `Dados carregados da planilha (PAINEL_DADOS) · verificado ${agora}` + (ultimaAtualizacaoPlanilha ? ` · última atualização na planilha: ${ultimaAtualizacaoPlanilha}` : '');
+        el.style.color = 'var(--text-muted)';
+      } else {
+        el.innerHTML = `⚠ Não foi possível carregar dados da planilha — os campos abaixo aparecem como "—" até a conexão ser restabelecida${detalhe ? ' (' + detalhe + ')' : ''}`;
+        el.style.color = '#9a031e';
+      }
+    }
+
+    function carregarDadosGoogleSheets() {
+      fetch(SHEET_CSV_URL)
+        .then(response => { if (!response.ok) throw new Error('HTTP ' + response.status); return response.text(); })
+        .then(csvText => {
+          const linhas = csvText.split(/\r?\n/);
+          let algumValorLido = false;
+          linhas.forEach((linha, idx) => {
+            if (!linha.trim()) return;
+            const cols = parseLinhaCSV(linha);
+            if (cols.length >= 2) {
+              const chave = cols[0].trim();
+              if (!chave || chave.toUpperCase() === 'CHAVE') return;
+              const numero = parseNumeroBR(cols[1]);
+              RAW_DATA[chave] = !isNaN(numero) ? numero : cols[1].trim();
+              algumValorLido = true;
+            }
+          });
+          dadosCarregados = algumValorLido;
+          usandoFallback = !algumValorLido;
+          atualizarStatusDados(algumValorLido ? 'ok' : 'erro', algumValorLido ? null : 'planilha sem linhas reconhecidas');
+          aplicarFiltros();
+        })
+        .catch(err => {
+          usandoFallback = true;
+          dadosCarregados = false;
+          console.warn('Falha ao carregar PAINEL_DADOS:', err);
+          atualizarStatusDados('erro', err.message);
+          aplicarFiltros();
+        });
+    }
+
+    function alterarProgramaPeloFiltro() {
+      const prog = document.getElementById("f-programa").value;
+      selecionarAba(prog, false);
+    }
+
+    function selecionarAba(prog, atualizarSelect = true) {
+      if (atualizarSelect) { document.getElementById("f-programa").value = prog; }
+      document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+      if (prog === '1144') document.getElementById('btn-tab-1144').classList.add('active');
+      else if (prog === '2303') document.getElementById('btn-tab-2303').classList.add('active');
+      else document.getElementById('btn-tab-todos').classList.add('active');
+
+      const sec1144 = document.getElementById('sec-1144');
+      const sec2303 = document.getElementById('sec-2303');
+      const banner = document.getElementById('banner-aba-ativa');
+
+      if (prog === '1144') { sec1144.style.display = 'block'; sec2303.style.display = 'none'; banner.style.display = 'none'; }
+      else if (prog === '2303') { sec1144.style.display = 'none'; sec2303.style.display = 'block'; banner.style.display = 'none'; }
+      else {
+        sec1144.style.display = 'block';
+        sec2303.style.display = 'block';
+        banner.innerText = '📊 Exibindo consolidado: Programa 1144 (ATER/Difusão) + Programa 2303 (Pesquisa)';
+        banner.style.display = 'block';
+      }
+      aplicarFiltros();
+    }
+
+    function aplicarFiltros() {
+      const ano = document.getElementById("f-ano").value;
+      const bioma = document.getElementById("f-bioma").value;
+      const programa = document.getElementById("f-programa").value;
+      const regional = document.getElementById("f-regional").value;
+
+      FILTERED_DATA = {};
+      function n(chave) { const v = RAW_DATA[chave]; return (typeof v === 'number' && !isNaN(v)) ? v : null; }
+
+      if (ano === "2025") {
+        FILTERED_DATA.kpi_prod_cobes = n('ref_prod_cobes_2025');
+        FILTERED_DATA.kpi_prod_copam = n('ref_prod_copam_2025');
+        FILTERED_DATA.kpi_prod_corom = n('ref_prod_corom_2025');
+        FILTERED_DATA.kpi_evt_cobes  = n('ref_evt_cobes_2025');
+        FILTERED_DATA.kpi_evt_copam  = n('ref_evt_copam_2025');
+        FILTERED_DATA.kpi_evt_corom  = null;
+        FILTERED_DATA.kpi_tech_cobes = null;
+        FILTERED_DATA.kpi_tech_copam = null;
+        FILTERED_DATA.kpi_tech_corom = null;
+      } else if (ano === "2026") {
+        FILTERED_DATA.kpi_prod_cobes = n('kpi_prod_cobes');
+        FILTERED_DATA.kpi_prod_copam = n('kpi_prod_copam');
+        FILTERED_DATA.kpi_prod_corom = n('kpi_prod_corom');
+        FILTERED_DATA.kpi_evt_cobes  = n('kpi_evt_cobes');
+        FILTERED_DATA.kpi_evt_copam  = n('kpi_evt_copam');
+        FILTERED_DATA.kpi_evt_corom  = n('kpi_evt_corom');
+        FILTERED_DATA.kpi_tech_cobes = n('kpi_tech_trab_cobes');
+        FILTERED_DATA.kpi_tech_copam = n('kpi_tech_dev_copam');
+        FILTERED_DATA.kpi_tech_corom = n('kpi_tech_dev_corom');
+      } else {
+        FILTERED_DATA.kpi_prod_cobes = somaOuNull(n('ref_prod_cobes_2025'), n('kpi_prod_cobes'));
+        FILTERED_DATA.kpi_prod_copam = somaOuNull(n('ref_prod_copam_2025'), n('kpi_prod_copam'));
+        FILTERED_DATA.kpi_prod_corom = somaOuNull(n('ref_prod_corom_2025'), n('kpi_prod_corom'));
+        FILTERED_DATA.kpi_evt_cobes  = n('kpi_evt_cobes');
+        FILTERED_DATA.kpi_evt_copam  = n('kpi_evt_copam');
+        FILTERED_DATA.kpi_evt_corom  = n('kpi_evt_corom');
+        FILTERED_DATA.kpi_tech_cobes = n('kpi_tech_trab_cobes');
+        FILTERED_DATA.kpi_tech_copam = n('kpi_tech_dev_copam');
+        FILTERED_DATA.kpi_tech_corom = n('kpi_tech_dev_corom');
+      }
+
+      FILTERED_DATA.meta_ppa_cobes = n('meta_ppa_prod_cobes');
+      FILTERED_DATA.meta_ppa_copam = n('meta_ppa_prod_copam');
+      FILTERED_DATA.meta_ppa_corom = n('meta_ppa_prod_corom');
+      FILTERED_DATA.ref_prod_cobes_2025 = n('ref_prod_cobes_2025');
+
+      if (regional !== "todos") {
+        if (regional !== "COBES") { FILTERED_DATA.kpi_prod_cobes = null; FILTERED_DATA.kpi_tech_cobes = null; FILTERED_DATA.kpi_evt_cobes = null; }
+        if (regional !== "COPAM") { FILTERED_DATA.kpi_prod_copam = null; FILTERED_DATA.kpi_evt_copam = null; FILTERED_DATA.kpi_tech_copam = null; }
+        if (regional !== "COROM") { FILTERED_DATA.kpi_prod_corom = null; FILTERED_DATA.kpi_evt_corom = null; FILTERED_DATA.kpi_tech_corom = null; }
+      }
+
+      if (bioma === "Mata Atlântica") {
+        FILTERED_DATA.kpi_prod_copam = null;
+        FILTERED_DATA.kpi_prod_corom = null;
+        FILTERED_DATA.kpi_evt_copam = null;
+        FILTERED_DATA.kpi_evt_corom = null;
+        FILTERED_DATA.kpi_tech_copam = null;
+        FILTERED_DATA.kpi_tech_corom = null;
+      } else if (bioma === "Floresta Amazônica") {
+        FILTERED_DATA.kpi_prod_cobes = null;
+        FILTERED_DATA.kpi_tech_cobes = null;
+        FILTERED_DATA.kpi_evt_cobes = null;
+      }
+
+      if (programa === "2303") {
+        FILTERED_DATA.kpi_prod_cobes = null;
+        FILTERED_DATA.kpi_prod_copam = null;
+        FILTERED_DATA.kpi_prod_corom = null;
+        FILTERED_DATA.kpi_evt_cobes = null;
+        FILTERED_DATA.kpi_evt_copam = null;
+        FILTERED_DATA.kpi_evt_corom = null;
+      } else if (programa === "1144") {
+        FILTERED_DATA.kpi_tech_cobes = null;
+        FILTERED_DATA.kpi_tech_copam = null;
+        FILTERED_DATA.kpi_tech_corom = null;
+      }
+
+      FILTERED_DATA.kpi_prod_total = somaIgnorandoNulos(FILTERED_DATA.kpi_prod_cobes, FILTERED_DATA.kpi_prod_copam, FILTERED_DATA.kpi_prod_corom);
+      FILTERED_DATA.kpi_evt_total  = somaIgnorandoNulos(FILTERED_DATA.kpi_evt_cobes, FILTERED_DATA.kpi_evt_copam, FILTERED_DATA.kpi_evt_corom);
+      FILTERED_DATA.kpi_tech_total = somaIgnorandoNulos(FILTERED_DATA.kpi_tech_cobes, FILTERED_DATA.kpi_tech_copam, FILTERED_DATA.kpi_tech_corom);
+
+      const cobertura = calcularBiomasEstados(regional, bioma);
+      FILTERED_DATA.biomas_cobertos = cobertura.biomas.size;
+      FILTERED_DATA.estados_atendidos = cobertura.estados.size;
+
+      gestaoVisibilidadeCards(regional);
+      atualizarInterface();
+      atualizarMapaPainel();
+      renderDetalhado();
+    }
+
+    function somaOuNull(a, b) { if (a === null && b === null) return null; return (a || 0) + (b || 0); }
+    function somaIgnorandoNulos(...vals) { const validos = vals.filter(v => v !== null && v !== undefined); return validos.length ? validos.reduce((a, b) => a + b, 0) : 0; }
+
+    const BIOMAS_POR_REGIONAL = { COBES: ['Mata Atlântica'], COPAM: ['Floresta Amazônica'], COROM: ['Floresta Amazônica', 'Cerrado'] };
+    const ESTADOS_POR_REGIONAL = { COBES: ['BA', 'ES'], COPAM: ['PA', 'AM'], COROM: ['RO', 'MT'] };
+
+    function calcularBiomasEstados(regional, bioma) {
+      let regionaisAtivas = ['COBES', 'COPAM', 'COROM'];
+      if (regional !== 'todos') regionaisAtivas = [regional];
+      if (bioma !== 'todos') { regionaisAtivas = regionaisAtivas.filter(r => BIOMAS_POR_REGIONAL[r].includes(bioma)); }
+      const biomas = new Set();
+      const estados = new Set();
+      regionaisAtivas.forEach(r => {
+        BIOMAS_POR_REGIONAL[r].forEach(b => biomas.add(b));
+        ESTADOS_POR_REGIONAL[r].forEach(e => estados.add(e));
+      });
+      return { biomas, estados };
+    }
+
+    function gestaoVisibilidadeCards(regional) {
+      const showCobes = (regional === "todos" || regional === "COBES");
+      const showCopam = (regional === "todos" || regional === "COPAM");
+      const showCorom = (regional === "todos" || regional === "COROM");
+      document.getElementById("card-cobes-1144").style.display = showCobes ? "block" : "none";
+      document.getElementById("card-copam-1144").style.display = showCopam ? "block" : "none";
+      document.getElementById("card-corom-1144").style.display = showCorom ? "block" : "none";
+      document.getElementById("card-cobes-2303").style.display = showCobes ? "block" : "none";
+      document.getElementById("card-copam-2303").style.display = showCopam ? "block" : "none";
+      document.getElementById("card-corom-2303").style.display = showCorom ? "block" : "none";
+    }
+
+    function fmtOuTraco(valor) { return (valor === null || valor === undefined || isNaN(valor)) ? '—' : valor.toLocaleString('pt-BR'); }
+
+    function atualizarInterface() {
+      document.getElementById("kpi-evt-top").innerText  = fmtOuTraco(FILTERED_DATA.kpi_evt_total);
+      document.getElementById("kpi-prod-top").innerText = fmtOuTraco(FILTERED_DATA.kpi_prod_total);
+      document.getElementById("kpi-tech-cobes-top").innerText = fmtOuTraco(FILTERED_DATA.kpi_tech_cobes);
+      document.getElementById("kpi-tech-copam-top").innerText = fmtOuTraco(FILTERED_DATA.kpi_tech_copam);
+      document.getElementById("kpi-biomas-top").innerText = FILTERED_DATA.biomas_cobertos;
+      document.getElementById("kpi-estados-top").innerText = FILTERED_DATA.estados_atendidos;
+      document.getElementById("val-evt-cobes").innerText  = fmtOuTraco(FILTERED_DATA.kpi_evt_cobes);
+      document.getElementById("val-prod-cobes").innerText = fmtOuTraco(FILTERED_DATA.kpi_prod_cobes);
+      document.getElementById("val-prod-copam").innerText = fmtOuTraco(FILTERED_DATA.kpi_prod_copam);
+      document.getElementById("val-evt-copam").innerText  = fmtOuTraco(FILTERED_DATA.kpi_evt_copam);
+      document.getElementById("val-prod-corom").innerText = fmtOuTraco(FILTERED_DATA.kpi_prod_corom);
+      document.getElementById("val-evt-corom").innerText  = fmtOuTraco(FILTERED_DATA.kpi_evt_corom);
+      document.getElementById("val-tech-cobes").innerText = fmtOuTraco(FILTERED_DATA.kpi_tech_cobes);
+      document.getElementById("val-tech-copam").innerText = fmtOuTraco(FILTERED_DATA.kpi_tech_copam);
+      document.getElementById("val-tech-corom").innerText = fmtOuTraco(FILTERED_DATA.kpi_tech_corom);
+      document.getElementById("ref-cobes-2025").innerText = fmtOuTraco(FILTERED_DATA.ref_prod_cobes_2025);
+      document.getElementById("meta-copam").innerText = fmtOuTraco(FILTERED_DATA.meta_ppa_copam);
+
+      const pctCopam = (FILTERED_DATA.meta_ppa_copam && FILTERED_DATA.kpi_prod_copam !== null) ? Math.min(Math.round((FILTERED_DATA.kpi_prod_copam / FILTERED_DATA.meta_ppa_copam) * 100), 100) : null;
+      document.getElementById("prog-copam").style.width = (pctCopam ?? 0) + "%";
+      document.getElementById("pct-copam").innerText = pctCopam !== null ? pctCopam + "%" : "—";
+
+      const pctCobes = (FILTERED_DATA.ref_prod_cobes_2025 && FILTERED_DATA.kpi_prod_cobes !== null) ? Math.min(Math.round((FILTERED_DATA.kpi_prod_cobes / FILTERED_DATA.ref_prod_cobes_2025) * 100), 100) : null;
+      document.getElementById("prog-cobes").style.width = (pctCobes ?? 0) + "%";
+      document.getElementById("pct-cobes").innerText = pctCobes !== null ? pctCobes + "%" : "—";
+
+
+      atualizarGraficos();
+      renderConsolidadoCard();
+      renderProgressoKPIs();
+    }
+
+    /** Barrinhas de progresso dos KPIs — meta_periodo_* vem do Planejamento (admin), soma as 3 regionais */
+    function barraProgressoMini(elId, realizado, planejado) {
+      const el = document.getElementById(elId);
+      if (!el) return;
+      if (!planejado || planejado <= 0) { el.innerHTML = ''; return; }
+      const pct = Math.round((realizado / planejado) * 100);
+      const largura = Math.min(pct, 100);
+      const acima = pct > 100 ? 'acima' : '';
+      el.innerHTML = `<div class="barra-fundo-mini"><div class="barra-preenchida-mini ${acima}" style="width:${largura}%;"></div></div>
+        <div class="pct-mini"><b>${pct}%</b> da meta do período</div>`;
+    }
+    function renderProgressoKPIs() {
+      const n = (chave) => { const v = RAW_DATA[chave]; return (typeof v === 'number' && !isNaN(v)) ? v : 0; };
+      const metaEvt = n('meta_periodo_evt_cobes') + n('meta_periodo_evt_copam') + n('meta_periodo_evt_corom');
+      const metaProd = n('meta_periodo_prod_cobes') + n('meta_periodo_prod_copam') + n('meta_periodo_prod_corom');
+      barraProgressoMini('kpi-evt-progresso', n('kpi_evt_cobes') + n('kpi_evt_copam') + n('kpi_evt_corom'), metaEvt);
+      barraProgressoMini('kpi-prod-progresso', n('kpi_prod_cobes') + n('kpi_prod_copam') + n('kpi_prod_corom'), metaProd);
+      barraProgressoMini('kpi-tech-cobes-progresso', n('kpi_tech_trab_cobes'), n('meta_periodo_trab_cobes'));
+      barraProgressoMini('kpi-tech-copam-progresso', n('kpi_tech_dev_copam'), n('meta_periodo_dev_copam'));
+    }
+
+    /** Card Consolidado — usa os mesmos dados confiáveis (RAW_DATA/PAINEL_DADOS) dos KPIs, não o CONSOLIDADO da planilha (fórmulas legadas desalinhadas com a estrutura atual da BD) */
+    const BIOMA_POR_REGIONAL_CARD = { COBES: 'Mata Atlântica', COPAM: 'Floresta Amazônica', COROM: 'Floresta Amaz./Cerrado' };
+    const UF_POR_REGIONAL_CARD = { COBES: 'BA · ES', COPAM: 'PA · AM', COROM: 'RO · MT' };
+    function linhaConsolidado1144(regional, evt, prod) {
+      const temDado = (evt || 0) > 0 || (prod || 0) > 0;
+      return `<tr><td>${regional}</td><td><span class="badge-uf">${UF_POR_REGIONAL_CARD[regional]}</span></td><td>${BIOMA_POR_REGIONAL_CARD[regional]}</td><td>${fmtOuTraco(evt)}</td><td>${fmtOuTraco(prod)}</td>
+        <td>${temDado ? '<span class="status-badge-ok">✅ Com dados</span>' : '<span class="status-badge-vazio">— Sem dados</span>'}</td></tr>`;
+    }
+    function linhaConsolidado2303(regional, trab, dev) {
+      const temDado = (trab || 0) > 0 || (dev || 0) > 0;
+      return `<tr><td>${regional}</td><td><span class="badge-uf">${UF_POR_REGIONAL_CARD[regional]}</span></td><td>${BIOMA_POR_REGIONAL_CARD[regional]}</td><td>${fmtOuTraco(trab)}</td><td>${fmtOuTraco(dev)}</td>
+        <td>${temDado ? '<span class="status-badge-ok">✅ Com dados</span>' : '<span class="status-badge-vazio">— Sem dados</span>'}</td></tr>`;
+    }
+    function renderConsolidadoCard() {
+      const el1144 = document.getElementById('consolidado-corpo-1144');
+      const el2303 = document.getElementById('consolidado-corpo-2303');
+      if (!el1144 || !el2303) return;
+
+      const n = (chave) => { const v = RAW_DATA[chave]; return (typeof v === 'number' && !isNaN(v)) ? v : 0; };
+      const totalEvt = n('kpi_evt_cobes') + n('kpi_evt_copam') + n('kpi_evt_corom');
+      const totalProd = n('kpi_prod_cobes') + n('kpi_prod_copam') + n('kpi_prod_corom');
+      el1144.innerHTML =
+        linhaConsolidado1144('COBES', n('kpi_evt_cobes'), n('kpi_prod_cobes')) +
+        linhaConsolidado1144('COPAM', n('kpi_evt_copam'), n('kpi_prod_copam')) +
+        linhaConsolidado1144('COROM', n('kpi_evt_corom'), n('kpi_prod_corom')) +
+        `<tr class="total-row-card"><td>TOTAL CEPLAC</td><td>—</td><td>Multi-bioma</td><td>${fmtOuTraco(totalEvt)}</td><td>${fmtOuTraco(totalProd)}</td><td></td></tr>`;
+
+      const totalTrab = n('kpi_tech_trab_cobes') + n('kpi_tech_trab_copam') + n('kpi_tech_trab_corom');
+      const totalDev = n('kpi_tech_dev_cobes') + n('kpi_tech_dev_copam') + n('kpi_tech_dev_corom');
+      el2303.innerHTML =
+        linhaConsolidado2303('COBES', n('kpi_tech_trab_cobes'), n('kpi_tech_dev_cobes')) +
+        linhaConsolidado2303('COPAM', n('kpi_tech_trab_copam'), n('kpi_tech_dev_copam')) +
+        linhaConsolidado2303('COROM', n('kpi_tech_trab_corom'), n('kpi_tech_dev_corom')) +
+        `<tr class="total-row-card"><td>TOTAL CEPLAC</td><td>—</td><td>Multi-bioma</td><td>${fmtOuTraco(totalTrab)}</td><td>${fmtOuTraco(totalDev)}</td><td></td></tr>`;
+
+      const elPeriodo = document.getElementById('consolidado-periodo');
+      if (elPeriodo && RAW_DATA['meta_periodo']) elPeriodo.textContent = RAW_DATA['meta_periodo'];
+    }
+
+    function n2(chave) { const v = RAW_DATA[chave]; return (typeof v === 'number' && !isNaN(v)) ? v : null; }
+
+    function inicializarGraficos() {
+      const ctxPie = document.getElementById('chartProgramas').getContext('2d');
+      chartPieInstance = new Chart(ctxPie, {
+        type: 'doughnut',
+        data: { labels: ['Prog. 1144 (ATER)', 'Prog. 2303 (Pesquisa)'], datasets: [{ data: [0, 0], backgroundColor: ['#1b4d3e', '#d97706'], borderWidth: 2, borderColor: '#ffffff' }] },
+        options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom', labels: { font: { size: 11, family: 'Inter' } } } } }
+      });
+
+      const ctxMeta = document.getElementById('chartMetaPPA').getContext('2d');
+      chartMetaPPAInstance = new Chart(ctxMeta, {
+        type: 'bar',
+        data: {
+          labels: ['COBES', 'COPAM', 'COROM'],
+          datasets: [
+            { label: 'Realizado', data: [0, 0, 0], backgroundColor: '#1b4d3e', borderRadius: 4 },
+            { label: 'Meta PPA 2024/27', data: [0, 0, 0], backgroundColor: '#e5e0d8', borderRadius: 4 }
+          ]
+        },
+        options: {
+          indexAxis: 'y', responsive: true, maintainAspectRatio: false,
+          plugins: { legend: { position: 'bottom', labels: { font: { size: 10, family: 'Inter' } } } },
+          scales: { x: { beginAtZero: true, grid: { color: '#f0ece1' }, ticks: { callback: v => v.toLocaleString('pt-BR') } }, y: { grid: { display: false } } }
+        }
+      });
+
+      const ctxComp = document.getElementById('chartComparativoAno').getContext('2d');
+      chartComparativoAnoInstance = new Chart(ctxComp, {
+        type: 'bar',
+        data: {
+          labels: ['COBES', 'COPAM', 'COROM'],
+          datasets: [
+            { label: '2025 (referência)', data: [0, 0, 0], backgroundColor: '#e5e0d8', borderRadius: 4 },
+            { label: '2026 (atual)', data: [0, 0, 0], backgroundColor: '#2d6a4f', borderRadius: 4 }
+          ]
+        },
+        options: {
+          responsive: true, maintainAspectRatio: false,
+          plugins: { legend: { position: 'bottom', labels: { font: { size: 10, family: 'Inter' } } } },
+          scales: { y: { beginAtZero: true, grid: { color: '#f0ece1' }, ticks: { callback: v => v.toLocaleString('pt-BR') } }, x: { grid: { display: false } } }
+        }
+      });
+    }
+
+    function atualizarGraficos() {
+      if (chartPieInstance) {
+        chartPieInstance.data.datasets[0].data = [FILTERED_DATA.kpi_prod_total, FILTERED_DATA.kpi_tech_total];
+        chartPieInstance.update();
+      }
+      if (chartMetaPPAInstance) {
+        chartMetaPPAInstance.data.datasets[0].data = [FILTERED_DATA.kpi_prod_cobes || 0, FILTERED_DATA.kpi_prod_copam || 0, FILTERED_DATA.kpi_prod_corom || 0];
+        chartMetaPPAInstance.data.datasets[1].data = [FILTERED_DATA.meta_ppa_cobes || 0, FILTERED_DATA.meta_ppa_copam || 0, FILTERED_DATA.meta_ppa_corom || 0];
+        chartMetaPPAInstance.update();
+      }
+      if (chartComparativoAnoInstance) {
+        const n = (chave) => { const v = RAW_DATA[chave]; return (typeof v === 'number' && !isNaN(v)) ? v : 0; };
+        chartComparativoAnoInstance.data.datasets[0].data = [n('ref_prod_cobes_2025'), n('ref_prod_copam_2025'), n('ref_prod_corom_2025')];
+        chartComparativoAnoInstance.data.datasets[1].data = [n('kpi_prod_cobes'), n('kpi_prod_copam'), n('kpi_prod_corom')];
+        chartComparativoAnoInstance.update();
+      }
+    }
+
+    const REGIONAL_POR_UF_PAINEL = { BA: 'COBES', ES: 'COBES', PA: 'COPAM', AM: 'COPAM', RO: 'COROM', MT: 'COROM' };
+
+    /** UF escolhida primeiro -> preenche a Unidade/Regional sozinha (continua editável direto, se preferir).
+     * O painel só tem dado agregado por Regional, então escolher uma UF filtra pela Regional correspondente. */
+    function aoSelecionarUFRapidaPainel() {
+      const uf = document.getElementById('f-uf').value;
+      if (uf !== 'todos') {
+        document.getElementById('f-regional').value = REGIONAL_POR_UF_PAINEL[uf];
+      }
+      aplicarFiltros();
+    }
+
+    function limparFiltros() {
+      document.getElementById("f-ano").value = "2026";
+      document.getElementById("f-bioma").value = "todos";
+      document.getElementById("f-uf").value = "todos";
+      document.getElementById("f-regional").value = "todos";
+      selecionarAba("todos");
+    }
+  </script>
 </body>
 </html>
